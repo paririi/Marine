@@ -1,15 +1,15 @@
-using UnityEngine;
+﻿using UnityEngine;
 using Firebase;
 using Firebase.Auth;
 using Firebase.Extensions;
 using UnityEngine.SceneManagement;
 using TMPro;
-using System;
 
 public class FirebaseController : MonoBehaviour
 {
     [Header("Firebase")]
     private FirebaseAuth auth;
+    private bool firebaseReady = false;
 
     // ---------------- LOGIN UI ----------------
     [Header("Login UI")]
@@ -24,7 +24,6 @@ public class FirebaseController : MonoBehaviour
 
     [Header("Register Feedback Texts")]
     public TMP_Text passwordMismatchText;   // under confirm password
-    public TMP_Text registerErrorText;       // under sign up button
 
     // ---------------- PANELS ----------------
     [Header("Main Panels")]
@@ -45,19 +44,25 @@ public class FirebaseController : MonoBehaviour
 
     void Start()
     {
-        // Set Database URL to remove warning (even if you don't use DB)
-        FirebaseApp.DefaultInstance.Options.DatabaseUrl =
-            new Uri("https://marine-5b4b0-default-rtdb.asia-southeast1.firebasedatabase.app/");
-
-        // Initialize Firebase Auth
-        auth = FirebaseAuth.DefaultInstance;
-
         // Show initial panel
         ShowSplash();
 
-        // Clear inline texts
+        // Clear mismatch text
         passwordMismatchText.text = "";
-        registerErrorText.text = "";
+
+        // Initialize Firebase properly
+        FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(task =>
+        {
+            if (task.Result != DependencyStatus.Available)
+            {
+                firebaseReady = false;
+                ShowLoginError("Firebase not ready: " + task.Result);
+                return;
+            }
+
+            firebaseReady = true;
+            auth = FirebaseAuth.DefaultInstance;
+        });
     }
 
     // ---------------- PANEL NAVIGATION ----------------
@@ -85,23 +90,26 @@ public class FirebaseController : MonoBehaviour
         CloseAllModals();
 
         passwordMismatchText.text = "";
-        registerErrorText.text = "";
     }
 
     // ---------------- LOGIN ----------------
     public void Login()
     {
-        string email = loginEmail.text.Trim();
-        string password = loginPassword.text.Trim();
+        if (!firebaseReady)
+        {
+            ShowLoginError("Firebase is still loading. Try again.");
+            return;
+        }
 
-        // Check for empty fields
-        if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
+        string email = loginEmail.text.Trim();
+        string password = loginPassword.text;
+
+        if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
         {
             ShowLoginError("Please fill in all fields.");
             return;
         }
 
-        // Firebase sign-in
         auth.SignInWithEmailAndPasswordAsync(email, password)
             .ContinueWithOnMainThread(task =>
             {
@@ -111,15 +119,15 @@ public class FirebaseController : MonoBehaviour
                     return;
                 }
 
-                // Show success modal
+                loginEmail.text = "";
+                loginPassword.text = "";
                 loginSuccessModal.SetActive(true);
+
             });
     }
 
-    // Called when user confirms login success
     public void ConfirmLoginSuccess()
     {
-        if (!loginSuccessModal.activeSelf) return; // Safety check
         SceneManager.LoadScene("HomeScreen");
     }
 
@@ -133,27 +141,34 @@ public class FirebaseController : MonoBehaviour
     public void Register()
     {
         passwordMismatchText.text = "";
-        registerErrorText.text = "";
 
-        string email = registerEmail.text.Trim();
-        string password = registerPassword.text.Trim();
-        string confirm = confirmPassword.text.Trim();
-
-        // Check for empty fields
-        if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(confirm))
+        if (!firebaseReady)
         {
-            registerErrorText.text = "Please fill in all fields.";
+            registerErrorModalMessage.text = "Firebase is still loading. Try again.";
+            registerErrorModal.SetActive(true);
             return;
         }
 
-        // Password mismatch check
+        string email = registerEmail.text.Trim();
+        string password = registerPassword.text;
+        string confirm = confirmPassword.text;
+
+        if (string.IsNullOrWhiteSpace(email) ||
+            string.IsNullOrWhiteSpace(password) ||
+            string.IsNullOrWhiteSpace(confirm))
+        {
+            passwordMismatchText.text = "";  
+            registerErrorModalMessage.text = "Please fill in all fields.";
+            registerErrorModal.SetActive(true);
+            return;
+        }
+
         if (password != confirm)
         {
             passwordMismatchText.text = "Passwords do not match.";
             return;
         }
 
-        // Firebase create user
         auth.CreateUserWithEmailAndPasswordAsync(email, password)
             .ContinueWithOnMainThread(task =>
             {
@@ -164,8 +179,12 @@ public class FirebaseController : MonoBehaviour
                     return;
                 }
 
-                // Show register success modal
+                registerEmail.text = "";
+                registerPassword.text = "";
+                confirmPassword.text = "";
+                passwordMismatchText.text = "";
                 registerSuccessModal.SetActive(true);
+
             });
     }
 
