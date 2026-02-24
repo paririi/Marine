@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "215881716062",
+    "firebase_url": "https://marine-5b4b0-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "marine-5b4b0",
     "storage_bucket": "marine-5b4b0.firebasestorage.app"
   },
@@ -10,6 +11,25 @@
         "mobilesdk_app_id": "1:215881716062:android:f508efce0e2a3d9cadffcf",
         "android_client_info": {
           "package_name": "com.DefaultCompany.Marine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMERQanTu4eyvSz8TFzxV-FEZ2kr1rCPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215881716062:android:6fc3682bbdf1ac01adffcf",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.MarineAR"
         }
       },
       "oauth_client": [],
