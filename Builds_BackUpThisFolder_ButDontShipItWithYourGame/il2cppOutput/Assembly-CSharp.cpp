@@ -31,6 +31,7 @@ struct Action_1_t72AC2BBF8D83C444F55D972584ADE8DF9F42F1E4;
 struct Action_1_t72552EB3CFD9D41493135164276F7EE71F1132FC;
 struct Action_1_tC3BD22662CBF7BCA7CF101E25DD9C3BC0C8058B4;
 struct Action_1_t0328A8A468C762DAECEC2BDBE23D4E47955D8678;
+struct Action_1_t325C602D999E964DB72210E493635E83F8D6CE68;
 struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
 struct Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1;
 struct Comparison_1_t0E0A9C99A8D29FBC5FA5ED9B9B2175A13C6578C0;
@@ -89,6 +90,7 @@ struct TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113;
 struct ARBoundingBoxManager_tCB7BE1C12DFD07F0860184BC92DED3D74C83B054;
 struct ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928;
 struct ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44;
+struct ARSession_t13374A44A01F2C6D90578F93E0F0DA2482BE3014;
 struct ARTrackable_t1D98417758C08E98A333CDEC0C2C1688CE10B2E0;
 struct AggregateException_t51B6205846DFB356B94452702201DD239D44422F;
 struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074;
@@ -162,6 +164,7 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01;
 struct XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE;
 struct XRRaycastSubsystem_t48087E79DE9617C7E866875C8DDD3124C9E068B7;
+struct XRSessionSubsystem_t1E6E6CD0C279BA8BC4E4ED94E539552036B9C399;
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
@@ -188,14 +191,17 @@ IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C6
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____B02C5823BC41C872343A2150383D22B12EC87F8C0BD5DE6182DE823CB62CFE30_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____B77B45682164B90F91DDE767363B82A4B2E4D9DEB83FBC86E22445B809801367_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral1A9F16795C5361CAF64806CC119896915C20EA07;
 IL2CPP_EXTERN_C String_t* _stringLiteral2A41DF05463C1D9AC427BA8522E92D5BBEFAD9CF;
 IL2CPP_EXTERN_C String_t* _stringLiteral4BC3C356492D369B4B5A804209FAF105B6185F8B;
 IL2CPP_EXTERN_C String_t* _stringLiteral60580DBEDBC89E6C50F8022D84074B96B8309C23;
 IL2CPP_EXTERN_C String_t* _stringLiteral6D1FB7841575AA4158DE4E0A27C24CEDCCD683EF;
 IL2CPP_EXTERN_C String_t* _stringLiteralA2D6B25F1A9427FE18AF0E029B0250AD1E1A72B6;
 IL2CPP_EXTERN_C String_t* _stringLiteralCF5E0827543962132365B35ADEA13AD1BB8FED0F;
+IL2CPP_EXTERN_C String_t* _stringLiteralD41D89DAD98E1F1783260FD0A5A774F557A05F0F;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralDB5F901496E53D6EFE015F8D9CEAEF026934374B;
+IL2CPP_EXTERN_C String_t* _stringLiteralF43E65CE2B3AB4EE68AA889E3EC2CFEB7215A100;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44_m255D1364D056A608CF5BB4AAB1BA1AD4CB78DE83_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseController_U3CLoginU3Eb__21_0_mDF315FA221044153834C7C55DECA250EE6558C18_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FirebaseController_U3CRegisterU3Eb__24_0_m7F5308269B454013887C33B3A4A676AE738D9E0F_RuntimeMethod_var;
@@ -203,6 +209,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* FirebaseController_U3CStartU3Eb__17_0_m94A4
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m443F0D48247776D4257E06597AF794BCF6D8020F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_FindFirstObjectByType_TisARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44_m98F90C26E6ABD30D89DE04D1F3AED584BF655AB1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_FindFirstObjectByType_TisARSession_t13374A44A01F2C6D90578F93E0F0DA2482BE3014_m0CBA519C874DE83FEAC983AB4E93BA3388AE553C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskExtension_ContinueWithOnMainThread_TisAuthResult_t5BF95C4AB72884856E83E1580EFAB3355F0F9DAA_mBB83241916FE76A34A52D230EFC86EA6535D23EA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskExtension_ContinueWithOnMainThread_TisDependencyStatus_t9DA2DB2B2AC17E9DA549331B93778091496D8195_m3D02ADC7B14017F2CBDCF98EAC7BF5870D05726F_RuntimeMethod_var;
@@ -624,6 +631,10 @@ struct TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9
 	int32_t ___m_RolloverSize;
 	int32_t ___m_Count;
 };
+struct ARSessionState_tAAADC649886D67F7134A0D9A665953D764A115D7 
+{
+	int32_t ___value__;
+};
 struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_NormalColor;
@@ -786,6 +797,10 @@ struct KeyCode_t75B9ECCC26D858F55040DDFF9523681E996D17E9
 {
 	int32_t ___value__;
 };
+struct NotTrackingReason_t03B4F5F62D4AF16340686F7F424704E5A5EBBE20 
+{
+	int32_t ___value__;
+};
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	intptr_t ___m_CachedPtr;
@@ -810,6 +825,10 @@ struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD
 struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
 {
 	intptr_t ___value;
+};
+struct SessionAvailability_t01F7B649A99735E8895479D291EB177ADC8B4255 
+{
+	int32_t ___value__;
 };
 struct TMP_TextElementType_t51EE6662436732F22C6B599F5757B7F35F706342 
 {
@@ -848,6 +867,10 @@ struct TouchType_t84F82C73BC1A6012141735AD84DA67AA7F7AB43F
 	int32_t ___value__;
 };
 struct TrackableType_t8B4D3C5D68805ECC40B1C8CA6C7174184BB2C110 
+{
+	int32_t ___value__;
+};
+struct TrackingMode_tC095904BA2A31037812CC727FBDCC76D11D300B2 
 {
 	int32_t ___value__;
 };
@@ -1324,6 +1347,10 @@ struct SubsystemLifecycleManager_3_tF871EF43DE89B354DB5832CC545E7E0EEF19DC8C  : 
 {
 	XRRaycastSubsystem_t48087E79DE9617C7E866875C8DDD3124C9E068B7* ___U3CsubsystemU3Ek__BackingField;
 };
+struct SubsystemLifecycleManager_3_t7AC7A0198786D712CE4FE49E3789EE14BCC2DFD5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	XRSessionSubsystem_t1E6E6CD0C279BA8BC4E4ED94E539552036B9C399* ___U3CsubsystemU3Ek__BackingField;
+};
 struct FirebaseController_tFAF0A895515920AE41D21D9736E00FEAE8B7DBD3  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	FirebaseAuth_tD2FC1EC1E5B6EF920276AFABA103B8B7E2AE2DAF* ___auth;
@@ -1355,6 +1382,7 @@ struct HabitatUIManager_t3C44EE9C78CBEF7E42C380B4C165D5558ED27AFA  : public Mono
 struct SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* ___raycastManager;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___placementHint;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___selectedPrefab;
 	bool ___allowOnlyOne;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___spawned;
@@ -1378,6 +1406,15 @@ struct ARTrackableManager_5_tB0551B87CFE2349D3C8AD77F1642F669F950A409  : public 
 	Dictionary_2_t4D1D3AB1188A73B9F0416424BA9B873577C418FD* ___m_Trackables;
 	Dictionary_2_t4D1D3AB1188A73B9F0416424BA9B873577C418FD* ___m_PendingAdds;
 	XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* ___U3CoriginU3Ek__BackingField;
+};
+struct ARSession_t13374A44A01F2C6D90578F93E0F0DA2482BE3014  : public SubsystemLifecycleManager_3_t7AC7A0198786D712CE4FE49E3789EE14BCC2DFD5
+{
+	int32_t ___m_VSyncCount;
+	int32_t ___m_TargetFrameRate;
+	bool ___m_WasFrameRateSet;
+	bool ___m_AttemptUpdate;
+	bool ___m_MatchFrameRate;
+	int32_t ___m_TrackingMode;
 };
 struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
 {
@@ -1855,6 +1892,13 @@ struct SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884_StaticFields
 {
 	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ___hits;
 };
+struct ARSession_t13374A44A01F2C6D90578F93E0F0DA2482BE3014_StaticFields
+{
+	int32_t ___s_State;
+	int32_t ___s_NotTrackingReason;
+	int32_t ___s_Availability;
+	Action_1_t325C602D999E964DB72210E493635E83F8D6CE68* ___stateChanged;
+};
 struct ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44_StaticFields
 {
 	Comparison_1_t0E0A9C99A8D29FBC5FA5ED9B9B2175A13C6578C0* ___s_RaycastHitComparer;
@@ -1992,6 +2036,7 @@ inline ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* Object_FindFi
 {
 	return ((  ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* (*) (const RuntimeMethod*))Object_FindFirstObjectByType_TisRuntimeObject_mC5927319EB5B80095EFBA653D414D6F8AA87DC0A_gshared)(method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SandTapPlacer_UpdateHintText_m652CFFA4A54DA938CBCC7B51A7B62C5BEA6C513E (SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Input_get_touchCount_m057388BFC67A0F4CA53764B1022867ED81D01E39 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Touch_t03E51455ED508492B3F278903A0114FA0E87B417 Input_GetTouch_m75D99FE801A94279874FA8DC6B6ADAD35F5123B1 (int32_t ___0_index, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0 (Touch_t03E51455ED508492B3F278903A0114FA0E87B417* __this, const RuntimeMethod* method) ;
@@ -2008,10 +2053,18 @@ inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_
 {
 	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m249A6BA4F2F19C2D3CE217D4D31847DF0EF03EFE_gshared)(___0_original, ___1_position, ___2_rotation, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SandTapPlacer_PrettyName_m9580C71140205CAD29B1D997BDC771E306A74545 (SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884* __this, String_t* ___0_raw, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166 (String_t* __this, String_t* ___0_oldValue, String_t* ___1_newValue, const RuntimeMethod* method) ;
 inline void List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9 (List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* __this, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_t0754071572EFE7A5C92A59495D2524FC935364E3*, const RuntimeMethod*))List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9_gshared)(__this, method);
 }
+inline ARSession_t13374A44A01F2C6D90578F93E0F0DA2482BE3014* Object_FindFirstObjectByType_TisARSession_t13374A44A01F2C6D90578F93E0F0DA2482BE3014_m0CBA519C874DE83FEAC983AB4E93BA3388AE553C (const RuntimeMethod* method)
+{
+	return ((  ARSession_t13374A44A01F2C6D90578F93E0F0DA2482BE3014* (*) (const RuntimeMethod*))Object_FindFirstObjectByType_TisRuntimeObject_mC5927319EB5B80095EFBA653D414D6F8AA87DC0A_gshared)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARSession_Reset_mE905496B8400CB5BF1EB50A01C675771FCCF9A91 (ARSession_t13374A44A01F2C6D90578F93E0F0DA2482BE3014* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
@@ -2871,7 +2924,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SandTapPlacer_Awake_mD7E092F400594196F9F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:22>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:26>
 		ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* L_0 = __this->___raycastManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2882,7 +2935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SandTapPlacer_Awake_mD7E092F400594196F9F
 		}
 	}
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:23>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:27>
 		ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* L_2;
 		L_2 = Component_GetComponent_TisARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44_m255D1364D056A608CF5BB4AAB1BA1AD4CB78DE83(__this, Component_GetComponent_TisARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44_m255D1364D056A608CF5BB4AAB1BA1AD4CB78DE83_RuntimeMethod_var);
 		__this->___raycastManager = L_2;
@@ -2891,7 +2944,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SandTapPlacer_Awake_mD7E092F400594196F9F
 
 IL_001a:
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:25>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:29>
 		ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* L_3 = __this->___raycastManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -2902,7 +2955,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:26>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:30>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* L_5;
 		L_5 = Object_FindFirstObjectByType_TisARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44_m98F90C26E6ABD30D89DE04D1F3AED584BF655AB1(Object_FindFirstObjectByType_TisARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44_m98F90C26E6ABD30D89DE04D1F3AED584BF655AB1_RuntimeMethod_var);
@@ -2912,7 +2965,9 @@ IL_001a:
 
 IL_0033:
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:27>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:32>
+		SandTapPlacer_UpdateHintText_m652CFFA4A54DA938CBCC7B51A7B62C5BEA6C513E(__this, NULL);
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:33>
 		return;
 	}
 }
@@ -2920,11 +2975,13 @@ IL_0033:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SandTapPlacer_SelectPrefab_mE2300064E88F61170C3485C3F56A612C37BDD9C3 (SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_prefab, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:32>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:38>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_prefab;
 		__this->___selectedPrefab = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___selectedPrefab), (void*)L_0);
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:33>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:39>
+		SandTapPlacer_UpdateHintText_m652CFFA4A54DA938CBCC7B51A7B62C5BEA6C513E(__this, NULL);
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:40>
 		return;
 	}
 }
@@ -2947,7 +3004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SandTapPlacer_Update_m69F7F4767CAC37A5C6
 	ARRaycastHit_tB32B5606815B8A7DF479C00187A852F8D20E3B70 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:37>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:44>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___selectedPrefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2970,13 +3027,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SandTapPlacer_Update_m69F7F4767CAC37A5C6
 
 IL_001c:
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:37>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:44>
 		return;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:38>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:45>
 		int32_t L_4;
 		L_4 = Input_get_touchCount_m057388BFC67A0F4CA53764B1022867ED81D01E39(NULL);
 		if (L_4)
@@ -2985,17 +3042,17 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:38>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:45>
 		return;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:40>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:47>
 		Touch_t03E51455ED508492B3F278903A0114FA0E87B417 L_5;
 		L_5 = Input_GetTouch_m75D99FE801A94279874FA8DC6B6ADAD35F5123B1(0, NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:41>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:48>
 		int32_t L_6;
 		L_6 = Touch_get_phase_mB82409FB2BE1C32ABDBA6A72E52A099D28AB70B0((&V_0), NULL);
 		if (!L_6)
@@ -3004,13 +3061,13 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:41>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:48>
 		return;
 	}
 
 IL_0036:
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:43>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:50>
 		ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* L_7 = __this->___raycastManager;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		L_8 = Touch_get_position_m41B9EB0F3F3E1BE98CEB388253A9E31979CB964A((&V_0), NULL);
@@ -3025,13 +3082,13 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:44>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:51>
 		return;
 	}
 
 IL_0051:
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:46>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:53>
 		il2cpp_codegen_runtime_class_init_inline(SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884_il2cpp_TypeInfo_var);
 		List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* L_11 = ((SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884_StaticFields*)il2cpp_codegen_static_fields_for(SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884_il2cpp_TypeInfo_var))->___hits;
 		NullCheck(L_11);
@@ -3041,11 +3098,11 @@ IL_0051:
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_13;
 		L_13 = ARRaycastHit_get_pose_m84C13E71E21FE12CBA9AAD98DC28B1E414C9EFFD((&V_2), NULL);
 		V_1 = L_13;
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:48>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:55>
 		bool L_14 = __this->___allowOnlyOne;
 		if (!L_14)
 		{
-			goto IL_0098;
+			goto IL_0099;
 		}
 	}
 	{
@@ -3055,11 +3112,11 @@ IL_0051:
 		L_16 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_16)
 		{
-			goto IL_0098;
+			goto IL_0099;
 		}
 	}
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:50>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:57>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___spawned;
 		NullCheck(L_17);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18;
@@ -3070,12 +3127,12 @@ IL_0051:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = L_21.___rotation;
 		NullCheck(L_18);
 		Transform_SetPositionAndRotation_m418859BF59086EEAA084FFD6F258A43FAB408F5A(L_18, L_20, L_22, NULL);
-		return;
+		goto IL_00b6;
 	}
 
-IL_0098:
+IL_0099:
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:54>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:61>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___selectedPrefab;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_24 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = L_24.___position;
@@ -3086,21 +3143,123 @@ IL_0098:
 		L_28 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_23, L_25, L_27, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
 		__this->___spawned = L_28;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___spawned), (void*)L_28);
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:56>
+	}
+
+IL_00b6:
+	{
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:65>
+		__this->___selectedPrefab = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___selectedPrefab), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:66>
+		SandTapPlacer_UpdateHintText_m652CFFA4A54DA938CBCC7B51A7B62C5BEA6C513E(__this, NULL);
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:67>
 		return;
 	}
 }
 // Method Definition Index: 88954
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SandTapPlacer_UpdateHintText_m652CFFA4A54DA938CBCC7B51A7B62C5BEA6C513E (SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF43E65CE2B3AB4EE68AA889E3EC2CFEB7215A100);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:71>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___placementHint;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:71>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:73>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___selectedPrefab;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:74>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_4 = __this->___placementHint;
+		NullCheck(L_4);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_4, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		return;
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:76>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5 = __this->___placementHint;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___selectedPrefab;
+		NullCheck(L_6);
+		String_t* L_7;
+		L_7 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_6, NULL);
+		String_t* L_8;
+		L_8 = SandTapPlacer_PrettyName_m9580C71140205CAD29B1D997BDC771E306A74545(__this, L_7, NULL);
+		String_t* L_9;
+		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralF43E65CE2B3AB4EE68AA889E3EC2CFEB7215A100, L_8, NULL);
+		NullCheck(L_5);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, L_9);
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:77>
+		return;
+	}
+}
+// Method Definition Index: 88955
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SandTapPlacer_PrettyName_m9580C71140205CAD29B1D997BDC771E306A74545 (SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884* __this, String_t* ___0_raw, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1A9F16795C5361CAF64806CC119896915C20EA07);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD41D89DAD98E1F1783260FD0A5A774F557A05F0F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:81>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:82>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:83>
+		String_t* L_0 = ___0_raw;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_0, _stringLiteral1A9F16795C5361CAF64806CC119896915C20EA07, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		NullCheck(L_1);
+		String_t* L_2;
+		L_2 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_1, _stringLiteralD41D89DAD98E1F1783260FD0A5A774F557A05F0F, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 88956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SandTapPlacer__ctor_m639FEF4C2D4E309D6B6CD1982396950A1972207B (SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:15>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:19>
 		__this->___allowOnlyOne = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 88955
+// Method Definition Index: 88957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SandTapPlacer__cctor_m440A384AAF28E3C132A15115BD3A2E837D6345D7 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3112,7 +3271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SandTapPlacer__cctor_m440A384AAF28E3C132
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:17>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SandTapPlacer.cs:21>
 		List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* L_0 = (List_1_t0754071572EFE7A5C92A59495D2524FC935364E3*)il2cpp_codegen_object_new(List_1_t0754071572EFE7A5C92A59495D2524FC935364E3_il2cpp_TypeInfo_var);
 		List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9(L_0, List_1__ctor_m6B5722DD0A8C0D3D4A1656C5A5E8D0A784DC85B9_RuntimeMethod_var);
 		((SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884_StaticFields*)il2cpp_codegen_static_fields_for(SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884_il2cpp_TypeInfo_var))->___hits = L_0;
@@ -3128,7 +3287,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SandTapPlacer__cctor_m440A384AAF28E3C132
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 88956
+// Method Definition Index: 88958
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoader_LoadHomeScreen_m6FF1FFA1D3710BD7C5C7E7005222AD3DEA0A629C (SceneLoader_t96010F6DCE0AD6BEB011B72A85110D4801F5CCCF* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindFirstObjectByType_TisARSession_t13374A44A01F2C6D90578F93E0F0DA2482BE3014_m0CBA519C874DE83FEAC983AB4E93BA3388AE553C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA2D6B25F1A9427FE18AF0E029B0250AD1E1A72B6);
+		s_Il2CppMethodInitialized = true;
+	}
+	ARSession_t13374A44A01F2C6D90578F93E0F0DA2482BE3014* V_0 = NULL;
+	{
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SceneLoader.cs:10>
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		ARSession_t13374A44A01F2C6D90578F93E0F0DA2482BE3014* L_0;
+		L_0 = Object_FindFirstObjectByType_TisARSession_t13374A44A01F2C6D90578F93E0F0DA2482BE3014_m0CBA519C874DE83FEAC983AB4E93BA3388AE553C(Object_FindFirstObjectByType_TisARSession_t13374A44A01F2C6D90578F93E0F0DA2482BE3014_m0CBA519C874DE83FEAC983AB4E93BA3388AE553C_RuntimeMethod_var);
+		V_0 = L_0;
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SceneLoader.cs:11>
+		ARSession_t13374A44A01F2C6D90578F93E0F0DA2482BE3014* L_1 = V_0;
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SceneLoader.cs:12>
+		ARSession_t13374A44A01F2C6D90578F93E0F0DA2482BE3014* L_3 = V_0;
+		NullCheck(L_3);
+		ARSession_Reset_mE905496B8400CB5BF1EB50A01C675771FCCF9A91(L_3, NULL);
+	}
+
+IL_0015:
+	{
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SceneLoader.cs:14>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralA2D6B25F1A9427FE18AF0E029B0250AD1E1A72B6, NULL);
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SceneLoader.cs:15>
+		return;
+	}
+}
+// Method Definition Index: 88959
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoader_LoadARScene_m08D01A6A3E1BBEFE5B16F04696BF8CBE4C443B09 (SceneLoader_t96010F6DCE0AD6BEB011B72A85110D4801F5CCCF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3139,14 +3342,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoader_LoadARScene_m08D01A6A3E1BBEF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SceneLoader.cs:8>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SceneLoader.cs:19>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral4BC3C356492D369B4B5A804209FAF105B6185F8B, NULL);
-		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SceneLoader.cs:9>
+		//<source_info:C:/Users/ishat/Unity Projects/Marine/Assets/Scripts/SceneLoader.cs:20>
 		return;
 	}
 }
-// Method Definition Index: 88957
+// Method Definition Index: 88960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoader__ctor_m2248766DF38AF07562AD31501C7275B8DF1B7D29 (SceneLoader_t96010F6DCE0AD6BEB011B72A85110D4801F5CCCF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3162,7 +3365,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoader__ctor_m2248766DF38AF07562AD3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 88958
+// Method Definition Index: 88961
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeciesSpawner_Awake_m6BB1F5868C92EBDDB2FA297E0389CB0B2F6574F8 (SpeciesSpawner_t1B52D1FB3AD4D6FA3B1C46EB8E832BFCAA8960F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3196,7 +3399,7 @@ IL_0019:
 		return;
 	}
 }
-// Method Definition Index: 88959
+// Method Definition Index: 88962
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeciesSpawner_SpawnPrefab_m4432CA7AA846057E955177CA839E604213236FE9 (SpeciesSpawner_t1B52D1FB3AD4D6FA3B1C46EB8E832BFCAA8960F1* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_prefab, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3319,7 +3522,7 @@ IL_008d:
 		return;
 	}
 }
-// Method Definition Index: 88960
+// Method Definition Index: 88963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeciesSpawner_Despawn_m67122BEFB0A0D518471B1170E90F221CA4686025 (SpeciesSpawner_t1B52D1FB3AD4D6FA3B1C46EB8E832BFCAA8960F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3352,7 +3555,7 @@ IL_0019:
 		return;
 	}
 }
-// Method Definition Index: 88961
+// Method Definition Index: 88964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeciesSpawner__ctor_mC488127EB4CDB43FFCFBEA2B9742E839053C673B (SpeciesSpawner_t1B52D1FB3AD4D6FA3B1C46EB8E832BFCAA8960F1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3372,7 +3575,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeciesSpawner__ctor_mC488127EB4CDB43FFC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 88962
+// Method Definition Index: 88965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3388,7 +3591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 88963
+// Method Definition Index: 88966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3404,7 +3607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 88964
+// Method Definition Index: 88967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3438,7 +3641,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC
 		return L_6;
 	}
 }
-// Method Definition Index: 88965
+// Method Definition Index: 88968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{

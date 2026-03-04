@@ -18617,6 +18617,7 @@ struct OnDestroyNotifier_t684A73FBDC3FC85EC3DBAC684BD6E129812EDC74  : public Mon
 struct SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* ___raycastManager;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___placementHint;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___selectedPrefab;
 	bool ___allowOnlyOne;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___spawned;
@@ -25511,9 +25512,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable11162[4] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable11163[5] = 
 {
 	static_cast<int32_t>(offsetof(HabitatUIManager_t3C44EE9C78CBEF7E42C380B4C165D5558ED27AFA, ___waterSpeciesPanel)),static_cast<int32_t>(offsetof(HabitatUIManager_t3C44EE9C78CBEF7E42C380B4C165D5558ED27AFA, ___sandSpeciesPanel)),static_cast<int32_t>(offsetof(HabitatUIManager_t3C44EE9C78CBEF7E42C380B4C165D5558ED27AFA, ___manualSelectionPanel)),static_cast<int32_t>(offsetof(HabitatUIManager_t3C44EE9C78CBEF7E42C380B4C165D5558ED27AFA, ___detectedText)),static_cast<int32_t>(offsetof(HabitatUIManager_t3C44EE9C78CBEF7E42C380B4C165D5558ED27AFA, ___U3CCurrentHabitatU3Ek__BackingField)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable11164[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable11164[6] = 
 {
-	static_cast<int32_t>(offsetof(SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884, ___raycastManager)),static_cast<int32_t>(offsetof(SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884, ___selectedPrefab)),static_cast<int32_t>(offsetof(SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884, ___allowOnlyOne)),static_cast<int32_t>(offsetof(SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884_StaticFields, ___hits)),static_cast<int32_t>(offsetof(SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884, ___spawned)),};
+	static_cast<int32_t>(offsetof(SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884, ___raycastManager)),static_cast<int32_t>(offsetof(SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884, ___placementHint)),static_cast<int32_t>(offsetof(SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884, ___selectedPrefab)),static_cast<int32_t>(offsetof(SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884, ___allowOnlyOne)),static_cast<int32_t>(offsetof(SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884_StaticFields, ___hits)),static_cast<int32_t>(offsetof(SandTapPlacer_tF0DB29F6865EF0B80C0313AA2B131C43506C6884, ___spawned)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable11166[4] = 
 {
 	static_cast<int32_t>(offsetof(SpeciesSpawner_t1B52D1FB3AD4D6FA3B1C46EB8E832BFCAA8960F1, ___targetCamera)),static_cast<int32_t>(offsetof(SpeciesSpawner_t1B52D1FB3AD4D6FA3B1C46EB8E832BFCAA8960F1, ___distanceFromCamera)),static_cast<int32_t>(offsetof(SpeciesSpawner_t1B52D1FB3AD4D6FA3B1C46EB8E832BFCAA8960F1, ___onlyOneAtATime)),static_cast<int32_t>(offsetof(SpeciesSpawner_t1B52D1FB3AD4D6FA3B1C46EB8E832BFCAA8960F1, ___spawned)),};

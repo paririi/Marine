@@ -30,8 +30,11 @@ extern void HabitatUIManager__ctor_m9834BE35DFEA82A04195CC0783055E54E41F9C45 (vo
 extern void SandTapPlacer_Awake_mD7E092F400594196F9FAC097146DF4B72D46143E (void);
 extern void SandTapPlacer_SelectPrefab_mE2300064E88F61170C3485C3F56A612C37BDD9C3 (void);
 extern void SandTapPlacer_Update_m69F7F4767CAC37A5C6B1204A13BC7B2FB5B36050 (void);
+extern void SandTapPlacer_UpdateHintText_m652CFFA4A54DA938CBCC7B51A7B62C5BEA6C513E (void);
+extern void SandTapPlacer_PrettyName_m9580C71140205CAD29B1D997BDC771E306A74545 (void);
 extern void SandTapPlacer__ctor_m639FEF4C2D4E309D6B6CD1982396950A1972207B (void);
 extern void SandTapPlacer__cctor_m440A384AAF28E3C132A15115BD3A2E837D6345D7 (void);
+extern void SceneLoader_LoadHomeScreen_m6FF1FFA1D3710BD7C5C7E7005222AD3DEA0A629C (void);
 extern void SceneLoader_LoadARScene_m08D01A6A3E1BBEFE5B16F04696BF8CBE4C443B09 (void);
 extern void SceneLoader__ctor_m2248766DF38AF07562AD31501C7275B8DF1B7D29 (void);
 extern void SpeciesSpawner_Awake_m6BB1F5868C92EBDDB2FA297E0389CB0B2F6574F8 (void);
@@ -42,7 +45,7 @@ extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[35] = 
+static Il2CppMethodPointer s_methodPointers[38] = 
 {
 	FirebaseController_Start_mFC54697587B0622B98496A87CF970DF9A85F33D4,
 	FirebaseController_ShowSplash_m7D0F57ACF46D1D10FE949C38F5CA69C3D55AA75C,
@@ -67,8 +70,11 @@ static Il2CppMethodPointer s_methodPointers[35] =
 	SandTapPlacer_Awake_mD7E092F400594196F9FAC097146DF4B72D46143E,
 	SandTapPlacer_SelectPrefab_mE2300064E88F61170C3485C3F56A612C37BDD9C3,
 	SandTapPlacer_Update_m69F7F4767CAC37A5C6B1204A13BC7B2FB5B36050,
+	SandTapPlacer_UpdateHintText_m652CFFA4A54DA938CBCC7B51A7B62C5BEA6C513E,
+	SandTapPlacer_PrettyName_m9580C71140205CAD29B1D997BDC771E306A74545,
 	SandTapPlacer__ctor_m639FEF4C2D4E309D6B6CD1982396950A1972207B,
 	SandTapPlacer__cctor_m440A384AAF28E3C132A15115BD3A2E837D6345D7,
+	SceneLoader_LoadHomeScreen_m6FF1FFA1D3710BD7C5C7E7005222AD3DEA0A629C,
 	SceneLoader_LoadARScene_m08D01A6A3E1BBEFE5B16F04696BF8CBE4C443B09,
 	SceneLoader__ctor_m2248766DF38AF07562AD31501C7275B8DF1B7D29,
 	SpeciesSpawner_Awake_m6BB1F5868C92EBDDB2FA297E0389CB0B2F6574F8,
@@ -80,7 +86,7 @@ static Il2CppMethodPointer s_methodPointers[35] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[35] = 
+static const int32_t s_InvokerIndices[38] = 
 {
 	16378,
 	16378,
@@ -106,7 +112,10 @@ static const int32_t s_InvokerIndices[35] =
 	12439,
 	16378,
 	16378,
+	10631,
+	16378,
 	28170,
+	16378,
 	16378,
 	16378,
 	16378,
@@ -122,7 +131,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	35,
+	38,
 	s_methodPointers,
 	0,
 	NULL,
