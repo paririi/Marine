@@ -1,5 +1,8 @@
 using System;
+using Unity.Collections;
 using UnityEngine;
+using UnityEngine.XR.ARFoundation;
+using UnityEngine.XR.ARSubsystems;
 using Unity.InferenceEngine;
 
 public class EnvironmentMLClassifier : MonoBehaviour
@@ -7,6 +10,9 @@ public class EnvironmentMLClassifier : MonoBehaviour
     [Header("Model")]
     [SerializeField] private ModelAsset modelAsset;
     [SerializeField] private TextAsset labelsFile;
+
+    [Header("AR Camera")]
+    [SerializeField] private ARCameraManager arCameraManager;
 
     [Header("Input Settings")]
     [SerializeField] private int imageSize = 224;
@@ -19,11 +25,13 @@ public class EnvironmentMLClassifier : MonoBehaviour
     {
         InitializeModel();
         LoadLabels();
+
+        if (arCameraManager == null)
+            arCameraManager = FindFirstObjectByType<ARCameraManager>();
     }
 
     private void OnDestroy()
     {
-        // Release the inference worker when this object is destroyed.
         worker?.Dispose();
     }
 
@@ -43,8 +51,7 @@ public class EnvironmentMLClassifier : MonoBehaviour
     {
         if (labelsFile == null)
         {
-            // Fallback labels in case no labels file is assigned.
-            labels = new[] { "sand", "sea" };
+            labels = new[] { "other", "sand", "sea" };
             return;
         }
 
@@ -54,41 +61,53 @@ public class EnvironmentMLClassifier : MonoBehaviour
         );
     }
 
-    public bool TryPredict(Texture2D sourceTexture, out EnvironmentType predictedEnvironment, out float confidence)
+    public bool TryPredictFromCamera(out EnvironmentType predictedEnvironment, out float confidence)
     {
         predictedEnvironment = EnvironmentType.Unknown;
         confidence = 0f;
 
-        if (worker == null || sourceTexture == null)
+        if (worker == null)
+        {
+            Debug.LogError("EnvironmentMLClassifier: Worker is not initialized.");
             return false;
+        }
 
-        Texture2D resizedTexture = null;
+        if (arCameraManager == null)
+        {
+            Debug.LogError("EnvironmentMLClassifier: ARCameraManager is missing.");
+            return false;
+        }
+
+        if (!arCameraManager.TryAcquireLatestCpuImage(out XRCpuImage cpuImage))
+        {
+            Debug.LogWarning("EnvironmentMLClassifier: Could not acquire latest CPU camera image.");
+            return false;
+        }
+
+        Texture2D cameraTexture = null;
         Tensor<float> inputTensor = null;
         Tensor<float> outputTensor = null;
         Tensor<float> cpuTensor = null;
 
         try
         {
-            // Resize the source image to the input size expected by the model.
-            resizedTexture = ResizeTexture(sourceTexture, imageSize, imageSize);
+            cameraTexture = ConvertCpuImageToTexture(cpuImage);
+            if (cameraTexture == null)
+                return false;
 
-            // Convert the resized texture into a tensor.
-            inputTensor = TextureToTensor(resizedTexture);
+            inputTensor = TextureToTensor(cameraTexture);
 
-            // Run inference.
             worker.Schedule(inputTensor);
             outputTensor = worker.PeekOutput() as Tensor<float>;
 
             if (outputTensor == null)
                 return false;
 
-            // Read model output back to CPU so we can inspect values safely.
             cpuTensor = outputTensor.ReadbackAndClone() as Tensor<float>;
 
-            if (cpuTensor == null || cpuTensor.count < 2)
+            if (cpuTensor == null || cpuTensor.count < 3)
                 return false;
 
-            // Find the class with the highest output score.
             int bestIndex = 0;
             float bestScore = cpuTensor[0];
 
@@ -101,7 +120,6 @@ public class EnvironmentMLClassifier : MonoBehaviour
                 }
             }
 
-            // Map the winning class index to the label from labels.txt.
             string predictedLabel = (labels != null && bestIndex < labels.Length)
                 ? labels[bestIndex].Trim().ToLower()
                 : string.Empty;
@@ -120,6 +138,12 @@ public class EnvironmentMLClassifier : MonoBehaviour
                 return true;
             }
 
+            if (predictedLabel == "other" || predictedLabel == "unknown")
+            {
+                predictedEnvironment = EnvironmentType.Unknown;
+                return true;
+            }
+
             return false;
         }
         catch (Exception e)
@@ -129,31 +153,49 @@ public class EnvironmentMLClassifier : MonoBehaviour
         }
         finally
         {
+            cpuImage.Dispose();
             inputTensor?.Dispose();
             outputTensor?.Dispose();
             cpuTensor?.Dispose();
 
-            if (resizedTexture != null)
-                Destroy(resizedTexture);
+            if (cameraTexture != null)
+                Destroy(cameraTexture);
         }
     }
 
-    private Texture2D ResizeTexture(Texture2D source, int targetWidth, int targetHeight)
+    private Texture2D ConvertCpuImageToTexture(XRCpuImage cpuImage)
     {
-        RenderTexture rt = RenderTexture.GetTemporary(targetWidth, targetHeight, 0, RenderTextureFormat.ARGB32);
-        RenderTexture previous = RenderTexture.active;
+        var conversionParams = new XRCpuImage.ConversionParams
+        {
+            inputRect = new RectInt(0, 0, cpuImage.width, cpuImage.height),
+            outputDimensions = new Vector2Int(imageSize, imageSize),
+            outputFormat = TextureFormat.RGB24,
+            transformation = XRCpuImage.Transformation.None
+        };
 
-        Graphics.Blit(source, rt);
-        RenderTexture.active = rt;
+        int size = cpuImage.GetConvertedDataSize(conversionParams);
+        var buffer = new NativeArray<byte>(size, Allocator.Temp);
 
-        Texture2D result = new Texture2D(targetWidth, targetHeight, TextureFormat.RGBA32, false);
-        result.ReadPixels(new Rect(0, 0, targetWidth, targetHeight), 0, 0);
-        result.Apply();
+        try
+        {
+            cpuImage.Convert(conversionParams, buffer);
 
-        RenderTexture.active = previous;
-        RenderTexture.ReleaseTemporary(rt);
+            Texture2D texture = new Texture2D(
+                imageSize,
+                imageSize,
+                TextureFormat.RGB24,
+                false
+            );
 
-        return result;
+            texture.LoadRawTextureData(buffer);
+            texture.Apply();
+
+            return texture;
+        }
+        finally
+        {
+            buffer.Dispose();
+        }
     }
 
     private Tensor<float> TextureToTensor(Texture2D texture)
@@ -167,9 +209,8 @@ public class EnvironmentMLClassifier : MonoBehaviour
             {
                 Color pixel = texture.GetPixel(x, y);
 
-                // Send raw 0-255 RGB values.
-                // MobileNetV2 preprocess input is already inside the exported model,
-                // so Unity must NOT normalize to [-1, 1] again.
+                // Raw 0-255 RGB values.
+                // MobileNetV2 preprocessing is already inside the exported model.
                 data[index++] = pixel.r * 255f;
                 data[index++] = pixel.g * 255f;
                 data[index++] = pixel.b * 255f;
