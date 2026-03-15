@@ -1619,8 +1619,8 @@ struct List_1_t85812977073AD90622C1915AAFE06D1EAB782A80_StaticFields
 };
 struct U3CPrivateImplementationDetailsU3E_t00FE701024AA05D7E4589AC05F0D73B04B882C2F_StaticFields
 {
+	__StaticArrayInitTypeSizeU3D56893_t0E5BB5A8B2AA4BA0A8729D573B290607A6CFECD4 ___5A275CEA6FDE4EAED9BDE61C94A2E6A3CA130B66C61B29028635A29B68FB08DE;
 	__StaticArrayInitTypeSizeU3D22556_t9D4A9B57C503DD28BB0EE40D2D72B24F60FE88EE ___AE4CBB32E8F089AE17FB490CCCF8279DE9B793E05D0BD05F49B197F7A8A90B3E;
-	__StaticArrayInitTypeSizeU3D56893_t0E5BB5A8B2AA4BA0A8729D573B290607A6CFECD4 ___CF81D6EC2AD3967084197CA32C671550C29D8AAF37C39DD64C74961C73251F44;
 };
 struct PlatformUtility_t1848A281AD2DC3383BDF573753827799C3D87EF6_StaticFields
 {
@@ -2919,7 +2919,7 @@ inline void List_1_AddWithResize_mBED9EA9AA9FB89CBF85C100B2C1262C6B824ABF8 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56202
+// Method Definition Index: 85845
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer__ctor_m2CF241A6E8D255269BC2694F7B87B8BB7381C739 (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2974,48 +2974,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer__ctor_m2CF241A6E8D255269BC2
 	memset((&V_0), 0, sizeof(V_0));
 	Type_t* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:17>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:17>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:19>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:19>
 		Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9* L_0 = (Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9*)il2cpp_codegen_object_new(Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mB5CDA1FF0E6EC5D5D1DBF3E4E9700D59884FE936(L_0, Dictionary_2__ctor_mB5CDA1FF0E6EC5D5D1DBF3E4E9700D59884FE936_RuntimeMethod_var);
 		__this->____cachedConverterTypeInstances = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cachedConverterTypeInstances), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:20>
 		Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9* L_1 = (Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9*)il2cpp_codegen_object_new(Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mB5CDA1FF0E6EC5D5D1DBF3E4E9700D59884FE936(L_1, Dictionary_2__ctor_mB5CDA1FF0E6EC5D5D1DBF3E4E9700D59884FE936_RuntimeMethod_var);
 		__this->____cachedConverters = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cachedConverters), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:21>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:21>
 		Dictionary_2_tE3EF7F86044FEAF4A82EDAA759940ACF6ABF5A04* L_2 = (Dictionary_2_tE3EF7F86044FEAF4A82EDAA759940ACF6ABF5A04*)il2cpp_codegen_object_new(Dictionary_2_tE3EF7F86044FEAF4A82EDAA759940ACF6ABF5A04_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m9B08040784329C4F968B639FF122E79580D7C4C6(L_2, Dictionary_2__ctor_m9B08040784329C4F968B639FF122E79580D7C4C6_RuntimeMethod_var);
 		__this->____cachedProcessors = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cachedProcessors), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:23>
 		fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* L_3 = (fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0*)il2cpp_codegen_object_new(fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0_il2cpp_TypeInfo_var);
 		fsCyclicReferenceManager__ctor_m4904103AD3F430576C520F7C2C412C35C10BC1D0(L_3, NULL);
 		__this->____references = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____references), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:24>
 		fsLazyCycleDefinitionWriter_t8DA7FBB3131ECC4D5F09CC4D66DE74961DA5511A* L_4 = (fsLazyCycleDefinitionWriter_t8DA7FBB3131ECC4D5F09CC4D66DE74961DA5511A*)il2cpp_codegen_object_new(fsLazyCycleDefinitionWriter_t8DA7FBB3131ECC4D5F09CC4D66DE74961DA5511A_il2cpp_TypeInfo_var);
 		fsLazyCycleDefinitionWriter__ctor_m88404815CC83159CB4B9581C0737F8FE44847A38(L_4, NULL);
 		__this->____lazyReferenceWriter = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____lazyReferenceWriter), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:29>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:30>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:31>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:32>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:33>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:34>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:35>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:36>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:37>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:38>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:39>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:40>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:41>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:42>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:31>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:33>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:36>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:38>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:39>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:40>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:42>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:43>
 		List_1_t2914BC22C8C5E8C02F2AB4FA0C6EBD117DA2A753* L_5 = (List_1_t2914BC22C8C5E8C02F2AB4FA0C6EBD117DA2A753*)il2cpp_codegen_object_new(List_1_t2914BC22C8C5E8C02F2AB4FA0C6EBD117DA2A753_il2cpp_TypeInfo_var);
 		List_1__ctor_m1D0553CE893DA8F2061570888EF015793C9DD703(L_5, List_1__ctor_m1D0553CE893DA8F2061570888EF015793C9DD703_RuntimeMethod_var);
 		List_1_t2914BC22C8C5E8C02F2AB4FA0C6EBD117DA2A753* L_6 = L_5;
@@ -3128,15 +3128,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer__ctor_m2CF241A6E8D255269BC2
 		List_1_Add_m7902BC42360D39349259112D352D613562535CBC_inline(L_39, L_41, List_1_Add_m7902BC42360D39349259112D352D613562535CBC_RuntimeMethod_var);
 		__this->____availableConverters = L_39;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____availableConverters), (void*)L_39);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:44>
 		Dictionary_2_tE2FB86855847810E74AE4F09A6480D6AE3251A51* L_42 = (Dictionary_2_tE2FB86855847810E74AE4F09A6480D6AE3251A51*)il2cpp_codegen_object_new(Dictionary_2_tE2FB86855847810E74AE4F09A6480D6AE3251A51_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m0590619D153207FABFC99509A5D00A7E5E3C4CAF(L_42, Dictionary_2__ctor_m0590619D153207FABFC99509A5D00A7E5E3C4CAF_RuntimeMethod_var);
 		__this->____availableDirectConverters = L_42;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____availableDirectConverters), (void*)L_42);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:49>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_43 = (List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371*)il2cpp_codegen_object_new(List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371_il2cpp_TypeInfo_var);
 		List_1__ctor_mD35EF916556ABEA0C4DBF0F6CE4D46EBE5F1EB76(L_43, List_1__ctor_mD35EF916556ABEA0C4DBF0F6CE4D46EBE5F1EB76_RuntimeMethod_var);
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_44 = L_43;
@@ -3146,18 +3146,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer__ctor_m2CF241A6E8D255269BC2
 		List_1_Add_mCDA09D22F6F20C1B99733B4CEF54FBD4E51E6969_inline(L_44, L_45, List_1_Add_mCDA09D22F6F20C1B99733B4CEF54FBD4E51E6969_RuntimeMethod_var);
 		__this->____processors = L_44;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____processors), (void*)L_44);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:52>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_46 = __this->____processors;
 		fsSerializationCallbackReceiverProcessor_t85AC8EA764F820D1AE0A804558426952974B5FEA* L_47 = (fsSerializationCallbackReceiverProcessor_t85AC8EA764F820D1AE0A804558426952974B5FEA*)il2cpp_codegen_object_new(fsSerializationCallbackReceiverProcessor_t85AC8EA764F820D1AE0A804558426952974B5FEA_il2cpp_TypeInfo_var);
 		fsSerializationCallbackReceiverProcessor__ctor_m8F7AD77AE53D0C041389A60F0787447745505921(L_47, NULL);
 		NullCheck(L_46);
 		List_1_Add_mCDA09D22F6F20C1B99733B4CEF54FBD4E51E6969_inline(L_46, L_47, List_1_Add_mCDA09D22F6F20C1B99733B4CEF54FBD4E51E6969_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:55>
 		Dictionary_2_t8BF76F08F2E28AE3B97CD39EBC7A0FE57398B1B0* L_48 = (Dictionary_2_t8BF76F08F2E28AE3B97CD39EBC7A0FE57398B1B0*)il2cpp_codegen_object_new(Dictionary_2_t8BF76F08F2E28AE3B97CD39EBC7A0FE57398B1B0_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m5D11BD5B331D47EF67914EC367C109B0BA39F729(L_48, Dictionary_2__ctor_m5D11BD5B331D47EF67914EC367C109B0BA39F729_RuntimeMethod_var);
 		__this->____abstractTypeRemap = L_48;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____abstractTypeRemap), (void*)L_48);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:56>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_49 = { reinterpret_cast<intptr_t> (ICollection_1_tB47DDF469B770957C5467EC2DBDED44B2DD613DB_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_50;
@@ -3166,7 +3166,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer__ctor_m2CF241A6E8D255269BC2
 		Type_t* L_52;
 		L_52 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_51, NULL);
 		fsSerializer_SetDefaultStorageType_m91D7A9724B7D2280BA9633B5159887B59A4DD01E(__this, L_50, L_52, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:57>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_53 = { reinterpret_cast<intptr_t> (IList_1_t8C7C301DAF6E4E4DFA7504EF93E6E2C93AB33AE7_0_0_0_var) };
 		Type_t* L_54;
 		L_54 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_53, NULL);
@@ -3174,7 +3174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer__ctor_m2CF241A6E8D255269BC2
 		Type_t* L_56;
 		L_56 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_55, NULL);
 		fsSerializer_SetDefaultStorageType_m91D7A9724B7D2280BA9633B5159887B59A4DD01E(__this, L_54, L_56, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:58>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_57 = { reinterpret_cast<intptr_t> (IDictionary_2_t4F866F723F9E0A522C362494DC799D065D96C726_0_0_0_var) };
 		Type_t* L_58;
 		L_58 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_57, NULL);
@@ -3182,17 +3182,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer__ctor_m2CF241A6E8D255269BC2
 		Type_t* L_60;
 		L_60 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_59, NULL);
 		fsSerializer_SetDefaultStorageType_m91D7A9724B7D2280BA9633B5159887B59A4DD01E(__this, L_58, L_60, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:60>
 		fsContext_t3B227C205D84208E2D8934429C07677542C97B5F* L_61 = (fsContext_t3B227C205D84208E2D8934429C07677542C97B5F*)il2cpp_codegen_object_new(fsContext_t3B227C205D84208E2D8934429C07677542C97B5F_il2cpp_TypeInfo_var);
 		fsContext__ctor_m48FB2999693498F2BCE7A978A76773DF86E290DB(L_61, NULL);
 		__this->___Context = L_61;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Context), (void*)L_61);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:61>
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_62 = (fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726*)il2cpp_codegen_object_new(fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726_il2cpp_TypeInfo_var);
 		fsConfig__ctor_mCB5CF40444C2E640B4141CFE2B8700ADCC08E839(L_62, NULL);
 		__this->___Config = L_62;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Config), (void*)L_62);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:64>
 		il2cpp_codegen_runtime_class_init_inline(fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_il2cpp_TypeInfo_var);
 		List_1_t4B77DB8D00EC6CC4705EB5F2FCC506472734EA72* L_63 = ((fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_StaticFields*)il2cpp_codegen_static_fields_for(fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_il2cpp_TypeInfo_var))->___Converters;
 		NullCheck(L_63);
@@ -3218,11 +3218,11 @@ FINALLY_01f1:
 
 IL_01cd_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:64>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:64>
 				Type_t* L_65;
 				L_65 = Enumerator_get_Current_mC76F3D6F8869AD0D1C9E09E20DE482F801DACD84_inline((&V_0), Enumerator_get_Current_mC76F3D6F8869AD0D1C9E09E20DE482F801DACD84_RuntimeMethod_var);
 				V_1 = L_65;
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:66>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:66>
 				Type_t* L_66 = V_1;
 				RuntimeObject* L_67;
 				L_67 = Activator_CreateInstance_mFF030428C64FDDFACC74DFAC97388A1C628BFBCF(L_66, NULL);
@@ -3231,7 +3231,7 @@ IL_01cd_1:
 
 IL_01e6_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:64>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:64>
 				bool L_68;
 				L_68 = Enumerator_MoveNext_mBC2EB7D8749DC009864CA4499CBE1D84C113A877((&V_0), Enumerator_MoveNext_mBC2EB7D8749DC009864CA4499CBE1D84C113A877_RuntimeMethod_var);
 				if (L_68)
@@ -3251,11 +3251,11 @@ IL_01e6_1:
 
 IL_01ff:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:68>
 		return;
 	}
 }
-// Method Definition Index: 56203
+// Method Definition Index: 85846
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_RemapAbstractStorageTypeToDefaultType_mDAACC633FEB7E4E36783EB6617A943521305150A (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t** ___0_storageType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3269,7 +3269,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_RemapAbstractStorageTypeToD
 	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* V_1 = NULL;
 	Type_t* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:137>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:137>
 		Type_t** L_0 = ___0_storageType;
 		Type_t* L_1 = *((Type_t**)L_0);
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
@@ -3298,13 +3298,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_RemapAbstractStorageTypeToD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:139>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:139>
 		return;
 	}
 
 IL_001d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:142>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:142>
 		Type_t** L_8 = ___0_storageType;
 		Type_t* L_9 = *((Type_t**)L_8);
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
@@ -3312,14 +3312,14 @@ IL_001d:
 		L_10 = fsPortableReflection_Resolve_m995640D6EA5B5B1268075371EC800CF8720BF9C3(L_9, NULL);
 		NullCheck(L_10);
 		bool L_11;
-		L_11 = VirtualFuncInvoker0< bool >::Invoke(39, L_10);
+		L_11 = VirtualFuncInvoker0< bool >::Invoke(40, L_10);
 		if (!L_11)
 		{
 			goto IL_005d;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:145>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:145>
 		Dictionary_2_t8BF76F08F2E28AE3B97CD39EBC7A0FE57398B1B0* L_12 = __this->____abstractTypeRemap;
 		Type_t** L_13 = ___0_storageType;
 		Type_t* L_14 = *((Type_t**)L_13);
@@ -3328,7 +3328,7 @@ IL_001d:
 		L_15 = fsPortableReflection_Resolve_m995640D6EA5B5B1268075371EC800CF8720BF9C3(L_14, NULL);
 		NullCheck(L_15);
 		Type_t* L_16;
-		L_16 = VirtualFuncInvoker0< Type_t* >::Invoke(48, L_15);
+		L_16 = VirtualFuncInvoker0< Type_t* >::Invoke(49, L_15);
 		NullCheck(L_12);
 		bool L_17;
 		L_17 = Dictionary_2_TryGetValue_m246913C3D3919A641E1F4C2E74B76E8A3E934B2A(L_12, L_16, (&V_0), Dictionary_2_TryGetValue_m246913C3D3919A641E1F4C2E74B76E8A3E934B2A_RuntimeMethod_var);
@@ -3338,14 +3338,14 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:147>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:147>
 		Type_t** L_18 = ___0_storageType;
 		Type_t* L_19 = *((Type_t**)L_18);
 		NullCheck(L_19);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_20;
-		L_20 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(50, L_19);
+		L_20 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(51, L_19);
 		V_1 = L_20;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:148>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:148>
 		Type_t** L_21 = ___0_storageType;
 		Type_t* L_22 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
@@ -3354,7 +3354,7 @@ IL_001d:
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_24 = V_1;
 		NullCheck(L_23);
 		Type_t* L_25;
-		L_25 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(124, L_23, L_24);
+		L_25 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(127, L_23, L_24);
 		*((RuntimeObject**)L_21) = (RuntimeObject*)L_25;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_21, (void*)(RuntimeObject*)L_25);
 		return;
@@ -3362,7 +3362,7 @@ IL_001d:
 
 IL_005d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:154>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:154>
 		Dictionary_2_t8BF76F08F2E28AE3B97CD39EBC7A0FE57398B1B0* L_26 = __this->____abstractTypeRemap;
 		Type_t** L_27 = ___0_storageType;
 		Type_t* L_28 = *((Type_t**)L_27);
@@ -3375,7 +3375,7 @@ IL_005d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:156>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:156>
 		Type_t** L_30 = ___0_storageType;
 		Type_t* L_31 = V_2;
 		*((RuntimeObject**)L_30) = (RuntimeObject*)L_31;
@@ -3384,11 +3384,11 @@ IL_005d:
 
 IL_0071:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:159>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:159>
 		return;
 	}
 }
-// Method Definition Index: 56204
+// Method Definition Index: 85847
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_AddProcessor_mED3BA783D4F6A87301C80A9487C3C296883F777C (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, fsObjectProcessor_t9E572207DB5D24F4D84D95A87256118309A4886E* ___0_processor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3400,21 +3400,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_AddProcessor_mED3BA783D4F6A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:168>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:168>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_0 = __this->____processors;
 		fsObjectProcessor_t9E572207DB5D24F4D84D95A87256118309A4886E* L_1 = ___0_processor;
 		NullCheck(L_0);
 		List_1_Add_mCDA09D22F6F20C1B99733B4CEF54FBD4E51E6969_inline(L_0, L_1, List_1_Add_mCDA09D22F6F20C1B99733B4CEF54FBD4E51E6969_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:174>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:174>
 		Dictionary_2_tE3EF7F86044FEAF4A82EDAA759940ACF6ABF5A04* L_2 = (Dictionary_2_tE3EF7F86044FEAF4A82EDAA759940ACF6ABF5A04*)il2cpp_codegen_object_new(Dictionary_2_tE3EF7F86044FEAF4A82EDAA759940ACF6ABF5A04_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m9B08040784329C4F968B639FF122E79580D7C4C6(L_2, Dictionary_2__ctor_m9B08040784329C4F968B639FF122E79580D7C4C6_RuntimeMethod_var);
 		__this->____cachedProcessors = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cachedProcessors), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:175>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:175>
 		return;
 	}
 }
-// Method Definition Index: 56206
+// Method Definition Index: 85849
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_SetDefaultStorageType_m91D7A9724B7D2280BA9633B5159887B59A4DD01E (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t* ___0_abstractType, Type_t* ___1_defaultStorageType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3425,7 +3425,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_SetDefaultStorageType_m91D7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:210>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:210>
 		Type_t* L_0 = ___0_abstractType;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		Type_t* L_1;
@@ -3452,7 +3452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_SetDefaultStorageType_m91D7
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:212>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:212>
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_6 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4C7F13F570E3B3620780DFAB590643741747F387)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&fsSerializer_SetDefaultStorageType_m91D7A9724B7D2280BA9633B5159887B59A4DD01E_RuntimeMethod_var)));
@@ -3460,17 +3460,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_SetDefaultStorageType_m91D7
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:214>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:214>
 		Dictionary_2_t8BF76F08F2E28AE3B97CD39EBC7A0FE57398B1B0* L_7 = __this->____abstractTypeRemap;
 		Type_t* L_8 = ___0_abstractType;
 		Type_t* L_9 = ___1_defaultStorageType;
 		NullCheck(L_7);
 		Dictionary_2_set_Item_m9DBC8F8AD11B6FC36DF55B83EDB390D0DC0AC0CF(L_7, L_8, L_9, Dictionary_2_set_Item_m9DBC8F8AD11B6FC36DF55B83EDB390D0DC0AC0CF_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:215>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:215>
 		return;
 	}
 }
-// Method Definition Index: 56207
+// Method Definition Index: 85850
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* fsSerializer_GetProcessors_mB240A96D2D312CE91D3E14DD67CE734BBBE10217 (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t* ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3494,13 +3494,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t0966830171D2398ACB9E46D5533F6E16E0E17
 	int32_t V_3 = 0;
 	fsObjectProcessor_t9E572207DB5D24F4D84D95A87256118309A4886E* V_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:228>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:228>
 		Type_t* L_0 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_1;
 		L_1 = fsPortableReflection_GetAttribute_TisfsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38_m05C71253753EF477CA25996DA4B7A36E67881A2A(L_0, fsPortableReflection_GetAttribute_TisfsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38_m05C71253753EF477CA25996DA4B7A36E67881A2A_RuntimeMethod_var);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:229>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:229>
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_2 = V_1;
 		if (!L_2)
 		{
@@ -3520,23 +3520,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t0966830171D2398ACB9E46D5533F6E16E0E17
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:231>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:231>
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_6 = V_1;
 		NullCheck(L_6);
 		Type_t* L_7 = L_6->___Processor;
 		RuntimeObject* L_8;
 		L_8 = Activator_CreateInstance_mFF030428C64FDDFACC74DFAC97388A1C628BFBCF(L_7, NULL);
 		V_2 = ((fsObjectProcessor_t9E572207DB5D24F4D84D95A87256118309A4886E*)CastclassClass((RuntimeObject*)L_8, fsObjectProcessor_t9E572207DB5D24F4D84D95A87256118309A4886E_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:232>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:232>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_9 = (List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371*)il2cpp_codegen_object_new(List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371_il2cpp_TypeInfo_var);
 		List_1__ctor_mD35EF916556ABEA0C4DBF0F6CE4D46EBE5F1EB76(L_9, List_1__ctor_mD35EF916556ABEA0C4DBF0F6CE4D46EBE5F1EB76_RuntimeMethod_var);
 		V_0 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:233>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:233>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_10 = V_0;
 		fsObjectProcessor_t9E572207DB5D24F4D84D95A87256118309A4886E* L_11 = V_2;
 		NullCheck(L_10);
 		List_1_Add_mCDA09D22F6F20C1B99733B4CEF54FBD4E51E6969_inline(L_10, L_11, List_1_Add_mCDA09D22F6F20C1B99733B4CEF54FBD4E51E6969_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:234>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:234>
 		Dictionary_2_tE3EF7F86044FEAF4A82EDAA759940ACF6ABF5A04* L_12 = __this->____cachedProcessors;
 		Type_t* L_13 = ___0_type;
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_14 = V_0;
@@ -3547,7 +3547,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t0966830171D2398ACB9E46D5533F6E16E0E17
 
 IL_0045:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:236>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:236>
 		Dictionary_2_tE3EF7F86044FEAF4A82EDAA759940ACF6ABF5A04* L_15 = __this->____cachedProcessors;
 		Type_t* L_16 = ___0_type;
 		NullCheck(L_15);
@@ -3559,25 +3559,25 @@ IL_0045:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:238>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:238>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_18 = (List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371*)il2cpp_codegen_object_new(List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371_il2cpp_TypeInfo_var);
 		List_1__ctor_mD35EF916556ABEA0C4DBF0F6CE4D46EBE5F1EB76(L_18, List_1__ctor_mD35EF916556ABEA0C4DBF0F6CE4D46EBE5F1EB76_RuntimeMethod_var);
 		V_0 = L_18;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:240>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:240>
 		V_3 = 0;
 		goto IL_0083;
 	}
 
 IL_005f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:242>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:242>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_19 = __this->____processors;
 		int32_t L_20 = V_3;
 		NullCheck(L_19);
 		fsObjectProcessor_t9E572207DB5D24F4D84D95A87256118309A4886E* L_21;
 		L_21 = List_1_get_Item_mD24AAD8C088B52787627EFD12BB53604867221C4(L_19, L_20, List_1_get_Item_mD24AAD8C088B52787627EFD12BB53604867221C4_RuntimeMethod_var);
 		V_4 = L_21;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:243>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:243>
 		fsObjectProcessor_t9E572207DB5D24F4D84D95A87256118309A4886E* L_22 = V_4;
 		Type_t* L_23 = ___0_type;
 		NullCheck(L_22);
@@ -3589,7 +3589,7 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:245>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:245>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_25 = V_0;
 		fsObjectProcessor_t9E572207DB5D24F4D84D95A87256118309A4886E* L_26 = V_4;
 		NullCheck(L_25);
@@ -3598,14 +3598,14 @@ IL_005f:
 
 IL_007f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:240>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:240>
 		int32_t L_27 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_0083:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:240>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:240>
 		int32_t L_28 = V_3;
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_29 = __this->____processors;
 		NullCheck(L_29);
@@ -3617,7 +3617,7 @@ IL_0083:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:249>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:249>
 		Dictionary_2_tE3EF7F86044FEAF4A82EDAA759940ACF6ABF5A04* L_31 = __this->____cachedProcessors;
 		Type_t* L_32 = ___0_type;
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_33 = V_0;
@@ -3627,12 +3627,12 @@ IL_0083:
 
 IL_009e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:252>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:252>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_34 = V_0;
 		return L_34;
 	}
 }
-// Method Definition Index: 56208
+// Method Definition Index: 85851
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_AddConverter_m7EE7A34BDDD2065481BEB0457C9572270588ED59 (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* ___0_converter, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3660,7 +3660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_AddConverter_m7EE7A34BDDD20
 	String_t* G_B12_0 = NULL;
 	String_t* G_B12_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:261>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:261>
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_0 = ___0_converter;
 		NullCheck(L_0);
 		fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* L_1 = L_0->___Serializer;
@@ -3670,8 +3670,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_AddConverter_m7EE7A34BDDD20
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:263>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:264>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:263>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:264>
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_2 = ___0_converter;
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_3 = L_2;
 		if (L_3)
@@ -3709,7 +3709,7 @@ IL_001a:
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:269>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:269>
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_7 = ___0_converter;
 		if (!((fsDirectConverter_t9EE506A371C95C62E21CA6586396D7B3BD55F668*)IsInstClass((RuntimeObject*)L_7, fsDirectConverter_t9EE506A371C95C62E21CA6586396D7B3BD55F668_il2cpp_TypeInfo_var)))
 		{
@@ -3717,10 +3717,10 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:271>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:271>
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_8 = ___0_converter;
 		V_0 = ((fsDirectConverter_t9EE506A371C95C62E21CA6586396D7B3BD55F668*)CastclassClass((RuntimeObject*)L_8, fsDirectConverter_t9EE506A371C95C62E21CA6586396D7B3BD55F668_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:272>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:272>
 		Dictionary_2_tE2FB86855847810E74AE4F09A6480D6AE3251A51* L_9 = __this->____availableDirectConverters;
 		fsDirectConverter_t9EE506A371C95C62E21CA6586396D7B3BD55F668* L_10 = V_0;
 		NullCheck(L_10);
@@ -3734,7 +3734,7 @@ IL_0025:
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:274>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:274>
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_13 = ___0_converter;
 		if (!((fsConverter_tFCDE4B68CAA0B3317FAC29FAAF380AF759141918*)IsInstClass((RuntimeObject*)L_13, fsConverter_tFCDE4B68CAA0B3317FAC29FAAF380AF759141918_il2cpp_TypeInfo_var)))
 		{
@@ -3742,7 +3742,7 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:276>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:276>
 		List_1_t2914BC22C8C5E8C02F2AB4FA0C6EBD117DA2A753* L_14 = __this->____availableConverters;
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_15 = ___0_converter;
 		NullCheck(L_14);
@@ -3752,9 +3752,9 @@ IL_0048:
 
 IL_0064:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:280>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:281>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:282>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:280>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:281>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:282>
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_16 = ___0_converter;
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_17 = L_16;
 		if (L_17)
@@ -3792,21 +3792,21 @@ IL_0076:
 
 IL_0086:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:285>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:285>
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_21 = ___0_converter;
 		NullCheck(L_21);
 		L_21->___Serializer = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_21->___Serializer), (void*)__this);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:291>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:291>
 		Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9* L_22 = (Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9*)il2cpp_codegen_object_new(Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mB5CDA1FF0E6EC5D5D1DBF3E4E9700D59884FE936(L_22, Dictionary_2__ctor_mB5CDA1FF0E6EC5D5D1DBF3E4E9700D59884FE936_RuntimeMethod_var);
 		__this->____cachedConverters = L_22;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cachedConverters), (void*)L_22);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:292>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:292>
 		return;
 	}
 }
-// Method Definition Index: 56209
+// Method Definition Index: 85852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* fsSerializer_GetConverter_m3FBA1F6CC05EF20F9F31F1CEE65DCABB40218495 (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t* ___0_type, Type_t* ___1_overrideConverterType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3838,7 +3838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsBaseConverter_tDF9366828A5B8ADB6D986EB35B32
 	String_t* G_B22_0 = NULL;
 	String_t* G_B22_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:301>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:301>
 		Type_t* L_0 = ___1_overrideConverterType;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		bool L_1;
@@ -3849,7 +3849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsBaseConverter_tDF9366828A5B8ADB6D986EB35B32
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:304>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:304>
 		Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9* L_2 = __this->____cachedConverterTypeInstances;
 		Type_t* L_3 = ___1_overrideConverterType;
 		NullCheck(L_2);
@@ -3861,17 +3861,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsBaseConverter_tDF9366828A5B8ADB6D986EB35B32
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:306>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:306>
 		Type_t* L_5 = ___1_overrideConverterType;
 		RuntimeObject* L_6;
 		L_6 = Activator_CreateInstance_mFF030428C64FDDFACC74DFAC97388A1C628BFBCF(L_5, NULL);
 		V_1 = ((fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04*)CastclassClass((RuntimeObject*)L_6, fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:307>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:307>
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_7 = V_1;
 		NullCheck(L_7);
 		L_7->___Serializer = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___Serializer), (void*)__this);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:308>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:308>
 		Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9* L_8 = __this->____cachedConverterTypeInstances;
 		Type_t* L_9 = ___1_overrideConverterType;
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_10 = V_1;
@@ -3881,14 +3881,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsBaseConverter_tDF9366828A5B8ADB6D986EB35B32
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:311>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:311>
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_11 = V_1;
 		return L_11;
 	}
 
 IL_003b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:316>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:316>
 		Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9* L_12 = __this->____cachedConverters;
 		Type_t* L_13 = ___0_type;
 		NullCheck(L_12);
@@ -3900,20 +3900,20 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:318>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:318>
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_15 = V_0;
 		return L_15;
 	}
 
 IL_004d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:326>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:326>
 		Type_t* L_16 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_17;
 		L_17 = fsPortableReflection_GetAttribute_TisfsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38_m05C71253753EF477CA25996DA4B7A36E67881A2A(L_16, fsPortableReflection_GetAttribute_TisfsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38_m05C71253753EF477CA25996DA4B7A36E67881A2A_RuntimeMethod_var);
 		V_2 = L_17;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:327>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:327>
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_18 = V_2;
 		if (!L_18)
 		{
@@ -3933,19 +3933,19 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:329>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:329>
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_22 = V_2;
 		NullCheck(L_22);
 		Type_t* L_23 = L_22->___Converter;
 		RuntimeObject* L_24;
 		L_24 = Activator_CreateInstance_mFF030428C64FDDFACC74DFAC97388A1C628BFBCF(L_23, NULL);
 		V_0 = ((fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04*)CastclassClass((RuntimeObject*)L_24, fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:330>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:330>
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_25 = V_0;
 		NullCheck(L_25);
 		L_25->___Serializer = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_25->___Serializer), (void*)__this);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:331>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:331>
 		Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9* L_26 = __this->____cachedConverters;
 		Type_t* L_27 = ___0_type;
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_28 = V_0;
@@ -3959,13 +3959,13 @@ IL_004d:
 
 IL_008e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:337>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:337>
 		Type_t* L_31 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		fsForwardAttribute_t1D3D685C440B655326047AF49B02433133B96B05* L_32;
 		L_32 = fsPortableReflection_GetAttribute_TisfsForwardAttribute_t1D3D685C440B655326047AF49B02433133B96B05_mC7A338AFD4CEFD32A738593F89EFC8761302AE8E(L_31, fsPortableReflection_GetAttribute_TisfsForwardAttribute_t1D3D685C440B655326047AF49B02433133B96B05_mC7A338AFD4CEFD32A738593F89EFC8761302AE8E_RuntimeMethod_var);
 		V_4 = L_32;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:338>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:338>
 		fsForwardAttribute_t1D3D685C440B655326047AF49B02433133B96B05* L_33 = V_4;
 		if (!L_33)
 		{
@@ -3973,17 +3973,17 @@ IL_008e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:340>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:340>
 		fsForwardAttribute_t1D3D685C440B655326047AF49B02433133B96B05* L_34 = V_4;
 		fsForwardConverter_t743C297CFC8E0727F4B601F96F7FA79A8E543474* L_35 = (fsForwardConverter_t743C297CFC8E0727F4B601F96F7FA79A8E543474*)il2cpp_codegen_object_new(fsForwardConverter_t743C297CFC8E0727F4B601F96F7FA79A8E543474_il2cpp_TypeInfo_var);
 		fsForwardConverter__ctor_mB658EBCDE1BF8CDAB66C52D3EAC9B8A1521BA45C(L_35, L_34, NULL);
 		V_0 = L_35;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:341>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:341>
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_36 = V_0;
 		NullCheck(L_36);
 		L_36->___Serializer = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_36->___Serializer), (void*)__this);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:342>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:342>
 		Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9* L_37 = __this->____cachedConverters;
 		Type_t* L_38 = ___0_type;
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_39 = V_0;
@@ -3997,7 +3997,7 @@ IL_008e:
 
 IL_00ba:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:348>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:348>
 		Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9* L_42 = __this->____cachedConverters;
 		Type_t* L_43 = ___0_type;
 		NullCheck(L_42);
@@ -4009,7 +4009,7 @@ IL_00ba:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:350>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:350>
 		Dictionary_2_tE2FB86855847810E74AE4F09A6480D6AE3251A51* L_45 = __this->____availableDirectConverters;
 		Type_t* L_46 = ___0_type;
 		NullCheck(L_45);
@@ -4021,14 +4021,14 @@ IL_00ba:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:352>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:352>
 		Dictionary_2_tE2FB86855847810E74AE4F09A6480D6AE3251A51* L_48 = __this->____availableDirectConverters;
 		Type_t* L_49 = ___0_type;
 		NullCheck(L_48);
 		fsDirectConverter_t9EE506A371C95C62E21CA6586396D7B3BD55F668* L_50;
 		L_50 = Dictionary_2_get_Item_m03C05F5202299C61D30B8A1C8ABE607805AA27D4(L_48, L_49, Dictionary_2_get_Item_m03C05F5202299C61D30B8A1C8ABE607805AA27D4_RuntimeMethod_var);
 		V_0 = L_50;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:353>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:353>
 		Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9* L_51 = __this->____cachedConverters;
 		Type_t* L_52 = ___0_type;
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_53 = V_0;
@@ -4042,14 +4042,14 @@ IL_00ba:
 
 IL_00f6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:357>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:357>
 		V_5 = 0;
 		goto IL_0135;
 	}
 
 IL_00fb:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:359>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:359>
 		List_1_t2914BC22C8C5E8C02F2AB4FA0C6EBD117DA2A753* L_56 = __this->____availableConverters;
 		int32_t L_57 = V_5;
 		NullCheck(L_56);
@@ -4065,14 +4065,14 @@ IL_00fb:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:361>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:361>
 		List_1_t2914BC22C8C5E8C02F2AB4FA0C6EBD117DA2A753* L_61 = __this->____availableConverters;
 		int32_t L_62 = V_5;
 		NullCheck(L_61);
 		fsConverter_tFCDE4B68CAA0B3317FAC29FAAF380AF759141918* L_63;
 		L_63 = List_1_get_Item_mFE1A276AEA1BBBE5F49BAA586C8D6EC38F9D0FC3(L_61, L_62, List_1_get_Item_mFE1A276AEA1BBBE5F49BAA586C8D6EC38F9D0FC3_RuntimeMethod_var);
 		V_0 = L_63;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:362>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:362>
 		Dictionary_2_t2D6F98B40EECAA8060D2BCF6EA2281CEF7255AE9* L_64 = __this->____cachedConverters;
 		Type_t* L_65 = ___0_type;
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_66 = V_0;
@@ -4086,14 +4086,14 @@ IL_00fb:
 
 IL_012f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:357>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:357>
 		int32_t L_69 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_69, 1));
 	}
 
 IL_0135:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:357>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:357>
 		int32_t L_70 = V_5;
 		List_1_t2914BC22C8C5E8C02F2AB4FA0C6EBD117DA2A753* L_71 = __this->____availableConverters;
 		NullCheck(L_71);
@@ -4107,7 +4107,7 @@ IL_0135:
 
 IL_0144:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:368>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:368>
 		Type_t* L_73 = ___0_type;
 		Type_t* L_74 = L_73;
 		if (L_74)
@@ -4143,11 +4143,11 @@ IL_0156:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_77, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&fsSerializer_GetConverter_m3FBA1F6CC05EF20F9F31F1CEE65DCABB40218495_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 56212
+// Method Definition Index: 85855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsSerializer_TrySerialize_mADDE6667080A2E2C69A54662C47111A08A7EC006 (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t* ___0_storageType, RuntimeObject* ___1_instance, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** ___2_data, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:409>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:409>
 		Type_t* L_0 = ___0_storageType;
 		RuntimeObject* L_1 = ___1_instance;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_2 = ___2_data;
@@ -4156,7 +4156,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		return L_3;
 	}
 }
-// Method Definition Index: 56213
+// Method Definition Index: 85856
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsSerializer_TrySerialize_m2E029A68D43C8F4783B5912AB8004658E41AB84B (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t* ___0_storageType, Type_t* ___1_overrideConverterType, RuntimeObject* ___2_instance, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** ___3_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4179,7 +4179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 	Type_t* G_B3_0 = NULL;
 	fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* G_B3_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:432>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:432>
 		RuntimeObject* L_0 = ___2_instance;
 		if (!L_0)
 		{
@@ -4214,13 +4214,13 @@ IL_000d:
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:437>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:437>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_5 = V_0;
 		Type_t* L_6 = ___0_storageType;
 		RuntimeObject* L_7 = ___2_instance;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		fsSerializer_Invoke_OnBeforeSerialize_m24BD9C61E67A5AC371884D793C2F3B3C7CFF095C(L_5, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:438>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:438>
 		goto IL_0032;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -4236,13 +4236,13 @@ IL_000d:
 CATCH_001d:
 	{
 		Exception_t* L_8 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:441>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:441>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_9 = ___3_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_10 = (fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23_il2cpp_TypeInfo_var)));
 		fsData__ctor_mA4E52DCE50BB43C4429E77519CDBD113343180DC(L_10, NULL);
 		*((RuntimeObject**)L_9) = (RuntimeObject*)L_10;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_9, (void*)(RuntimeObject*)L_10);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:442>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:442>
 		NullCheck(L_8);
 		String_t* L_11;
 		L_11 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_8);
@@ -4256,7 +4256,7 @@ CATCH_001d:
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:446>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:446>
 		RuntimeObject* L_13 = ___2_instance;
 		if (L_13)
 		{
@@ -4264,20 +4264,20 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:448>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:448>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_14 = ___3_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_15 = (fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23*)il2cpp_codegen_object_new(fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23_il2cpp_TypeInfo_var);
 		fsData__ctor_mA4E52DCE50BB43C4429E77519CDBD113343180DC(L_15, NULL);
 		*((RuntimeObject**)L_14) = (RuntimeObject*)L_15;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_14, (void*)(RuntimeObject*)L_15);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:449>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:449>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_16 = V_0;
 		Type_t* L_17 = ___0_storageType;
 		RuntimeObject* L_18 = ___2_instance;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_19 = ___3_data;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		fsSerializer_Invoke_OnAfterSerialize_m6D2CA5F43C91291C965239F884CB603D89C30293(L_16, L_17, L_18, L_19, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:450>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:450>
 		il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_20 = ((fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_StaticFields*)il2cpp_codegen_static_fields_for(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var))->___Success;
 		return L_20;
@@ -4285,7 +4285,7 @@ IL_0032:
 
 IL_004d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:453>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:453>
 		Type_t* L_21 = ___0_storageType;
 		Type_t* L_22 = ___1_overrideConverterType;
 		RuntimeObject* L_23 = ___2_instance;
@@ -4296,14 +4296,14 @@ IL_004d:
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:457>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:457>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_26 = V_0;
 		Type_t* L_27 = ___0_storageType;
 		RuntimeObject* L_28 = ___2_instance;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_29 = ___3_data;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		fsSerializer_Invoke_OnAfterSerialize_m6D2CA5F43C91291C965239F884CB603D89C30293(L_26, L_27, L_28, L_29, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:458>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:458>
 		goto IL_007a;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -4319,9 +4319,9 @@ IL_004d:
 CATCH_0065:
 	{
 		Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:459>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:459>
 		V_3 = L_30;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:461>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:461>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_31 = V_1;
 		Exception_t* L_32 = V_3;
 		NullCheck(L_32);
@@ -4333,26 +4333,26 @@ CATCH_0065:
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_35;
 		L_35 = fsResult_op_Addition_mA94A4AD68668E539DEFE1255DC72B9D11A6DE41C(L_31, L_34, NULL);
 		V_1 = L_35;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:462>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:462>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_007a;
 	}
 
 IL_007a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:463>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:463>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_36 = V_1;
 		return L_36;
 	}
 
 IL_007c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:464>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:464>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_37 = V_2;
 		return L_37;
 	}
 }
-// Method Definition Index: 56214
+// Method Definition Index: 85857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsSerializer_InternalSerialize_1_ProcessCycles_m81B0B13FD1CA775E3686E91C753424BF2717D9AF (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t* ___0_storageType, Type_t* ___1_overrideConverterType, RuntimeObject* ___2_instance, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** ___3_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4373,7 +4373,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 FINALLY_00b6:
 			{
 				{
-					//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:520>
+					//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:520>
 					fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* L_0 = __this->____references;
 					NullCheck(L_0);
 					bool L_1;
@@ -4384,7 +4384,7 @@ FINALLY_00b6:
 					}
 				}
 				{
-					//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:522>
+					//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:522>
 					fsLazyCycleDefinitionWriter_t8DA7FBB3131ECC4D5F09CC4D66DE74961DA5511A* L_2 = __this->____lazyReferenceWriter;
 					NullCheck(L_2);
 					fsLazyCycleDefinitionWriter_Clear_mF81302B0538AD1FBA244D919EF7429B935B1157C(L_2, NULL);
@@ -4392,7 +4392,7 @@ FINALLY_00b6:
 
 IL_00ce:
 				{
-					//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:524>
+					//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:524>
 					return;
 				}
 			}
@@ -4400,11 +4400,11 @@ IL_00ce:
 		try
 		{
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:476>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:476>
 				fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* L_3 = __this->____references;
 				NullCheck(L_3);
 				fsCyclicReferenceManager_Enter_m28863BBFD4BDEF23F1DCBC9D2FC71D797EB2FDB4(L_3, NULL);
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:479>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:479>
 				RuntimeObject* L_4 = ___2_instance;
 				NullCheck(L_4);
 				Type_t* L_5;
@@ -4412,7 +4412,7 @@ IL_00ce:
 				Type_t* L_6 = ___1_overrideConverterType;
 				fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_7;
 				L_7 = fsSerializer_GetConverter_m3FBA1F6CC05EF20F9F31F1CEE65DCABB40218495(__this, L_5, L_6, NULL);
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:480>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:480>
 				RuntimeObject* L_8 = ___2_instance;
 				NullCheck(L_8);
 				Type_t* L_9;
@@ -4426,7 +4426,7 @@ IL_00ce:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:482>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:482>
 				Type_t* L_11 = ___0_storageType;
 				Type_t* L_12 = ___1_overrideConverterType;
 				RuntimeObject* L_13 = ___2_instance;
@@ -4439,7 +4439,7 @@ IL_00ce:
 
 IL_0036_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:491>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:491>
 				fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* L_16 = __this->____references;
 				RuntimeObject* L_17 = ___2_instance;
 				NullCheck(L_16);
@@ -4451,14 +4451,14 @@ IL_0036_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:493>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:493>
 				fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_19 = ___3_data;
 				il2cpp_codegen_runtime_class_init_inline(fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23_il2cpp_TypeInfo_var);
 				fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_20;
 				L_20 = fsData_CreateDictionary_m90ED2CCE0AE0A70F6E6D91181080DE89DCA7C53D(NULL);
 				*((RuntimeObject**)L_19) = (RuntimeObject*)L_20;
 				Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_19, (void*)(RuntimeObject*)L_20);
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:494>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:494>
 				fsLazyCycleDefinitionWriter_t8DA7FBB3131ECC4D5F09CC4D66DE74961DA5511A* L_21 = __this->____lazyReferenceWriter;
 				fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* L_22 = __this->____references;
 				RuntimeObject* L_23 = ___2_instance;
@@ -4472,7 +4472,7 @@ IL_0036_1:
 				L_27 = fsData_get_AsDictionary_m51779E71BBC994A7F5036BFB43F61B28C0817D86(L_26, NULL);
 				NullCheck(L_21);
 				fsLazyCycleDefinitionWriter_WriteReference_mACBE88BD37EDA06D992F9FF0A30B0D3BBE33FD74(L_21, L_24, L_27, NULL);
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:495>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:495>
 				il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 				fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_28 = ((fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_StaticFields*)il2cpp_codegen_static_fields_for(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var))->___Success;
 				V_1 = L_28;
@@ -4481,12 +4481,12 @@ IL_0036_1:
 
 IL_0073_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:503>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:503>
 				fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* L_29 = __this->____references;
 				RuntimeObject* L_30 = ___2_instance;
 				NullCheck(L_29);
 				fsCyclicReferenceManager_MarkSerialized_m8CD82B690712E7EEE90E8B7C15EAF22E2E76B952(L_29, L_30, NULL);
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:508>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:508>
 				Type_t* L_31 = ___0_storageType;
 				Type_t* L_32 = ___1_overrideConverterType;
 				RuntimeObject* L_33 = ___2_instance;
@@ -4494,7 +4494,7 @@ IL_0073_1:
 				fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_35;
 				L_35 = fsSerializer_InternalSerialize_2_Inheritance_mDDDBA4731B6545294441CB77CB1CEB115C5A2037(__this, L_31, L_32, L_33, L_34, NULL);
 				V_0 = L_35;
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:509>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:509>
 				il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 				bool L_36;
 				L_36 = fsResult_get_Failed_m1398C627A72E75F5C7F8DB1A7C14E5B3271FF1FB((&V_0), NULL);
@@ -4504,7 +4504,7 @@ IL_0073_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:511>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:511>
 				fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_37 = V_0;
 				V_1 = L_37;
 				goto IL_00cf;
@@ -4512,7 +4512,7 @@ IL_0073_1:
 
 IL_0098_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:514>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:514>
 				fsLazyCycleDefinitionWriter_t8DA7FBB3131ECC4D5F09CC4D66DE74961DA5511A* L_38 = __this->____lazyReferenceWriter;
 				fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* L_39 = __this->____references;
 				RuntimeObject* L_40 = ___2_instance;
@@ -4523,7 +4523,7 @@ IL_0098_1:
 				fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_43 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_42);
 				NullCheck(L_38);
 				fsLazyCycleDefinitionWriter_WriteDefinition_mE5A307D8E186FF9645CA85A979D7B781C1A8C665(L_38, L_41, L_43, NULL);
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:516>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:516>
 				fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_44 = V_0;
 				V_1 = L_44;
 				goto IL_00cf;
@@ -4537,12 +4537,12 @@ IL_0098_1:
 
 IL_00cf:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:525>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:525>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_45 = V_1;
 		return L_45;
 	}
 }
-// Method Definition Index: 56215
+// Method Definition Index: 85858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsSerializer_InternalSerialize_2_Inheritance_mDDDBA4731B6545294441CB77CB1CEB115C5A2037 (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t* ___0_storageType, Type_t* ___1_overrideConverterType, RuntimeObject* ___2_instance, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** ___3_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4562,14 +4562,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 	Type_t* V_1 = NULL;
 	Type_t* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:531>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:531>
 		Type_t* L_0 = ___1_overrideConverterType;
 		RuntimeObject* L_1 = ___2_instance;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_2 = ___3_data;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_3;
 		L_3 = fsSerializer_InternalSerialize_3_ProcessVersioning_m59970A3730FC476B186B8D9A9E258C4E3CB2C338(__this, L_0, L_1, L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:532>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:532>
 		il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 		bool L_4;
 		L_4 = fsResult_get_Failed_m1398C627A72E75F5C7F8DB1A7C14E5B3271FF1FB((&V_0), NULL);
@@ -4579,15 +4579,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:534>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:534>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_5 = V_0;
 		return L_5;
 	}
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:544>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:545>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:544>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:545>
 		Type_t* L_6 = ___0_storageType;
 		RuntimeObject* L_7 = ___2_instance;
 		NullCheck(L_7);
@@ -4616,13 +4616,13 @@ IL_0016:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:547>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:547>
 		RuntimeObject* L_15 = ___2_instance;
 		NullCheck(L_15);
 		Type_t* L_16;
 		L_16 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_15, NULL);
 		V_1 = L_16;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:569>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:569>
 		RuntimeObject* L_17 = ___2_instance;
 		if (!((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_17, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)))
 		{
@@ -4630,23 +4630,23 @@ IL_0016:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:571>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:571>
 		Type_t* L_18 = V_1;
 		V_2 = L_18;
 	}
 
 IL_0045:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:575>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:575>
 		Type_t* L_19 = V_2;
 		V_1 = L_19;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:576>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:576>
 		Type_t* L_20 = V_2;
 		NullCheck(L_20);
 		Type_t* L_21;
-		L_21 = VirtualFuncInvoker0< Type_t* >::Invoke(114, L_20);
+		L_21 = VirtualFuncInvoker0< Type_t* >::Invoke(117, L_20);
 		V_2 = L_21;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:578>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:578>
 		Type_t* L_22 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		bool L_23;
@@ -4674,7 +4674,7 @@ IL_0045:
 		Type_t* L_29 = V_2;
 		NullCheck(L_28);
 		bool L_30;
-		L_30 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_28, L_29);
+		L_30 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_28, L_29);
 		if (L_30)
 		{
 			goto IL_0045;
@@ -4683,12 +4683,12 @@ IL_0045:
 
 IL_0072:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:584>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:584>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_31 = ___3_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_32 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_31);
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		fsSerializer_EnsureDictionary_m852412879A44895491BB671AB6D9A29CCD1E7760(L_32, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:585>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:585>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_33 = ___3_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_34 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_33);
 		NullCheck(L_34);
@@ -4707,12 +4707,12 @@ IL_0072:
 
 IL_0097:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:588>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:588>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_40 = V_0;
 		return L_40;
 	}
 }
-// Method Definition Index: 56216
+// Method Definition Index: 85859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsSerializer_InternalSerialize_3_ProcessVersioning_m59970A3730FC476B186B8D9A9E258C4E3CB2C338 (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t* ___0_overrideConverterType, RuntimeObject* ___1_instance, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** ___2_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4734,7 +4734,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 	fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:601>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:601>
 		RuntimeObject* L_0 = ___1_instance;
 		NullCheck(L_0);
 		Type_t* L_1;
@@ -4743,7 +4743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B81D2A28A L_2;
 		L_2 = fsVersionManager_GetVersionedType_m4CF940685782769880C5341A1C3D2FC703906484(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:602>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:602>
 		bool L_3;
 		L_3 = fsOption_1_get_HasValue_mA83E56B4674C678E7C760EABB73397EF37356E6F_inline((&V_0), fsOption_1_get_HasValue_mA83E56B4674C678E7C760EABB73397EF37356E6F_RuntimeMethod_var);
 		if (!L_3)
@@ -4752,18 +4752,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:604>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:604>
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_4;
 		L_4 = fsOption_1_get_Value_m06DFFCCEB8E41DDEAEC89C3133DC3E75E3EA2241((&V_0), fsOption_1_get_Value_m06DFFCCEB8E41DDEAEC89C3133DC3E75E3EA2241_RuntimeMethod_var);
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:608>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:608>
 		Type_t* L_5 = ___0_overrideConverterType;
 		RuntimeObject* L_6 = ___1_instance;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_7 = ___2_data;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_8;
 		L_8 = fsSerializer_InternalSerialize_4_Converter_m0695101440E5D807387BFD82D7B5BD841BC22456(__this, L_5, L_6, L_7, NULL);
 		V_2 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:609>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:609>
 		il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 		bool L_9;
 		L_9 = fsResult_get_Failed_m1398C627A72E75F5C7F8DB1A7C14E5B3271FF1FB((&V_2), NULL);
@@ -4773,19 +4773,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:611>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:611>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_10 = V_2;
 		return L_10;
 	}
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:615>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:615>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_11 = ___2_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_12 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_11);
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		fsSerializer_EnsureDictionary_m852412879A44895491BB671AB6D9A29CCD1E7760(L_12, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:616>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:616>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_13 = ___2_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_14 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_13);
 		NullCheck(L_14);
@@ -4798,14 +4798,14 @@ IL_0032:
 		fsData__ctor_m144DD5B09AD525C0F94B2E1750A4256495266F66(L_19, L_18, NULL);
 		NullCheck(L_15);
 		Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8(L_15, L_16, L_19, Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:618>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:618>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_20 = V_2;
 		return L_20;
 	}
 
 IL_0057:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:623>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:623>
 		Type_t* L_21 = ___0_overrideConverterType;
 		RuntimeObject* L_22 = ___1_instance;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_23 = ___2_data;
@@ -4814,18 +4814,18 @@ IL_0057:
 		return L_24;
 	}
 }
-// Method Definition Index: 56217
+// Method Definition Index: 85860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsSerializer_InternalSerialize_4_Converter_m0695101440E5D807387BFD82D7B5BD841BC22456 (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t* ___0_overrideConverterType, RuntimeObject* ___1_instance, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** ___2_data, const RuntimeMethod* method) 
 {
 	Type_t* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:628>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:628>
 		RuntimeObject* L_0 = ___1_instance;
 		NullCheck(L_0);
 		Type_t* L_1;
 		L_1 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:629>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:629>
 		Type_t* L_2 = V_0;
 		Type_t* L_3 = ___0_overrideConverterType;
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_4;
@@ -4839,11 +4839,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		return L_8;
 	}
 }
-// Method Definition Index: 56218
+// Method Definition Index: 85861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsSerializer_TryDeserialize_mBBA19D9240A719A58C3DA23F2D8D4C538C5C81F2 (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___0_data, Type_t* ___1_storageType, RuntimeObject** ___2_result, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:637>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:637>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_0 = ___0_data;
 		Type_t* L_1 = ___1_storageType;
 		RuntimeObject** L_2 = ___2_result;
@@ -4852,7 +4852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		return L_3;
 	}
 }
-// Method Definition Index: 56219
+// Method Definition Index: 85862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsSerializer_TryDeserialize_m675340784F47BA9FF50C193F53A3BAAA1D18D2B9 (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___0_data, Type_t* ___1_storageType, Type_t* ___2_overrideConverterType, RuntimeObject** ___3_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4870,7 +4870,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 	memset((&V_3), 0, sizeof(V_3));
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:645>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:645>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_0 = ___0_data;
 		NullCheck(L_0);
 		bool L_1;
@@ -4881,23 +4881,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:647>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:647>
 		RuntimeObject** L_2 = ___3_result;
 		*((RuntimeObject**)L_2) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_2, (void*)(RuntimeObject*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:648>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:648>
 		Type_t* L_3 = ___1_storageType;
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_4;
 		L_4 = fsSerializer_GetProcessors_mB240A96D2D312CE91D3E14DD67CE734BBBE10217(__this, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:649>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:649>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_5 = L_4;
 		Type_t* L_6 = ___1_storageType;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		fsSerializer_Invoke_OnBeforeDeserialize_m13D482A4E6E930C3117C0A6575BF87C14CDBE3E3(L_5, L_6, (&___0_data), NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:650>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:650>
 		Type_t* L_7 = ___1_storageType;
 		fsSerializer_Invoke_OnAfterDeserialize_m2B62287C736CCBCA14C3A2119A32490A05036974(L_5, L_7, NULL, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:651>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:651>
 		il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_8 = ((fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_StaticFields*)il2cpp_codegen_static_fields_for(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var))->___Success;
 		return L_8;
@@ -4905,7 +4905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:655>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:655>
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		fsSerializer_ConvertLegacyData_mA961F5B0DCE7D15FB7C887586CF793D96B820830((&___0_data), NULL);
 	}
@@ -4915,23 +4915,23 @@ IL_0029:
 
 FINALLY_0077:
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:686>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:686>
 				fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* L_9 = __this->____references;
 				NullCheck(L_9);
 				bool L_10;
 				L_10 = fsCyclicReferenceManager_Exit_m91D1DB5745A082CE50E57ABB26B16E0F3661120F(L_9, NULL);
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:687>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:687>
 				return;
 			}
 		});
 		try
 		{
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:663>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:663>
 				fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* L_11 = __this->____references;
 				NullCheck(L_11);
 				fsCyclicReferenceManager_Enter_m28863BBFD4BDEF23F1DCBC9D2FC71D797EB2FDB4(L_11, NULL);
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:666>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:666>
 				Type_t* L_12 = ___2_overrideConverterType;
 				fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_13 = ___0_data;
 				Type_t* L_14 = ___1_storageType;
@@ -4939,7 +4939,7 @@ FINALLY_0077:
 				fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_16;
 				L_16 = fsSerializer_InternalDeserialize_1_CycleReference_m1D9180F91CE5B8505373E3301E63AB1FBAB9FEE4(__this, L_12, L_13, L_14, L_15, (&V_0), NULL);
 				V_1 = L_16;
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:667>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:667>
 				il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 				bool L_17;
 				L_17 = fsResult_get_Succeeded_m01E08C3B731D94618B867B7B55DCC0061CD11769_inline((&V_1), NULL);
@@ -4950,14 +4950,14 @@ FINALLY_0077:
 			}
 			try
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:675>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:675>
 				List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_18 = V_0;
 				Type_t* L_19 = ___1_storageType;
 				RuntimeObject** L_20 = ___3_result;
 				RuntimeObject* L_21 = *((RuntimeObject**)L_20);
 				il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 				fsSerializer_Invoke_OnAfterDeserialize_m2B62287C736CCBCA14C3A2119A32490A05036974(L_18, L_19, L_21, NULL);
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:676>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:676>
 				goto IL_0073_1;
 			}
 			catch(Il2CppExceptionWrapper& e)
@@ -4973,9 +4973,9 @@ FINALLY_0077:
 CATCH_005e_1:
 			{
 				Exception_t* L_22 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:677>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:677>
 				V_2 = L_22;
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:679>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:679>
 				fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_23 = V_1;
 				Exception_t* L_24 = V_2;
 				NullCheck(L_24);
@@ -4987,14 +4987,14 @@ CATCH_005e_1:
 				fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_27;
 				L_27 = fsResult_op_Addition_mA94A4AD68668E539DEFE1255DC72B9D11A6DE41C(L_23, L_26, NULL);
 				V_1 = L_27;
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:680>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:680>
 				IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 				goto IL_0073_1;
 			}
 
 IL_0073_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:682>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:682>
 				fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_28 = V_1;
 				V_3 = L_28;
 				goto IL_0084;
@@ -5008,12 +5008,12 @@ IL_0073_1:
 
 IL_0084:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:688>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:688>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_29 = V_3;
 		return L_29;
 	}
 }
-// Method Definition Index: 56220
+// Method Definition Index: 85863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsSerializer_InternalDeserialize_1_CycleReference_m1D9180F91CE5B8505373E3301E63AB1FBAB9FEE4 (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t* ___0_overrideConverterType, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___1_data, Type_t* ___2_storageType, RuntimeObject** ___3_result, List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371** ___4_processors, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5026,7 +5026,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:705>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:705>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_0 = ___1_data;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5037,7 +5037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:707>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:707>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_2 = ___1_data;
 		NullCheck(L_2);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_3;
@@ -5053,7 +5053,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		int32_t L_7;
 		L_7 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_6, NULL);
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:708>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:708>
 		RuntimeObject** L_8 = ___3_result;
 		fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* L_9 = __this->____references;
 		int32_t L_10 = V_0;
@@ -5062,7 +5062,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		L_11 = fsCyclicReferenceManager_GetReferenceObject_mA7330D4D27E050EE92EC6F5333767307B8E1B7C4(L_9, L_10, NULL);
 		*((RuntimeObject**)L_8) = (RuntimeObject*)L_11;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_8, (void*)(RuntimeObject*)L_11);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:709>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:709>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371** L_12 = ___4_processors;
 		RuntimeObject** L_13 = ___3_result;
 		RuntimeObject* L_14 = *((RuntimeObject**)L_13);
@@ -5073,7 +5073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		L_16 = fsSerializer_GetProcessors_mB240A96D2D312CE91D3E14DD67CE734BBBE10217(__this, L_15, NULL);
 		*((RuntimeObject**)L_12) = (RuntimeObject*)L_16;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_12, (void*)(RuntimeObject*)L_16);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:710>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:710>
 		il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_17 = ((fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_StaticFields*)il2cpp_codegen_static_fields_for(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var))->___Success;
 		return L_17;
@@ -5081,7 +5081,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:713>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:713>
 		Type_t* L_18 = ___0_overrideConverterType;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_19 = ___1_data;
 		Type_t* L_20 = ___2_storageType;
@@ -5092,7 +5092,7 @@ IL_0049:
 		return L_23;
 	}
 }
-// Method Definition Index: 56221
+// Method Definition Index: 85864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsSerializer_InternalDeserialize_2_Version_m41956C872601212418C1DAE44AE54FA43265E8A9 (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t* ___0_overrideConverterType, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___1_data, Type_t* ___2_storageType, RuntimeObject** ___3_result, List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371** ___4_processors, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5119,7 +5119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 	memset((&V_5), 0, sizeof(V_5));
 	int32_t V_6 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:718>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:718>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_0 = ___1_data;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5130,7 +5130,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:721>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:721>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_2 = ___1_data;
 		NullCheck(L_2);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_3;
@@ -5144,14 +5144,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		String_t* L_6;
 		L_6 = fsData_get_AsString_mCF0FBBF9D300BCAC9E0F1C7B6C9DAA4B8AFB9570(L_5, NULL);
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:723>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:723>
 		Type_t* L_7 = ___2_storageType;
 		il2cpp_codegen_runtime_class_init_inline(fsVersionManager_tE7F82D8ACD918E0A88D0ACD0E6B7F2F84755BEC3_il2cpp_TypeInfo_var);
 		fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B81D2A28A L_8;
 		L_8 = fsVersionManager_GetVersionedType_m4CF940685782769880C5341A1C3D2FC703906484(L_7, NULL);
 		V_1 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:724>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:725>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:724>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:725>
 		bool L_9;
 		L_9 = fsOption_1_get_HasValue_mA83E56B4674C678E7C760EABB73397EF37356E6F_inline((&V_1), fsOption_1_get_HasValue_mA83E56B4674C678E7C760EABB73397EF37356E6F_RuntimeMethod_var);
 		if (!L_9)
@@ -5172,11 +5172,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:728>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:728>
 		il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_14 = ((fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_StaticFields*)il2cpp_codegen_static_fields_for(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var))->___Success;
 		V_2 = L_14;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:731>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:731>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_15 = V_2;
 		String_t* L_16 = V_0;
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_17;
@@ -5187,7 +5187,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_19;
 		L_19 = fsResult_op_Addition_mA94A4AD68668E539DEFE1255DC72B9D11A6DE41C(L_15, L_18, NULL);
 		V_2 = L_19;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:732>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:732>
 		bool L_20;
 		L_20 = fsResult_get_Failed_m1398C627A72E75F5C7F8DB1A7C14E5B3271FF1FB((&V_2), NULL);
 		if (!L_20)
@@ -5196,21 +5196,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:734>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:734>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371** L_21 = ___4_processors;
 		Type_t* L_22 = ___2_storageType;
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_23;
 		L_23 = fsSerializer_GetProcessors_mB240A96D2D312CE91D3E14DD67CE734BBBE10217(__this, L_22, NULL);
 		*((RuntimeObject**)L_21) = (RuntimeObject*)L_23;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_21, (void*)(RuntimeObject*)L_23);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:735>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:735>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_24 = V_2;
 		return L_24;
 	}
 
 IL_007c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:739>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:739>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_25 = V_2;
 		Type_t* L_26 = ___0_overrideConverterType;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_27 = ___1_data;
@@ -5227,7 +5227,7 @@ IL_007c:
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_34;
 		L_34 = fsResult_op_Addition_mA94A4AD68668E539DEFE1255DC72B9D11A6DE41C(L_25, L_33, NULL);
 		V_2 = L_34;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:740>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:740>
 		bool L_35;
 		L_35 = fsResult_get_Failed_m1398C627A72E75F5C7F8DB1A7C14E5B3271FF1FB((&V_2), NULL);
 		if (!L_35)
@@ -5236,21 +5236,21 @@ IL_007c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:742>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:742>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_36 = V_2;
 		return L_36;
 	}
 
 IL_00a6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:747>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:747>
 		V_4 = 1;
 		goto IL_00c8;
 	}
 
 IL_00ab:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:749>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:749>
 		RuntimeObject** L_37 = ___3_result;
 		List_1_t7182E9791DD2596935EC5EBF901871476E91B95D* L_38 = V_3;
 		int32_t L_39 = V_4;
@@ -5264,14 +5264,14 @@ IL_00ab:
 		L_43 = fsVersionedType_Migrate_mA2431BCBC723C85F909F6D50CCC218ABFAED65AB((&V_5), L_42, NULL);
 		*((RuntimeObject**)L_37) = (RuntimeObject*)L_43;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_37, (void*)(RuntimeObject*)L_43);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:747>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:747>
 		int32_t L_44 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_44, 1));
 	}
 
 IL_00c8:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:747>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:747>
 		int32_t L_45 = V_4;
 		List_1_t7182E9791DD2596935EC5EBF901871476E91B95D* L_46 = V_3;
 		NullCheck(L_46);
@@ -5283,7 +5283,7 @@ IL_00c8:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:757>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:757>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_48 = ___1_data;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		bool L_49;
@@ -5294,7 +5294,7 @@ IL_00c8:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:759>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:759>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_50 = ___1_data;
 		NullCheck(L_50);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_51;
@@ -5310,7 +5310,7 @@ IL_00c8:
 		int32_t L_55;
 		L_55 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_54, NULL);
 		V_6 = L_55;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:760>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:760>
 		fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* L_56 = __this->____references;
 		int32_t L_57 = V_6;
 		RuntimeObject** L_58 = ___3_result;
@@ -5321,7 +5321,7 @@ IL_00c8:
 
 IL_0106:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:763>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:763>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371** L_60 = ___4_processors;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_61 = V_2;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_62 = L_61;
@@ -5332,14 +5332,14 @@ IL_0106:
 		L_65 = fsSerializer_GetProcessors_mB240A96D2D312CE91D3E14DD67CE734BBBE10217(__this, L_64, NULL);
 		*((RuntimeObject**)L_60) = (RuntimeObject*)L_65;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_60, (void*)(RuntimeObject*)L_65);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:764>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:764>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_66 = V_2;
 		return L_66;
 	}
 
 IL_011c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:768>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:768>
 		Type_t* L_67 = ___0_overrideConverterType;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_68 = ___1_data;
 		Type_t* L_69 = ___2_storageType;
@@ -5350,7 +5350,7 @@ IL_011c:
 		return L_72;
 	}
 }
-// Method Definition Index: 56222
+// Method Definition Index: 85865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsSerializer_InternalDeserialize_3_Inheritance_m43B49A0E8363275937AC5DC9284B87847142886F (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t* ___0_overrideConverterType, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___1_data, Type_t* ___2_storageType, RuntimeObject** ___3_result, List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371** ___4_processors, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5369,14 +5369,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 	Exception_t* V_4 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:773>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:773>
 		il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_0 = ((fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_StaticFields*)il2cpp_codegen_static_fields_for(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var))->___Success;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:775>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:775>
 		Type_t* L_1 = ___2_storageType;
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:781>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:781>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_2 = ___1_data;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -5387,7 +5387,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:783>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:783>
 		Type_t* L_4 = ___2_storageType;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		Type_t* L_5;
@@ -5397,16 +5397,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 
 IL_001b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:785>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:785>
 		fsSerializer_RemapAbstractStorageTypeToDefaultType_mDAACC633FEB7E4E36783EB6617A943521305150A(__this, (&V_1), NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:791>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:791>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371** L_6 = ___4_processors;
 		Type_t* L_7 = V_1;
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_8;
 		L_8 = fsSerializer_GetProcessors_mB240A96D2D312CE91D3E14DD67CE734BBBE10217(__this, L_7, NULL);
 		*((RuntimeObject**)L_6) = (RuntimeObject*)L_8;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_6, (void*)(RuntimeObject*)L_8);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:793>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:793>
 		il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 		bool L_9;
 		L_9 = fsResult_get_Failed_m1398C627A72E75F5C7F8DB1A7C14E5B3271FF1FB((&V_0), NULL);
@@ -5416,7 +5416,7 @@ IL_001b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:795>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:795>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_10 = V_0;
 		return L_10;
 	}
@@ -5426,13 +5426,13 @@ IL_0038:
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:801>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:801>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371** L_11 = ___4_processors;
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_12 = *((List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371**)L_11);
 		Type_t* L_13 = ___2_storageType;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		fsSerializer_Invoke_OnBeforeDeserialize_m13D482A4E6E930C3117C0A6575BF87C14CDBE3E3(L_12, L_13, (&___1_data), NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:802>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:802>
 		goto IL_005d;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -5448,9 +5448,9 @@ IL_0038:
 CATCH_0046:
 	{
 		Exception_t* L_14 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:803>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:803>
 		V_2 = L_14;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:805>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:805>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_15 = V_0;
 		Exception_t* L_16 = V_2;
 		NullCheck(L_16);
@@ -5462,7 +5462,7 @@ CATCH_0046:
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_19;
 		L_19 = fsResult_op_Addition_mA94A4AD68668E539DEFE1255DC72B9D11A6DE41C(L_15, L_18, NULL);
 		V_0 = L_19;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:806>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:806>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_20 = V_0;
 		V_3 = L_20;
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
@@ -5471,7 +5471,7 @@ CATCH_0046:
 
 IL_005d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:812>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:812>
 		RuntimeObject** L_21 = ___3_result;
 		RuntimeObject* L_22 = *((RuntimeObject**)L_21);
 		if (!L_22)
@@ -5497,7 +5497,7 @@ IL_005d:
 
 IL_0072:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:814>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:814>
 		RuntimeObject** L_28 = ___3_result;
 		Type_t* L_29 = V_1;
 		Type_t* L_30 = ___0_overrideConverterType;
@@ -5517,7 +5517,7 @@ IL_0084:
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:822>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:822>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371** L_35 = ___4_processors;
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_36 = *((List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371**)L_35);
 		Type_t* L_37 = ___2_storageType;
@@ -5525,7 +5525,7 @@ IL_0084:
 		RuntimeObject* L_39 = *((RuntimeObject**)L_38);
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		fsSerializer_Invoke_OnBeforeDeserializeAfterInstanceCreation_mDE398ACCB3A5DA6D6BDE4692F1F748D20AF3CA52(L_36, L_37, L_39, (&___1_data), NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:823>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:823>
 		goto IL_00ae;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -5541,9 +5541,9 @@ IL_0084:
 CATCH_0095:
 	{
 		Exception_t* L_40 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:824>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:824>
 		V_4 = L_40;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:826>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:826>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_41 = V_0;
 		Exception_t* L_42 = V_4;
 		NullCheck(L_42);
@@ -5555,7 +5555,7 @@ CATCH_0095:
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_45;
 		L_45 = fsResult_op_Addition_mA94A4AD68668E539DEFE1255DC72B9D11A6DE41C(L_41, L_44, NULL);
 		V_0 = L_45;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:827>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:827>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_46 = V_0;
 		V_3 = L_46;
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
@@ -5564,7 +5564,7 @@ CATCH_0095:
 
 IL_00ae:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:838>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:838>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_47 = V_0;
 		Type_t* L_48 = ___0_overrideConverterType;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_49 = ___1_data;
@@ -5576,19 +5576,19 @@ IL_00ae:
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_53;
 		L_53 = fsResult_op_Addition_mA94A4AD68668E539DEFE1255DC72B9D11A6DE41C(L_47, L_52, NULL);
 		V_0 = L_53;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:839>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:839>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_54 = V_0;
 		return L_54;
 	}
 
 IL_00c2:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:840>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:840>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_55 = V_3;
 		return L_55;
 	}
 }
-// Method Definition Index: 56223
+// Method Definition Index: 85866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsSerializer_InternalDeserialize_4_Cycles_m913C1277065AD471EB7F1F22DEACDE4DE1645521 (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t* ___0_overrideConverterType, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___1_data, Type_t* ___2_resultType, RuntimeObject** ___3_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5600,7 +5600,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:844>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:844>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_0 = ___1_data;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5611,7 +5611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:859>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:859>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_2 = ___1_data;
 		NullCheck(L_2);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_3;
@@ -5627,7 +5627,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		int32_t L_7;
 		L_7 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_6, NULL);
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:860>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:860>
 		fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* L_8 = __this->____references;
 		int32_t L_9 = V_0;
 		RuntimeObject** L_10 = ___3_result;
@@ -5638,7 +5638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:864>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:864>
 		Type_t* L_12 = ___0_overrideConverterType;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_13 = ___1_data;
 		Type_t* L_14 = ___2_resultType;
@@ -5648,7 +5648,7 @@ IL_0032:
 		return L_16;
 	}
 }
-// Method Definition Index: 56224
+// Method Definition Index: 85867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsSerializer_InternalDeserialize_5_Converter_m30EBD20C91E165C4B9BC87FCB1467B9BD4EE8DF6 (fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC* __this, Type_t* ___0_overrideConverterType, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___1_data, Type_t* ___2_resultType, RuntimeObject** ___3_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5659,7 +5659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:869>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:869>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_0 = ___1_data;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5670,7 +5670,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:871>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:871>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_2 = ___1_data;
 		NullCheck(L_2);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_3;
@@ -5685,7 +5685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:874>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:874>
 		Type_t* L_6 = ___2_resultType;
 		Type_t* L_7 = ___0_overrideConverterType;
 		fsBaseConverter_tDF9366828A5B8ADB6D986EB35B320D4DDC81CB04* L_8;
@@ -5699,7 +5699,7 @@ IL_001a:
 		return L_12;
 	}
 }
-// Method Definition Index: 56225
+// Method Definition Index: 85868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* fsSerializer_GetDataType_m064ECD9CDD126B0705BAB7BE0F6A24E0AC1DE13E (fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** ___0_data, Type_t* ___1_defaultType, fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* ___2_deserializeResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5807,17 +5807,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* fsSerializer_GetDataType_m064ECD9CDD1
 	String_t* G_B33_3 = NULL;
 	fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* G_B33_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:881>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:881>
 		Type_t* L_0 = ___1_defaultType;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:882>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:882>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_1 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_2 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_1);
 		NullCheck(L_2);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_3;
 		L_3 = fsData_get_AsDictionary_m51779E71BBC994A7F5036BFB43F61B28C0817D86(L_2, NULL);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:884>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:884>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_4 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		String_t* L_5 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_InstanceType;
@@ -5825,7 +5825,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* fsSerializer_GetDataType_m064ECD9CDD1
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_6;
 		L_6 = Dictionary_2_get_Item_m59AF43E2CA9BAD3A41D15ED3366E583ECE9D5A77(L_4, L_5, Dictionary_2_get_Item_m59AF43E2CA9BAD3A41D15ED3366E583ECE9D5A77_RuntimeMethod_var);
 		V_2 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:885>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:885>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_7 = V_2;
 		NullCheck(L_7);
 		bool L_8;
@@ -5836,7 +5836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* fsSerializer_GetDataType_m064ECD9CDD1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:887>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:887>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_9 = ___2_deserializeResult;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		String_t* L_10 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_InstanceType;
@@ -5881,20 +5881,20 @@ IL_0037:
 		L_15 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(G_B4_2, G_B4_1, G_B4_0, _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D, NULL);
 		il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 		fsResult_AddMessage_mC4B690BC3884FF2D235733FD65081C163B4DDD55(G_B4_3, L_15, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:888>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:888>
 		Type_t* L_16 = V_0;
 		return L_16;
 	}
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:891>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:891>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_17 = V_2;
 		NullCheck(L_17);
 		String_t* L_18;
 		L_18 = fsData_get_AsString_mCF0FBBF9D300BCAC9E0F1C7B6C9DAA4B8AFB9570(L_17, NULL);
 		V_3 = L_18;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:893>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:893>
 		String_t* L_19 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(RuntimeCodebase_t18E8E0360E531C409CBDFCC0EF4600A44CFE871F_il2cpp_TypeInfo_var);
 		bool L_20;
@@ -5905,7 +5905,7 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:895>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:895>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_21 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_22 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_21);
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
@@ -5917,7 +5917,7 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:898>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:898>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_24 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		String_t* L_25 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitFormerValue;
@@ -5930,13 +5930,13 @@ IL_0048:
 		fsData__ctor_m144DD5B09AD525C0F94B2E1750A4256495266F66(L_29, L_28, NULL);
 		NullCheck(L_24);
 		Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8(L_24, L_25, L_29, Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:901>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:901>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_30 = V_1;
 		String_t* L_31 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitFormerType;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_32 = V_2;
 		NullCheck(L_30);
 		Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8(L_30, L_31, L_32, Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:902>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:902>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_33 = V_1;
 		String_t* L_34 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_InstanceType;
 		String_t* L_35 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___TypeName_MissingType;
@@ -5944,7 +5944,7 @@ IL_0048:
 		fsData__ctor_m144DD5B09AD525C0F94B2E1750A4256495266F66(L_36, L_35, NULL);
 		NullCheck(L_33);
 		Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8(L_33, L_34, L_36, Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:905>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:905>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_37 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_38 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_39 = (*(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974*)L_38);
@@ -5982,14 +5982,14 @@ IL_0048:
 		L_53 = fsResult_op_Addition_mA94A4AD68668E539DEFE1255DC72B9D11A6DE41C(L_39, L_52, NULL);
 		*(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974*)L_37 = L_53;
 		Il2CppCodeGenWriteBarrier((void**)&(((fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974*)L_37)->____messages), (void*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:907>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:907>
 		Type_t* L_54 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Type_MissingType;
 		return L_54;
 	}
 
 IL_00f7:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:911>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:911>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_55 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_56 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_57 = (*(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974*)L_56);
@@ -6003,14 +6003,14 @@ IL_00f7:
 		L_61 = fsResult_op_Addition_mA94A4AD68668E539DEFE1255DC72B9D11A6DE41C(L_57, L_60, NULL);
 		*(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974*)L_55 = L_61;
 		Il2CppCodeGenWriteBarrier((void**)&(((fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974*)L_55)->____messages), (void*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:913>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:913>
 		Type_t* L_62 = V_0;
 		return L_62;
 	}
 
 IL_011f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:916>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:916>
 		String_t* L_63 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		String_t* L_64 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___TypeName_MissingType;
@@ -6022,7 +6022,7 @@ IL_011f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:918>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:918>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_66 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		String_t* L_67 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitFormerType;
@@ -6046,7 +6046,7 @@ IL_011f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:920>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:920>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_72 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		String_t* L_73 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitFormerType;
@@ -6057,7 +6057,7 @@ IL_011f:
 		String_t* L_75;
 		L_75 = fsData_get_AsString_mCF0FBBF9D300BCAC9E0F1C7B6C9DAA4B8AFB9570(L_74, NULL);
 		V_5 = L_75;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:921>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:921>
 		String_t* L_76 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(RuntimeCodebase_t18E8E0360E531C409CBDFCC0EF4600A44CFE871F_il2cpp_TypeInfo_var);
 		bool L_77;
@@ -6068,19 +6068,19 @@ IL_011f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:924>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:924>
 		Type_t* L_78 = ___1_defaultType;
 		Type_t* L_79 = V_6;
 		NullCheck(L_78);
 		bool L_80;
-		L_80 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_78, L_79);
+		L_80 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_78, L_79);
 		if (!L_80)
 		{
 			goto IL_0291;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:927>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:927>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_81 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		String_t* L_82 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitFormerValue;
@@ -6093,7 +6093,7 @@ IL_011f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:930>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:930>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_84 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		String_t* L_85 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitPosition;
@@ -6101,7 +6101,7 @@ IL_011f:
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_86;
 		L_86 = Dictionary_2_get_Item_m59AF43E2CA9BAD3A41D15ED3366E583ECE9D5A77(L_84, L_85, Dictionary_2_get_Item_m59AF43E2CA9BAD3A41D15ED3366E583ECE9D5A77_RuntimeMethod_var);
 		V_7 = L_86;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:932>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:932>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_87 = ___0_data;
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_88 = V_1;
 		String_t* L_89 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitFormerValue;
@@ -6115,20 +6115,20 @@ IL_011f:
 		L_92 = fsJsonParser_Parse_m8BE8A63CD24E3C0D05A65A977FF70AC8E1D34336(L_91, NULL);
 		*((RuntimeObject**)L_87) = (RuntimeObject*)L_92;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_87, (void*)(RuntimeObject*)L_92);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:933>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:933>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_93 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_94 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_93);
 		NullCheck(L_94);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_95;
 		L_95 = fsData_get_AsDictionary_m51779E71BBC994A7F5036BFB43F61B28C0817D86(L_94, NULL);
 		V_1 = L_95;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:935>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:935>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_96 = V_1;
 		String_t* L_97 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitPosition;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_98 = V_7;
 		NullCheck(L_96);
 		Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8(L_96, L_97, L_98, Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:937>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:937>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_99 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_100 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_101 = (*(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974*)L_100);
@@ -6171,7 +6171,7 @@ IL_011f:
 
 IL_0216:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:942>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:942>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_116 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		String_t* L_117 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_InstanceType;
@@ -6180,7 +6180,7 @@ IL_0216:
 		fsData__ctor_m144DD5B09AD525C0F94B2E1750A4256495266F66(L_119, L_118, NULL);
 		NullCheck(L_116);
 		Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8(L_116, L_117, L_119, Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:943>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:943>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_120 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_121 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_122 = (*(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974*)L_121);
@@ -6270,17 +6270,17 @@ IL_0277:
 
 IL_028c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:946>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:946>
 		Type_t* L_142 = V_6;
 		V_0 = L_142;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:947>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:947>
 		Type_t* L_143 = V_0;
 		return L_143;
 	}
 
 IL_0291:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:951>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:951>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_144 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_145 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_146 = (*(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974*)L_145);
@@ -6299,7 +6299,7 @@ IL_0291:
 		Type_t* L_153 = ___1_defaultType;
 		NullCheck(L_153);
 		String_t* L_154;
-		L_154 = VirtualFuncInvoker0< String_t* >::Invoke(25, L_153);
+		L_154 = VirtualFuncInvoker0< String_t* >::Invoke(26, L_153);
 		NullCheck(L_152);
 		(L_152)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_154);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_155 = L_152;
@@ -6327,7 +6327,7 @@ IL_0291:
 
 IL_02ea:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:956>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:956>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_162 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_163 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_164 = (*(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974*)L_163);
@@ -6346,7 +6346,7 @@ IL_02ea:
 
 IL_0313:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:961>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:961>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_169 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_170 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_171 = (*(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974*)L_170);
@@ -6365,19 +6365,19 @@ IL_0313:
 
 IL_033d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:965>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:965>
 		Type_t* L_176 = ___1_defaultType;
 		Type_t* L_177 = V_4;
 		NullCheck(L_176);
 		bool L_178;
-		L_178 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_176, L_177);
+		L_178 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_176, L_177);
 		if (L_178)
 		{
 			goto IL_0424;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:968>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:968>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_179 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_180 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_179);
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
@@ -6389,14 +6389,14 @@ IL_033d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:971>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:971>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_182 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		String_t* L_183 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitFormerType;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_184 = V_2;
 		NullCheck(L_182);
 		Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8(L_182, L_183, L_184, Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:972>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:972>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_185 = V_1;
 		String_t* L_186 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_InstanceType;
 		String_t* L_187 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___TypeName_MissingType;
@@ -6404,7 +6404,7 @@ IL_033d:
 		fsData__ctor_m144DD5B09AD525C0F94B2E1750A4256495266F66(L_188, L_187, NULL);
 		NullCheck(L_185);
 		Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8(L_185, L_186, L_188, Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:975>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:975>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_189 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_190 = ___2_deserializeResult;
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_191 = (*(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974*)L_190);
@@ -6423,7 +6423,7 @@ IL_033d:
 		Type_t* L_198 = ___1_defaultType;
 		NullCheck(L_198);
 		String_t* L_199;
-		L_199 = VirtualFuncInvoker0< String_t* >::Invoke(25, L_198);
+		L_199 = VirtualFuncInvoker0< String_t* >::Invoke(26, L_198);
 		NullCheck(L_197);
 		(L_197)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_199);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_200 = L_197;
@@ -6459,14 +6459,14 @@ IL_033d:
 		L_212 = fsResult_op_Addition_mA94A4AD68668E539DEFE1255DC72B9D11A6DE41C(L_191, L_211, NULL);
 		*(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974*)L_189 = L_212;
 		Il2CppCodeGenWriteBarrier((void**)&(((fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974*)L_189)->____messages), (void*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:977>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:977>
 		Type_t* L_213 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Type_MissingType;
 		return L_213;
 	}
 
 IL_03f2:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:980>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:980>
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* L_214 = ___2_deserializeResult;
 		Type_t* L_215 = ___1_defaultType;
 		Type_t* L_216 = L_215;
@@ -6544,22 +6544,22 @@ IL_0418:
 		L_221 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(G_B33_3, G_B33_2, G_B33_1, G_B33_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 		fsResult_AddMessage_mC4B690BC3884FF2D235733FD65081C163B4DDD55(G_B33_4, L_221, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:981>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:981>
 		Type_t* L_222 = V_0;
 		return L_222;
 	}
 
 IL_0424:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:984>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:984>
 		Type_t* L_223 = V_4;
 		V_0 = L_223;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:985>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:985>
 		Type_t* L_224 = V_0;
 		return L_224;
 	}
 }
-// Method Definition Index: 56226
+// Method Definition Index: 85869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_EnsureDictionary_m852412879A44895491BB671AB6D9A29CCD1E7760 (fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6571,7 +6571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_EnsureDictionary_m852412879
 	}
 	fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:994>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:994>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_0 = ___0_data;
 		NullCheck(L_0);
 		bool L_1;
@@ -6582,17 +6582,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_EnsureDictionary_m852412879
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:996>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:996>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_2 = ___0_data;
 		NullCheck(L_2);
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_3;
 		L_3 = fsData_Clone_mEC41F9EA408E94F8D85EFFF6EADD9DF1B7CA54EF(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:997>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:997>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_4 = ___0_data;
 		NullCheck(L_4);
 		fsData_BecomeDictionary_m1375A313DDB0E7DBFFB609A807DA2EE916AF644C(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:998>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:998>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_5 = ___0_data;
 		NullCheck(L_5);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_6;
@@ -6606,11 +6606,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_EnsureDictionary_m852412879
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1000>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1000>
 		return;
 	}
 }
-// Method Definition Index: 56227
+// Method Definition Index: 85870
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer__cctor_m8FA92415657E595F6071011E2E7E81A74BA8AA49 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6637,79 +6637,79 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer__cctor_m8FA92415657E595F607
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1082>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1082>
 		il2cpp_codegen_runtime_class_init_inline(fsGlobalConfig_tED03C460E4BB68785AE5B9B63674CCA0B56603D0_il2cpp_TypeInfo_var);
 		String_t* L_0 = ((fsGlobalConfig_tED03C460E4BB68785AE5B9B63674CCA0B56603D0_StaticFields*)il2cpp_codegen_static_fields_for(fsGlobalConfig_tED03C460E4BB68785AE5B9B63674CCA0B56603D0_il2cpp_TypeInfo_var))->___InternalFieldPrefix;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_0, _stringLiteral5CAD421923F0F10D02AFE6EA17ED4E929131E356, NULL);
 		((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_ObjectReference = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_ObjectReference), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1087>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1087>
 		String_t* L_2 = ((fsGlobalConfig_tED03C460E4BB68785AE5B9B63674CCA0B56603D0_StaticFields*)il2cpp_codegen_static_fields_for(fsGlobalConfig_tED03C460E4BB68785AE5B9B63674CCA0B56603D0_il2cpp_TypeInfo_var))->___InternalFieldPrefix;
 		String_t* L_3;
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_2, _stringLiteral996E5360F80E16B2189CC1E536C91CE68083F694, NULL);
 		((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_ObjectDefinition = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_ObjectDefinition), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1093>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1093>
 		String_t* L_4 = ((fsGlobalConfig_tED03C460E4BB68785AE5B9B63674CCA0B56603D0_StaticFields*)il2cpp_codegen_static_fields_for(fsGlobalConfig_tED03C460E4BB68785AE5B9B63674CCA0B56603D0_il2cpp_TypeInfo_var))->___InternalFieldPrefix;
 		String_t* L_5;
 		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_4, _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7, NULL);
 		((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_InstanceType = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_InstanceType), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1098>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1098>
 		String_t* L_6 = ((fsGlobalConfig_tED03C460E4BB68785AE5B9B63674CCA0B56603D0_StaticFields*)il2cpp_codegen_static_fields_for(fsGlobalConfig_tED03C460E4BB68785AE5B9B63674CCA0B56603D0_il2cpp_TypeInfo_var))->___InternalFieldPrefix;
 		String_t* L_7;
 		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_6, _stringLiteralD2D2F8D3F9F04A081FFBE6B2AF7917BAAADFC052, NULL);
 		((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_Version = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_Version), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1104>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1104>
 		String_t* L_8 = ((fsGlobalConfig_tED03C460E4BB68785AE5B9B63674CCA0B56603D0_StaticFields*)il2cpp_codegen_static_fields_for(fsGlobalConfig_tED03C460E4BB68785AE5B9B63674CCA0B56603D0_il2cpp_TypeInfo_var))->___InternalFieldPrefix;
 		String_t* L_9;
 		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_8, _stringLiteralAE1B3CB371C9291D34EB334456EBC01AC8284947, NULL);
 		((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_Content = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_Content), (void*)L_9);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1113>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1113>
 		((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitDefault = _stringLiteral174503F9AA236B24CDC9340CAF07E4FEC726805C;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitDefault), (void*)_stringLiteral174503F9AA236B24CDC9340CAF07E4FEC726805C);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1118>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1118>
 		((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitPosition = _stringLiteral88BDF3D0791A560245652E772545C49897854443;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitPosition), (void*)_stringLiteral88BDF3D0791A560245652E772545C49897854443);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1123>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1123>
 		((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitGuid = _stringLiteral506DB52F56B75C81EC3FAF713D759D2452D9F932;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitGuid), (void*)_stringLiteral506DB52F56B75C81EC3FAF713D759D2452D9F932);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1129>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1129>
 		((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitFormerType = _stringLiteralF0B76A2243BD189258B8F46587E60FEC80798566;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitFormerType), (void*)_stringLiteralF0B76A2243BD189258B8F46587E60FEC80798566);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1135>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1135>
 		((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitFormerValue = _stringLiteral4CAE3CA6AA948EA87700D4E4599EC2C3CC07F22C;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitFormerValue), (void*)_stringLiteral4CAE3CA6AA948EA87700D4E4599EC2C3CC07F22C);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1140>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1140>
 		((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___TypeName_Unit = _stringLiteral361DB4FB595A1729390606D920285F0E26193BB5;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___TypeName_Unit), (void*)_stringLiteral361DB4FB595A1729390606D920285F0E26193BB5);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1146>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1146>
 		String_t* L_10 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___TypeName_Unit;
 		il2cpp_codegen_runtime_class_init_inline(RuntimeCodebase_t18E8E0360E531C409CBDFCC0EF4600A44CFE871F_il2cpp_TypeInfo_var);
 		Type_t* L_11;
 		L_11 = RuntimeCodebase_DeserializeType_mDAC85B396158EA8898F0FC4F718B90BC97B607C1(L_10, NULL);
 		((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Type_Unit = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Type_Unit), (void*)L_11);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1151>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1151>
 		((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___TypeName_MissingType = _stringLiteral91E642C00AD8FF12A2D6E09913D90EACDA087B31;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___TypeName_MissingType), (void*)_stringLiteral91E642C00AD8FF12A2D6E09913D90EACDA087B31);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1157>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1157>
 		String_t* L_12 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___TypeName_MissingType;
 		Type_t* L_13;
 		L_13 = RuntimeCodebase_DeserializeType_mDAC85B396158EA8898F0FC4F718B90BC97B607C1(L_12, NULL);
 		((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Type_MissingType = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Type_MissingType), (void*)L_13);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1059>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1060>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1061>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1062>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1063>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1064>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1065>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1066>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1059>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1060>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1061>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1062>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1063>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1064>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1065>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1066>
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_14 = (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*)il2cpp_codegen_object_new(HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03(L_14, HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_15 = L_14;
@@ -6739,11 +6739,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer__cctor_m8FA92415657E595F607
 		L_29 = HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D(L_27, L_28, HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
 		((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->____reservedKeywords = L_27;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->____reservedKeywords), (void*)L_27);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1067>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1067>
 		return;
 	}
 }
-// Method Definition Index: 56228
+// Method Definition Index: 85871
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsReservedKeyword_m1A656E8EDA5598C00BC12E84623074A18FEF03FE (String_t* ___0_key, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6754,7 +6754,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsReservedKeyword_m1A656E8E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1076>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1076>
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->____reservedKeywords;
 		String_t* L_1 = ___0_key;
@@ -6764,7 +6764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsReservedKeyword_m1A656E8E
 		return L_2;
 	}
 }
-// Method Definition Index: 56229
+// Method Definition Index: 85872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsObjectReference_m42B2DF9FAEA83929849E6F0982EF9E21CDDF8F79 (fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6775,7 +6775,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsObjectReference_m42B2DF9F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1162>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1162>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_0 = ___0_data;
 		NullCheck(L_0);
 		bool L_1;
@@ -6786,13 +6786,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsObjectReference_m42B2DF9F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1164>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1164>
 		return (bool)0;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1166>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1166>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_2 = ___0_data;
 		NullCheck(L_2);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_3;
@@ -6805,7 +6805,7 @@ IL_000a:
 		return L_5;
 	}
 }
-// Method Definition Index: 56230
+// Method Definition Index: 85873
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsObjectDefinition_m2D0919684B6C9C269F1B1A803F3113D786D10272 (fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6816,7 +6816,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsObjectDefinition_m2D09196
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1171>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1171>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_0 = ___0_data;
 		NullCheck(L_0);
 		bool L_1;
@@ -6827,13 +6827,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsObjectDefinition_m2D09196
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1173>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1173>
 		return (bool)0;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1175>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1175>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_2 = ___0_data;
 		NullCheck(L_2);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_3;
@@ -6846,7 +6846,7 @@ IL_000a:
 		return L_5;
 	}
 }
-// Method Definition Index: 56231
+// Method Definition Index: 85874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsVersioned_mE7064A56C3886F675F764EA02DEDF14627EB879A (fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6857,7 +6857,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsVersioned_mE7064A56C3886F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1180>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1180>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_0 = ___0_data;
 		NullCheck(L_0);
 		bool L_1;
@@ -6868,13 +6868,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsVersioned_mE7064A56C3886F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1182>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1182>
 		return (bool)0;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1184>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1184>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_2 = ___0_data;
 		NullCheck(L_2);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_3;
@@ -6887,7 +6887,7 @@ IL_000a:
 		return L_5;
 	}
 }
-// Method Definition Index: 56232
+// Method Definition Index: 85875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsTypeSpecified_mBD85E42C5EFB8553EF83EB0AEA55AA6898DD1A15 (fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6898,7 +6898,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsTypeSpecified_mBD85E42C5E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1189>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1189>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_0 = ___0_data;
 		NullCheck(L_0);
 		bool L_1;
@@ -6909,13 +6909,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsTypeSpecified_mBD85E42C5E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1191>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1191>
 		return (bool)0;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1193>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1193>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_2 = ___0_data;
 		NullCheck(L_2);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_3;
@@ -6928,7 +6928,7 @@ IL_000a:
 		return L_5;
 	}
 }
-// Method Definition Index: 56233
+// Method Definition Index: 85876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsWrappedData_m177A55FD22E57532B934E70669BC15DF449C8F3D (fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6939,7 +6939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsWrappedData_m177A55FD22E5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1198>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1198>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_0 = ___0_data;
 		NullCheck(L_0);
 		bool L_1;
@@ -6950,13 +6950,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsWrappedData_m177A55FD22E5
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1200>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1200>
 		return (bool)0;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1202>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1202>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_2 = ___0_data;
 		NullCheck(L_2);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_3;
@@ -6969,7 +6969,7 @@ IL_000a:
 		return L_5;
 	}
 }
-// Method Definition Index: 56234
+// Method Definition Index: 85877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsVisualScriptingUnit_mF307CA12573997A8C69C2D06ABA32BBA8F41A6C1 (fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6984,7 +6984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsVisualScriptingUnit_mF307
 	}
 	Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1216>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1216>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_0 = ___0_data;
 		NullCheck(L_0);
 		bool L_1;
@@ -6995,25 +6995,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsSerializer_IsVisualScriptingUnit_mF307
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1218>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1218>
 		return (bool)0;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1221>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1221>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_2 = ___0_data;
 		NullCheck(L_2);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_3;
 		L_3 = fsData_get_AsDictionary_m51779E71BBC994A7F5036BFB43F61B28C0817D86(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1225>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1226>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1227>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1228>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1229>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1230>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1231>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1225>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1226>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1227>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1228>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1229>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1230>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1231>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		String_t* L_5 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_UnitDefault;
@@ -7088,7 +7088,7 @@ IL_006f:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 56235
+// Method Definition Index: 85878
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_StripDeserializationMetadata_m394D409277B04621956A27821740DC31CAD21318 (fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7101,7 +7101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_StripDeserializationMetadat
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1246>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1246>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_0 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_1 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_0);
 		NullCheck(L_1);
@@ -7129,7 +7129,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_StripDeserializationMetadat
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1248>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1248>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_8 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_9 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_10 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_9);
@@ -7147,7 +7147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_StripDeserializationMetadat
 
 IL_002f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1251>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1251>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_14 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_15 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_14);
 		NullCheck(L_15);
@@ -7159,32 +7159,32 @@ IL_002f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1253>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1253>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_17 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_18 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_17);
 		NullCheck(L_18);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_19;
 		L_19 = fsData_get_AsDictionary_m51779E71BBC994A7F5036BFB43F61B28C0817D86(L_18, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1254>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1254>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_20 = L_19;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		String_t* L_21 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_ObjectReference;
 		NullCheck(L_20);
 		bool L_22;
 		L_22 = Dictionary_2_Remove_m2EDFEEBEDE7C360E03ABF60D703F1478FED6031C(L_20, L_21, Dictionary_2_Remove_m2EDFEEBEDE7C360E03ABF60D703F1478FED6031C_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1255>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1255>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_23 = L_20;
 		String_t* L_24 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_ObjectDefinition;
 		NullCheck(L_23);
 		bool L_25;
 		L_25 = Dictionary_2_Remove_m2EDFEEBEDE7C360E03ABF60D703F1478FED6031C(L_23, L_24, Dictionary_2_Remove_m2EDFEEBEDE7C360E03ABF60D703F1478FED6031C_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1256>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1256>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_26 = L_23;
 		String_t* L_27 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_InstanceType;
 		NullCheck(L_26);
 		bool L_28;
 		L_28 = Dictionary_2_Remove_m2EDFEEBEDE7C360E03ABF60D703F1478FED6031C(L_26, L_27, Dictionary_2_Remove_m2EDFEEBEDE7C360E03ABF60D703F1478FED6031C_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1257>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1257>
 		String_t* L_29 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_Version;
 		NullCheck(L_26);
 		bool L_30;
@@ -7193,11 +7193,11 @@ IL_002f:
 
 IL_006e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1259>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1259>
 		return;
 	}
 }
-// Method Definition Index: 56236
+// Method Definition Index: 85879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_ConvertLegacyData_mA961F5B0DCE7D15FB7C887586CF793D96B820830 (fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7222,7 +7222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_ConvertLegacyData_mA961F5B0
 	String_t* V_4 = NULL;
 	String_t* V_5 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1267>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1267>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_0 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_1 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_0);
 		NullCheck(L_1);
@@ -7234,20 +7234,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_ConvertLegacyData_mA961F5B0
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1269>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1269>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1272>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1272>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_3 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_4 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_3);
 		NullCheck(L_4);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_5;
 		L_5 = fsData_get_AsDictionary_m51779E71BBC994A7F5036BFB43F61B28C0817D86(L_4, NULL);
 		V_0 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1275>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1275>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_6 = V_0;
 		NullCheck(L_6);
 		int32_t L_7;
@@ -7258,23 +7258,23 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1277>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1277>
 		return;
 	}
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1281>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1281>
 		V_1 = _stringLiteral8F99AEDDCEF565B527C5BF854770D44AF24C500C;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1282>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1282>
 		V_2 = _stringLiteral26726FF559B3A928C14501F38030FFD29C041AB1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1283>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1283>
 		V_3 = _stringLiteralB4D8750C59CE123025990AD22F8E27C3459AF91F;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1284>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1284>
 		V_4 = _stringLiteralA15CF7E1CEFBD0C475E3A89A80B5393D417F8634;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1285>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1285>
 		V_5 = _stringLiteralB4D8750C59CE123025990AD22F8E27C3459AF91F;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1288>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1288>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_8 = V_0;
 		NullCheck(L_8);
 		int32_t L_9;
@@ -7307,7 +7307,7 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1290>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1290>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_16 = ___0_data;
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_17 = V_0;
 		String_t* L_18 = V_5;
@@ -7316,15 +7316,15 @@ IL_001c:
 		L_19 = Dictionary_2_get_Item_m59AF43E2CA9BAD3A41D15ED3366E583ECE9D5A77(L_17, L_18, Dictionary_2_get_Item_m59AF43E2CA9BAD3A41D15ED3366E583ECE9D5A77_RuntimeMethod_var);
 		*((RuntimeObject**)L_16) = (RuntimeObject*)L_19;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_16, (void*)(RuntimeObject*)L_19);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1291>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1291>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_20 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_21 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_20);
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		fsSerializer_EnsureDictionary_m852412879A44895491BB671AB6D9A29CCD1E7760(L_21, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1292>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1292>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_22 = ___0_data;
 		fsSerializer_ConvertLegacyData_mA961F5B0DCE7D15FB7C887586CF793D96B820830(L_22, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1294>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1294>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_23 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_24 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_23);
 		NullCheck(L_24);
@@ -7343,7 +7343,7 @@ IL_001c:
 
 IL_008a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1297>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1297>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_30 = V_0;
 		NullCheck(L_30);
 		int32_t L_31;
@@ -7376,7 +7376,7 @@ IL_008a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1299>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1299>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_38 = ___0_data;
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_39 = V_0;
 		String_t* L_40 = V_3;
@@ -7385,15 +7385,15 @@ IL_008a:
 		L_41 = Dictionary_2_get_Item_m59AF43E2CA9BAD3A41D15ED3366E583ECE9D5A77(L_39, L_40, Dictionary_2_get_Item_m59AF43E2CA9BAD3A41D15ED3366E583ECE9D5A77_RuntimeMethod_var);
 		*((RuntimeObject**)L_38) = (RuntimeObject*)L_41;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_38, (void*)(RuntimeObject*)L_41);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1300>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1300>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_42 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_43 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_42);
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		fsSerializer_EnsureDictionary_m852412879A44895491BB671AB6D9A29CCD1E7760(L_43, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1301>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1301>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_44 = ___0_data;
 		fsSerializer_ConvertLegacyData_mA961F5B0DCE7D15FB7C887586CF793D96B820830(L_44, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1303>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1303>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_45 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_46 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_45);
 		NullCheck(L_46);
@@ -7412,7 +7412,7 @@ IL_008a:
 
 IL_00d4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1306>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1306>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_52 = V_0;
 		NullCheck(L_52);
 		int32_t L_53;
@@ -7434,14 +7434,14 @@ IL_00d4:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1308>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1308>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_57 = ___0_data;
 		il2cpp_codegen_runtime_class_init_inline(fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23_il2cpp_TypeInfo_var);
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_58;
 		L_58 = fsData_CreateDictionary_m90ED2CCE0AE0A70F6E6D91181080DE89DCA7C53D(NULL);
 		*((RuntimeObject**)L_57) = (RuntimeObject*)L_58;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_57, (void*)(RuntimeObject*)L_58);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1309>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1309>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_59 = ___0_data;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_60 = *((fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23**)L_59);
 		NullCheck(L_60);
@@ -7460,11 +7460,11 @@ IL_00d4:
 
 IL_0105:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1311>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1311>
 		return;
 	}
 }
-// Method Definition Index: 56237
+// Method Definition Index: 85880
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_Invoke_OnBeforeSerialize_m24BD9C61E67A5AC371884D793C2F3B3C7CFF095C (List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* ___0_processors, Type_t* ___1_storageType, RuntimeObject* ___2_instance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7476,14 +7476,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_Invoke_OnBeforeSerialize_m2
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1319>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1319>
 		V_0 = 0;
 		goto IL_0016;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1321>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1321>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_0 = ___0_processors;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
@@ -7493,14 +7493,14 @@ IL_0004:
 		RuntimeObject* L_4 = ___2_instance;
 		NullCheck(L_2);
 		VirtualActionInvoker2< Type_t*, RuntimeObject* >::Invoke(5, L_2, L_3, L_4);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1319>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1319>
 		int32_t L_5 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 	}
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1319>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1319>
 		int32_t L_6 = V_0;
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_7 = ___0_processors;
 		NullCheck(L_7);
@@ -7512,11 +7512,11 @@ IL_0016:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1323>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1323>
 		return;
 	}
 }
-// Method Definition Index: 56238
+// Method Definition Index: 85881
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_Invoke_OnAfterSerialize_m6D2CA5F43C91291C965239F884CB603D89C30293 (List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* ___0_processors, Type_t* ___1_storageType, RuntimeObject* ___2_instance, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** ___3_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7528,7 +7528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_Invoke_OnAfterSerialize_m6D
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1332>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1332>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_0 = ___0_processors;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -7539,7 +7539,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_Invoke_OnAfterSerialize_m6D
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1334>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1334>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_2 = ___0_processors;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
@@ -7550,14 +7550,14 @@ IL_000b:
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_7 = ___3_data;
 		NullCheck(L_4);
 		VirtualActionInvoker3< Type_t*, RuntimeObject*, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** >::Invoke(6, L_4, L_5, L_6, L_7);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1332>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1332>
 		int32_t L_8 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
 	}
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1332>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1332>
 		int32_t L_9 = V_0;
 		if ((((int32_t)L_9) >= ((int32_t)0)))
 		{
@@ -7565,11 +7565,11 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1336>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1336>
 		return;
 	}
 }
-// Method Definition Index: 56239
+// Method Definition Index: 85882
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_Invoke_OnBeforeDeserialize_m13D482A4E6E930C3117C0A6575BF87C14CDBE3E3 (List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* ___0_processors, Type_t* ___1_storageType, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** ___2_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7581,14 +7581,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_Invoke_OnBeforeDeserialize_
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1340>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1340>
 		V_0 = 0;
 		goto IL_0016;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1342>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1342>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_0 = ___0_processors;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
@@ -7598,14 +7598,14 @@ IL_0004:
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_4 = ___2_data;
 		NullCheck(L_2);
 		VirtualActionInvoker2< Type_t*, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** >::Invoke(7, L_2, L_3, L_4);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1340>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1340>
 		int32_t L_5 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 	}
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1340>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1340>
 		int32_t L_6 = V_0;
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_7 = ___0_processors;
 		NullCheck(L_7);
@@ -7617,11 +7617,11 @@ IL_0016:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1344>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1344>
 		return;
 	}
 }
-// Method Definition Index: 56240
+// Method Definition Index: 85883
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_Invoke_OnBeforeDeserializeAfterInstanceCreation_mDE398ACCB3A5DA6D6BDE4692F1F748D20AF3CA52 (List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* ___0_processors, Type_t* ___1_storageType, RuntimeObject* ___2_instance, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** ___3_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7633,14 +7633,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_Invoke_OnBeforeDeserializeA
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1348>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1348>
 		V_0 = 0;
 		goto IL_0017;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1350>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1350>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_0 = ___0_processors;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
@@ -7651,14 +7651,14 @@ IL_0004:
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_5 = ___3_data;
 		NullCheck(L_2);
 		VirtualActionInvoker3< Type_t*, RuntimeObject*, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** >::Invoke(8, L_2, L_3, L_4, L_5);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1348>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1348>
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1348>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1348>
 		int32_t L_7 = V_0;
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_8 = ___0_processors;
 		NullCheck(L_8);
@@ -7670,11 +7670,11 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1352>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1352>
 		return;
 	}
 }
-// Method Definition Index: 56241
+// Method Definition Index: 85884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_Invoke_OnAfterDeserialize_m2B62287C736CCBCA14C3A2119A32490A05036974 (List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* ___0_processors, Type_t* ___1_storageType, RuntimeObject* ___2_instance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7686,7 +7686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_Invoke_OnAfterDeserialize_m
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1356>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1356>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_0 = ___0_processors;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -7697,7 +7697,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_Invoke_OnAfterDeserialize_m
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1358>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1358>
 		List_1_t0966830171D2398ACB9E46D5533F6E16E0E17371* L_2 = ___0_processors;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
@@ -7707,14 +7707,14 @@ IL_000b:
 		RuntimeObject* L_6 = ___2_instance;
 		NullCheck(L_4);
 		VirtualActionInvoker2< Type_t*, RuntimeObject* >::Invoke(9, L_4, L_5, L_6);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1356>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1356>
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_7, 1));
 	}
 
 IL_001d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1356>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1356>
 		int32_t L_8 = V_0;
 		if ((((int32_t)L_8) >= ((int32_t)0)))
 		{
@@ -7722,7 +7722,7 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1360>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1360>
 		return;
 	}
 }
@@ -7734,7 +7734,7 @@ IL_001d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56242
+// Method Definition Index: 85885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsLazyCycleDefinitionWriter_WriteDefinition_mE5A307D8E186FF9645CA85A979D7B781C1A8C665 (fsLazyCycleDefinitionWriter_t8DA7FBB3131ECC4D5F09CC4D66DE74961DA5511A* __this, int32_t ___0_id, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___1_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7748,7 +7748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsLazyCycleDefinitionWriter_WriteDefinit
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1016>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1016>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_0 = __this->____references;
 		int32_t L_1 = ___0_id;
 		NullCheck(L_0);
@@ -7760,11 +7760,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsLazyCycleDefinitionWriter_WriteDefinit
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1018>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1018>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_3 = ___1_data;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		fsSerializer_EnsureDictionary_m852412879A44895491BB671AB6D9A29CCD1E7760(L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1019>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1019>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_4 = ___1_data;
 		NullCheck(L_4);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_5;
@@ -7781,17 +7781,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsLazyCycleDefinitionWriter_WriteDefinit
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1023>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1023>
 		Dictionary_2_t57BFBFEB217716B47C81A0334C62162DDFDB45F6* L_9 = __this->____pendingDefinitions;
 		int32_t L_10 = ___0_id;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_11 = ___1_data;
 		NullCheck(L_9);
 		Dictionary_2_set_Item_mC5DEF7CFA5DF166D4B351EAB1FF9A2DC3C996111(L_9, L_10, L_11, Dictionary_2_set_Item_mC5DEF7CFA5DF166D4B351EAB1FF9A2DC3C996111_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1025>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1025>
 		return;
 	}
 }
-// Method Definition Index: 56243
+// Method Definition Index: 85886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsLazyCycleDefinitionWriter_WriteReference_mACBE88BD37EDA06D992F9FF0A30B0D3BBE33FD74 (fsLazyCycleDefinitionWriter_t8DA7FBB3131ECC4D5F09CC4D66DE74961DA5511A* __this, int32_t ___0_id, Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* ___1_dict, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7807,7 +7807,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsLazyCycleDefinitionWriter_WriteReferen
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1030>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1030>
 		Dictionary_2_t57BFBFEB217716B47C81A0334C62162DDFDB45F6* L_0 = __this->____pendingDefinitions;
 		int32_t L_1 = ___0_id;
 		NullCheck(L_0);
@@ -7819,17 +7819,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsLazyCycleDefinitionWriter_WriteReferen
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1032>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1032>
 		Dictionary_2_t57BFBFEB217716B47C81A0334C62162DDFDB45F6* L_3 = __this->____pendingDefinitions;
 		int32_t L_4 = ___0_id;
 		NullCheck(L_3);
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_5;
 		L_5 = Dictionary_2_get_Item_mB0BA2488A1DF08E6307587E830CDB997507C3BF4(L_3, L_4, Dictionary_2_get_Item_mB0BA2488A1DF08E6307587E830CDB997507C3BF4_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1033>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1033>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_6 = L_5;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		fsSerializer_EnsureDictionary_m852412879A44895491BB671AB6D9A29CCD1E7760(L_6, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1034>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1034>
 		NullCheck(L_6);
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_7;
 		L_7 = fsData_get_AsDictionary_m51779E71BBC994A7F5036BFB43F61B28C0817D86(L_6, NULL);
@@ -7840,7 +7840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsLazyCycleDefinitionWriter_WriteReferen
 		fsData__ctor_m144DD5B09AD525C0F94B2E1750A4256495266F66(L_10, L_9, NULL);
 		NullCheck(L_7);
 		Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8(L_7, L_8, L_10, Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1035>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1035>
 		Dictionary_2_t57BFBFEB217716B47C81A0334C62162DDFDB45F6* L_11 = __this->____pendingDefinitions;
 		int32_t L_12 = ___0_id;
 		NullCheck(L_11);
@@ -7851,7 +7851,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsLazyCycleDefinitionWriter_WriteReferen
 
 IL_004a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1039>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1039>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_14 = __this->____references;
 		int32_t L_15 = ___0_id;
 		NullCheck(L_14);
@@ -7861,7 +7861,7 @@ IL_004a:
 
 IL_0057:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1043>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1043>
 		Dictionary_2_t9D50BDE1AE9A04E8610682F97C4DB702D3A9B4D3* L_17 = ___1_dict;
 		il2cpp_codegen_runtime_class_init_inline(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var);
 		String_t* L_18 = ((fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_StaticFields*)il2cpp_codegen_static_fields_for(fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC_il2cpp_TypeInfo_var))->___Key_ObjectReference;
@@ -7871,11 +7871,11 @@ IL_0057:
 		fsData__ctor_m144DD5B09AD525C0F94B2E1750A4256495266F66(L_20, L_19, NULL);
 		NullCheck(L_17);
 		Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8(L_17, L_18, L_20, Dictionary_2_set_Item_m1B1A55A00A4ABB8D43D0B03D152776E46A112ED8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1044>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1044>
 		return;
 	}
 }
-// Method Definition Index: 56244
+// Method Definition Index: 85887
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsLazyCycleDefinitionWriter_Clear_mF81302B0538AD1FBA244D919EF7429B935B1157C (fsLazyCycleDefinitionWriter_t8DA7FBB3131ECC4D5F09CC4D66DE74961DA5511A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7886,19 +7886,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsLazyCycleDefinitionWriter_Clear_mF8130
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1048>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1048>
 		Dictionary_2_t57BFBFEB217716B47C81A0334C62162DDFDB45F6* L_0 = __this->____pendingDefinitions;
 		NullCheck(L_0);
 		Dictionary_2_Clear_m6B74698591A4762BEAD893864849B281DF7D3CBF(L_0, Dictionary_2_Clear_m6B74698591A4762BEAD893864849B281DF7D3CBF_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1049>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1049>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_1 = __this->____references;
 		NullCheck(L_1);
 		HashSet_1_Clear_m88C3BA6617F6667126635140414D44D76C42AE92(L_1, HashSet_1_Clear_m88C3BA6617F6667126635140414D44D76C42AE92_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1050>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1050>
 		return;
 	}
 }
-// Method Definition Index: 56245
+// Method Definition Index: 85888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsLazyCycleDefinitionWriter__ctor_m88404815CC83159CB4B9581C0737F8FE44847A38 (fsLazyCycleDefinitionWriter_t8DA7FBB3131ECC4D5F09CC4D66DE74961DA5511A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7911,12 +7911,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsLazyCycleDefinitionWriter__ctor_m88404
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1011>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1011>
 		Dictionary_2_t57BFBFEB217716B47C81A0334C62162DDFDB45F6* L_0 = (Dictionary_2_t57BFBFEB217716B47C81A0334C62162DDFDB45F6*)il2cpp_codegen_object_new(Dictionary_2_t57BFBFEB217716B47C81A0334C62162DDFDB45F6_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m56822F1F72A1C08901B5057514AF78C301855A5F(L_0, Dictionary_2__ctor_m56822F1F72A1C08901B5057514AF78C301855A5F_RuntimeMethod_var);
 		__this->____pendingDefinitions = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____pendingDefinitions), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1012>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsSerializer.cs:1012>
 		HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* L_1 = (HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2*)il2cpp_codegen_object_new(HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF(L_1, HashSet_1__ctor_m90EA29D74B137C5317CDC485AA1D799F0B6726FF_RuntimeMethod_var);
 		__this->____references = L_1;
@@ -7933,52 +7933,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsLazyCycleDefinitionWriter__ctor_m88404
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56246
+// Method Definition Index: 85889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty__ctor_m8EAD810AB5CC9482CE78ACDAA6D7DCC2680022A6 (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* ___0_config, FieldInfo_t* ___1_field, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:13>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:13>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:15>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:15>
 		FieldInfo_t* L_0 = ___1_field;
 		__this->____memberInfo = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____memberInfo), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:16>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:16>
 		FieldInfo_t* L_1 = ___1_field;
 		NullCheck(L_1);
 		Type_t* L_2;
-		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(16, L_1);
+		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(17, L_1);
 		fsMetaProperty_set_StorageType_mBC9EEB04E34352346F970CB36245E0CAC10F29E6_inline(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:17>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:17>
 		FieldInfo_t* L_3 = ___1_field;
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_3);
+		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_3);
 		fsMetaProperty_set_MemberName_m910365017A946E12F897AA268E2C54E92D8B0492_inline(__this, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:18>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:18>
 		FieldInfo_t* L_5 = ___1_field;
 		NullCheck(L_5);
 		bool L_6;
 		L_6 = FieldInfo_get_IsPublic_m73C84BEEAE6C993FACC6199B81DBF2B80D3810E5(L_5, NULL);
 		fsMetaProperty_set_IsPublic_mDDC0D9F1D8C16C97D5A967A66B90C96CF00EFDBA_inline(__this, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:19>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:19>
 		FieldInfo_t* L_7 = ___1_field;
 		NullCheck(L_7);
 		bool L_8;
 		L_8 = FieldInfo_get_IsInitOnly_m476BB9325A68BDD56B088D3E8407F75FA1388ED9(L_7, NULL);
 		fsMetaProperty_set_IsReadOnly_m81F1BE9C4A906FD3A846B032068D8CF2E7C69ED4_inline(__this, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:20>
 		fsMetaProperty_set_CanRead_m29A21E1EC23A8330A771140563638EBE23C01C73_inline(__this, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:21>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:21>
 		fsMetaProperty_set_CanWrite_mCE48F80DD621B06344EE627E0E71B988A63BC694_inline(__this, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:23>
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_9 = ___0_config;
 		fsMetaProperty_CommonInitialize_mED4CA3EF3000E44A9A61F6FE6F487BAD44B5AE5A(__this, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:24>
 		return;
 	}
 }
-// Method Definition Index: 56247
+// Method Definition Index: 85890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty__ctor_m6C23AFA33EA55557279A069D19DC87FCCEBBBAD1 (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* ___0_config, PropertyInfo_t* ___1_property, const RuntimeMethod* method) 
 {
 	fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* G_B4_0 = NULL;
@@ -7988,25 +7988,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty__ctor_m6C23AFA33EA5555727
 	int32_t G_B5_0 = 0;
 	fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* G_B5_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:26>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:28>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:28>
 		PropertyInfo_t* L_0 = ___1_property;
 		__this->____memberInfo = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____memberInfo), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:29>
 		PropertyInfo_t* L_1 = ___1_property;
 		NullCheck(L_1);
 		Type_t* L_2;
-		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(15, L_1);
+		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(16, L_1);
 		fsMetaProperty_set_StorageType_mBC9EEB04E34352346F970CB36245E0CAC10F29E6_inline(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:30>
 		PropertyInfo_t* L_3 = ___1_property;
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_3);
+		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_3);
 		fsMetaProperty_set_MemberName_m910365017A946E12F897AA268E2C54E92D8B0492_inline(__this, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:31>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:31>
 		PropertyInfo_t* L_5 = ___1_property;
 		NullCheck(L_5);
 		MethodInfo_t* L_6;
@@ -8072,184 +8072,184 @@ IL_005d:
 	{
 		NullCheck(G_B5_1);
 		fsMetaProperty_set_IsPublic_mDDC0D9F1D8C16C97D5A967A66B90C96CF00EFDBA_inline(G_B5_1, (bool)G_B5_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:32>
 		fsMetaProperty_set_IsReadOnly_m81F1BE9C4A906FD3A846B032068D8CF2E7C69ED4_inline(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:33>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:33>
 		PropertyInfo_t* L_17 = ___1_property;
 		NullCheck(L_17);
 		bool L_18;
-		L_18 = VirtualFuncInvoker0< bool >::Invoke(19, L_17);
+		L_18 = VirtualFuncInvoker0< bool >::Invoke(20, L_17);
 		fsMetaProperty_set_CanRead_m29A21E1EC23A8330A771140563638EBE23C01C73_inline(__this, L_18, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:34>
 		PropertyInfo_t* L_19 = ___1_property;
 		NullCheck(L_19);
 		bool L_20;
-		L_20 = VirtualFuncInvoker0< bool >::Invoke(20, L_19);
+		L_20 = VirtualFuncInvoker0< bool >::Invoke(21, L_19);
 		fsMetaProperty_set_CanWrite_mCE48F80DD621B06344EE627E0E71B988A63BC694_inline(__this, L_20, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:36>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:36>
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_21 = ___0_config;
 		fsMetaProperty_CommonInitialize_mED4CA3EF3000E44A9A61F6FE6F487BAD44B5AE5A(__this, L_21, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:37>
 		return;
 	}
 }
-// Method Definition Index: 56248
+// Method Definition Index: 85891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* fsMetaProperty_get_StorageType_m44BED9C0B89B0A58FF1B29E69582E7B5FF75414E (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:48>
 		Type_t* L_0 = __this->___U3CStorageTypeU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56249
+// Method Definition Index: 85892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_set_StorageType_mBC9EEB04E34352346F970CB36245E0CAC10F29E6 (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, Type_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:48>
 		Type_t* L_0 = ___0_value;
 		__this->___U3CStorageTypeU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CStorageTypeU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56250
+// Method Definition Index: 85893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* fsMetaProperty_get_OverrideConverterType_mED201398F793429A572BAC96BBCFA8334F63C6A3 (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:56>
 		Type_t* L_0 = __this->___U3COverrideConverterTypeU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56251
+// Method Definition Index: 85894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_set_OverrideConverterType_m37267DED2A75405AF6B2E4FF77802820C8F8B04B (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, Type_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:56>
 		Type_t* L_0 = ___0_value;
 		__this->___U3COverrideConverterTypeU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3COverrideConverterTypeU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56252
+// Method Definition Index: 85895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaProperty_get_CanRead_mA2A7D389C2D41C426B303F6A269403879F17964D (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:61>
 		bool L_0 = __this->___U3CCanReadU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56253
+// Method Definition Index: 85896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_set_CanRead_m29A21E1EC23A8330A771140563638EBE23C01C73 (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:61>
 		bool L_0 = ___0_value;
 		__this->___U3CCanReadU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 56254
+// Method Definition Index: 85897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaProperty_get_CanWrite_m2BD75237BFBF0A4162BEDF112CF33C6C748EF3D6 (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:66>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:66>
 		bool L_0 = __this->___U3CCanWriteU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56255
+// Method Definition Index: 85898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_set_CanWrite_mCE48F80DD621B06344EE627E0E71B988A63BC694 (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:66>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:66>
 		bool L_0 = ___0_value;
 		__this->___U3CCanWriteU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 56256
+// Method Definition Index: 85899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* fsMetaProperty_get_JsonName_mA58DF433A59CBE9214939853C7F4E9D4B838A652 (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:71>
 		String_t* L_0 = __this->___U3CJsonNameU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56257
+// Method Definition Index: 85900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_set_JsonName_mF0BBA2CA8267D1CCEB6AD349EC15006B2FC68ED4 (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:71>
 		String_t* L_0 = ___0_value;
 		__this->___U3CJsonNameU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CJsonNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56258
+// Method Definition Index: 85901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* fsMetaProperty_get_MemberName_mED2E167648A8A76B9C0FD73A6405012D82D9EDBE (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:76>
 		String_t* L_0 = __this->___U3CMemberNameU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56259
+// Method Definition Index: 85902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_set_MemberName_m910365017A946E12F897AA268E2C54E92D8B0492 (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:76>
 		String_t* L_0 = ___0_value;
 		__this->___U3CMemberNameU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CMemberNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56260
+// Method Definition Index: 85903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaProperty_get_IsPublic_m30FEC58C34CBDB5F59B85174A8B4F1CB9D7FFE7D (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:81>
 		bool L_0 = __this->___U3CIsPublicU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56261
+// Method Definition Index: 85904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_set_IsPublic_mDDC0D9F1D8C16C97D5A967A66B90C96CF00EFDBA (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:81>
 		bool L_0 = ___0_value;
 		__this->___U3CIsPublicU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 56262
+// Method Definition Index: 85905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaProperty_get_IsReadOnly_m0C3E3C1607BF2EE1BFE02073A743AD580EB0EB5A (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:87>
 		bool L_0 = __this->___U3CIsReadOnlyU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56263
+// Method Definition Index: 85906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_set_IsReadOnly_m81F1BE9C4A906FD3A846B032068D8CF2E7C69ED4 (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:87>
 		bool L_0 = ___0_value;
 		__this->___U3CIsReadOnlyU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 56264
+// Method Definition Index: 85907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_CommonInitialize_mED4CA3EF3000E44A9A61F6FE6F487BAD44B5AE5A (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* ___0_config, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8261,13 +8261,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_CommonInitialize_mED4CA3E
 	}
 	fsPropertyAttribute_tD332ED5271DAF1CA8779F33711F56DAD20A0A131* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:91>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:91>
 		MemberInfo_t* L_0 = __this->____memberInfo;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		fsPropertyAttribute_tD332ED5271DAF1CA8779F33711F56DAD20A0A131* L_1;
 		L_1 = fsPortableReflection_GetAttribute_TisfsPropertyAttribute_tD332ED5271DAF1CA8779F33711F56DAD20A0A131_m326FA0FAC14251A0B0C4B8B2207EA52E8D425528(L_0, fsPortableReflection_GetAttribute_TisfsPropertyAttribute_tD332ED5271DAF1CA8779F33711F56DAD20A0A131_m326FA0FAC14251A0B0C4B8B2207EA52E8D425528_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:92>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:92>
 		fsPropertyAttribute_tD332ED5271DAF1CA8779F33711F56DAD20A0A131* L_2 = V_0;
 		if (!L_2)
 		{
@@ -8275,12 +8275,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_CommonInitialize_mED4CA3E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:94>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:94>
 		fsPropertyAttribute_tD332ED5271DAF1CA8779F33711F56DAD20A0A131* L_3 = V_0;
 		NullCheck(L_3);
 		String_t* L_4 = L_3->___Name;
 		fsMetaProperty_set_JsonName_mF0BBA2CA8267D1CCEB6AD349EC15006B2FC68ED4_inline(__this, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:95>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:95>
 		fsPropertyAttribute_tD332ED5271DAF1CA8779F33711F56DAD20A0A131* L_5 = V_0;
 		NullCheck(L_5);
 		Type_t* L_6 = L_5->___Converter;
@@ -8289,7 +8289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_CommonInitialize_mED4CA3E
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:98>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:98>
 		String_t* L_7;
 		L_7 = fsMetaProperty_get_JsonName_mA58DF433A59CBE9214939853C7F4E9D4B838A652_inline(__this, NULL);
 		bool L_8;
@@ -8300,7 +8300,7 @@ IL_0027:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:100>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:100>
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_9 = ___0_config;
 		NullCheck(L_9);
 		Func_3_tBAF9876D881392F517398C8A838D30B270025B3E* L_10 = L_9->___GetJsonNameFromMemberName;
@@ -8315,11 +8315,11 @@ IL_0027:
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:102>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:102>
 		return;
 	}
 }
-// Method Definition Index: 56265
+// Method Definition Index: 85908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_Write_mEA2E2F7E5E785063984023ABD51657C856E60783 (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, RuntimeObject* ___0_context, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8336,13 +8336,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_Write_mEA2E2F7E5E78506398
 	PropertyInfo_t* V_1 = NULL;
 	MethodInfo_t* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:110>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:110>
 		MemberInfo_t* L_0 = __this->____memberInfo;
 		V_0 = ((FieldInfo_t*)IsInstClass((RuntimeObject*)L_0, FieldInfo_t_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:111>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:111>
 		MemberInfo_t* L_1 = __this->____memberInfo;
 		V_1 = ((PropertyInfo_t*)IsInstClass((RuntimeObject*)L_1, PropertyInfo_t_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:113>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:113>
 		FieldInfo_t* L_2 = V_0;
 		bool L_3;
 		L_3 = FieldInfo_op_Inequality_m95789A98E646494987E66A9E4188DCA86185066B(L_2, (FieldInfo_t*)NULL, NULL);
@@ -8352,7 +8352,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_Write_mEA2E2F7E5E78506398
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:115>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:115>
 		il2cpp_codegen_runtime_class_init_inline(PlatformUtility_t1848A281AD2DC3383BDF573753827799C3D87EF6_il2cpp_TypeInfo_var);
 		bool L_4 = ((PlatformUtility_t1848A281AD2DC3383BDF573753827799C3D87EF6_StaticFields*)il2cpp_codegen_static_fields_for(PlatformUtility_t1848A281AD2DC3383BDF573753827799C3D87EF6_il2cpp_TypeInfo_var))->___supportsJit;
 		if (!L_4)
@@ -8361,7 +8361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_Write_mEA2E2F7E5E78506398
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:117>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:117>
 		FieldInfo_t* L_5 = V_0;
 		RuntimeObject* L_6 = ___0_context;
 		RuntimeObject* L_7 = ___1_value;
@@ -8372,7 +8372,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaProperty_Write_mEA2E2F7E5E78506398
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:121>
 		FieldInfo_t* L_8 = V_0;
 		RuntimeObject* L_9 = ___0_context;
 		RuntimeObject* L_10 = ___1_value;
@@ -8383,7 +8383,7 @@ IL_0031:
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:124>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:124>
 		PropertyInfo_t* L_11 = V_1;
 		bool L_12;
 		L_12 = PropertyInfo_op_Inequality_mE75A4F14CC678D8A670730FBD4338C718CACB51B(L_11, (PropertyInfo_t*)NULL, NULL);
@@ -8393,7 +8393,7 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:126>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:126>
 		il2cpp_codegen_runtime_class_init_inline(PlatformUtility_t1848A281AD2DC3383BDF573753827799C3D87EF6_il2cpp_TypeInfo_var);
 		bool L_13 = ((PlatformUtility_t1848A281AD2DC3383BDF573753827799C3D87EF6_StaticFields*)il2cpp_codegen_static_fields_for(PlatformUtility_t1848A281AD2DC3383BDF573753827799C3D87EF6_il2cpp_TypeInfo_var))->___supportsJit;
 		if (!L_13)
@@ -8402,18 +8402,18 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:128>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:128>
 		PropertyInfo_t* L_14 = V_1;
 		NullCheck(L_14);
 		bool L_15;
-		L_15 = VirtualFuncInvoker0< bool >::Invoke(20, L_14);
+		L_15 = VirtualFuncInvoker0< bool >::Invoke(21, L_14);
 		if (!L_15)
 		{
 			goto IL_007e;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:130>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:130>
 		PropertyInfo_t* L_16 = V_1;
 		RuntimeObject* L_17 = ___0_context;
 		RuntimeObject* L_18 = ___1_value;
@@ -8424,13 +8424,13 @@ IL_003a:
 
 IL_005b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:135>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:135>
 		PropertyInfo_t* L_19 = V_1;
 		NullCheck(L_19);
 		MethodInfo_t* L_20;
-		L_20 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(25, L_19, (bool)1);
+		L_20 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(26, L_19, (bool)1);
 		V_2 = L_20;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:136>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:136>
 		MethodInfo_t* L_21 = V_2;
 		bool L_22;
 		L_22 = MethodInfo_op_Inequality_mB73597A1FCC2F906DBCADDEC68A1B7D5B7E89FA8(L_21, (MethodInfo_t*)NULL, NULL);
@@ -8440,7 +8440,7 @@ IL_005b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:138>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:138>
 		MethodInfo_t* L_23 = V_2;
 		RuntimeObject* L_24 = ___0_context;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_25 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
@@ -8456,11 +8456,11 @@ IL_005b:
 
 IL_007e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:142>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:142>
 		return;
 	}
 }
-// Method Definition Index: 56266
+// Method Definition Index: 85909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* fsMetaProperty_Read_mE5F0AE85092593DE88AEDA717359310E9E06C046 (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, RuntimeObject* ___0_context, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8471,7 +8471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* fsMetaProperty_Read_mE5F0AE850
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:150>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:150>
 		MemberInfo_t* L_0 = __this->____memberInfo;
 		if (!((PropertyInfo_t*)IsInstClass((RuntimeObject*)L_0, PropertyInfo_t_il2cpp_TypeInfo_var)))
 		{
@@ -8479,23 +8479,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* fsMetaProperty_Read_mE5F0AE850
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:155>
 		MemberInfo_t* L_1 = __this->____memberInfo;
 		RuntimeObject* L_2 = ___0_context;
 		NullCheck(((PropertyInfo_t*)CastclassClass((RuntimeObject*)L_1, PropertyInfo_t_il2cpp_TypeInfo_var)));
 		RuntimeObject* L_3;
-		L_3 = VirtualFuncInvoker2< RuntimeObject*, RuntimeObject*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(26, ((PropertyInfo_t*)CastclassClass((RuntimeObject*)L_1, PropertyInfo_t_il2cpp_TypeInfo_var)), L_2, (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)NULL);
+		L_3 = VirtualFuncInvoker2< RuntimeObject*, RuntimeObject*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(27, ((PropertyInfo_t*)CastclassClass((RuntimeObject*)L_1, PropertyInfo_t_il2cpp_TypeInfo_var)), L_2, (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)NULL);
 		return L_3;
 	}
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:163>
 		MemberInfo_t* L_4 = __this->____memberInfo;
 		RuntimeObject* L_5 = ___0_context;
 		NullCheck(((FieldInfo_t*)CastclassClass((RuntimeObject*)L_4, FieldInfo_t_il2cpp_TypeInfo_var)));
 		RuntimeObject* L_6;
-		L_6 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(24, ((FieldInfo_t*)CastclassClass((RuntimeObject*)L_4, FieldInfo_t_il2cpp_TypeInfo_var)), L_5);
+		L_6 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(26, ((FieldInfo_t*)CastclassClass((RuntimeObject*)L_4, FieldInfo_t_il2cpp_TypeInfo_var)), L_5);
 		return L_6;
 	}
 }
@@ -8507,7 +8507,7 @@ IL_0020:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56267
+// Method Definition Index: 85910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaType__ctor_mC6683E69F4CE1C8FE4BC514BD4ED19E33CE35CF3 (fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743* __this, fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* ___0_config, Type_t* ___1_reflectedType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8521,53 +8521,53 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaType__ctor_mC6683E69F4CE1C8FE4BC51
 	}
 	List_1_t9F06BD3141B39A6FF9DD30E497BC5A8F132B0043* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:16>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:16>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:18>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:18>
 		Type_t* L_0 = ___1_reflectedType;
 		__this->___ReflectedType = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ReflectedType), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:20>
 		List_1_t9F06BD3141B39A6FF9DD30E497BC5A8F132B0043* L_1 = (List_1_t9F06BD3141B39A6FF9DD30E497BC5A8F132B0043*)il2cpp_codegen_object_new(List_1_t9F06BD3141B39A6FF9DD30E497BC5A8F132B0043_il2cpp_TypeInfo_var);
 		List_1__ctor_m98DCC966FAEB46A63DF2F36389C0EDC164B12DBE(L_1, List_1__ctor_m98DCC966FAEB46A63DF2F36389C0EDC164B12DBE_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:21>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:21>
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_2 = ___0_config;
 		List_1_t9F06BD3141B39A6FF9DD30E497BC5A8F132B0043* L_3 = V_0;
 		Type_t* L_4 = ___1_reflectedType;
 		il2cpp_codegen_runtime_class_init_inline(fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_il2cpp_TypeInfo_var);
 		fsMetaType_CollectProperties_m4ED60C5E38D1D5EC03A3A61803D7F60E21ED2D3C(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:22>
 		List_1_t9F06BD3141B39A6FF9DD30E497BC5A8F132B0043* L_5 = V_0;
 		NullCheck(L_5);
 		fsMetaPropertyU5BU5D_t03BF317FB567AFD189BDBDC0F128AC96E7D25F98* L_6;
 		L_6 = List_1_ToArray_m85069F269FA0297E5B29B2B53C8F6889AF6F19EB(L_5, List_1_ToArray_m85069F269FA0297E5B29B2B53C8F6889AF6F19EB_RuntimeMethod_var);
 		fsMetaType_set_Properties_m75C4CFDD1D8A0844B8E8E61B1028BB013A011A9E_inline(__this, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 56268
+// Method Definition Index: 85911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsMetaPropertyU5BU5D_t03BF317FB567AFD189BDBDC0F128AC96E7D25F98* fsMetaType_get_Properties_m54618035A54E08C924EB7E8781AA55C1D19F950A (fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:30>
 		fsMetaPropertyU5BU5D_t03BF317FB567AFD189BDBDC0F128AC96E7D25F98* L_0 = __this->___U3CPropertiesU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56269
+// Method Definition Index: 85912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaType_set_Properties_m75C4CFDD1D8A0844B8E8E61B1028BB013A011A9E (fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743* __this, fsMetaPropertyU5BU5D_t03BF317FB567AFD189BDBDC0F128AC96E7D25F98* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:30>
 		fsMetaPropertyU5BU5D_t03BF317FB567AFD189BDBDC0F128AC96E7D25F98* L_0 = ___0_value;
 		__this->___U3CPropertiesU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CPropertiesU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56270
+// Method Definition Index: 85913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_get_HasDefaultConstructor_m6AFFF40736CFD48C95681AF3228409840BB4F81E (fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8582,7 +8582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_get_HasDefaultConstructor_m6A
 	}
 	ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:40>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:40>
 		Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* L_0 = (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01*)(&__this->____hasDefaultConstructorCache);
 		bool L_1;
 		L_1 = Nullable_1_get_HasValue_m6B76D139692C43B2AF7C695FAB044B16ACFAF355_inline(L_0, Nullable_1_get_HasValue_m6B76D139692C43B2AF7C695FAB044B16ACFAF355_RuntimeMethod_var);
@@ -8592,7 +8592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_get_HasDefaultConstructor_m6A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:43>
 		Type_t* L_2 = __this->___ReflectedType;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		Type_t* L_3;
@@ -8606,19 +8606,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_get_HasDefaultConstructor_m6A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:45>
 		Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5((&L_5), (bool)1, Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5_RuntimeMethod_var);
 		__this->____hasDefaultConstructorCache = L_5;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:46>
 		__this->____isDefaultConstructorPublic = (bool)1;
 		goto IL_0096;
 	}
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:50>
 		Type_t* L_6 = __this->___ReflectedType;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		Type_t* L_7;
@@ -8632,26 +8632,26 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:52>
 		Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5((&L_9), (bool)1, Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5_RuntimeMethod_var);
 		__this->____hasDefaultConstructorCache = L_9;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:53>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:53>
 		__this->____isDefaultConstructorPublic = (bool)1;
 		goto IL_0096;
 	}
 
 IL_005e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:58>
 		Type_t* L_10 = __this->___ReflectedType;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_11 = ((fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_StaticFields*)il2cpp_codegen_static_fields_for(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var))->___EmptyTypes;
 		ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB* L_12;
 		L_12 = fsPortableReflection_GetDeclaredConstructor_m9F5B44FCB7E14D7E7CF90482A9D1D13C11445C01(L_10, L_11, NULL);
 		V_0 = L_12;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:59>
 		ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB* L_13 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -8660,7 +8660,7 @@ IL_005e:
 		memset((&L_15), 0, sizeof(L_15));
 		Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5((&L_15), L_14, Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5_RuntimeMethod_var);
 		__this->____hasDefaultConstructorCache = L_15;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:60>
 		ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB* L_16 = V_0;
 		bool L_17;
 		L_17 = ConstructorInfo_op_Inequality_mB3CB8B779FA4400BBF7069097CC64E6CA1D235A4(L_16, (ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB*)NULL, NULL);
@@ -8670,7 +8670,7 @@ IL_005e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:62>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:62>
 		ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB* L_18 = V_0;
 		NullCheck(L_18);
 		bool L_19;
@@ -8680,14 +8680,14 @@ IL_005e:
 
 IL_0096:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:67>
 		Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* L_20 = (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01*)(&__this->____hasDefaultConstructorCache);
 		bool L_21;
 		L_21 = Nullable_1_get_Value_mE2C54C6AE9FC9F05BF44CD9D7D61DC6CD56E3E28(L_20, Nullable_1_get_Value_mE2C54C6AE9FC9F05BF44CD9D7D61DC6CD56E3E28_RuntimeMethod_var);
 		return L_21;
 	}
 }
-// Method Definition Index: 56271
+// Method Definition Index: 85914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_EmitAotData_m567914383E93A38ADA1F4D3AE645632CC6982AC4 (fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8698,7 +8698,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_EmitAotData_m567914383E93A38A
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:77>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:77>
 		bool L_0 = __this->____hasEmittedAotData;
 		if (L_0)
 		{
@@ -8706,16 +8706,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_EmitAotData_m567914383E93A38A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:79>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:79>
 		__this->____hasEmittedAotData = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:87>
 		V_0 = 0;
 		goto IL_0039;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:90>
 		fsMetaPropertyU5BU5D_t03BF317FB567AFD189BDBDC0F128AC96E7D25F98* L_1;
 		L_1 = fsMetaType_get_Properties_m54618035A54E08C924EB7E8781AA55C1D19F950A_inline(__this, NULL);
 		int32_t L_2 = V_0;
@@ -8731,13 +8731,13 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:92>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:92>
 		return (bool)0;
 	}
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:96>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:96>
 		fsMetaPropertyU5BU5D_t03BF317FB567AFD189BDBDC0F128AC96E7D25F98* L_6;
 		L_6 = fsMetaType_get_Properties_m54618035A54E08C924EB7E8781AA55C1D19F950A_inline(__this, NULL);
 		int32_t L_7 = V_0;
@@ -8753,20 +8753,20 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:98>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:98>
 		return (bool)0;
 	}
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:87>
 		int32_t L_11 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:87>
 		int32_t L_12 = V_0;
 		fsMetaPropertyU5BU5D_t03BF317FB567AFD189BDBDC0F128AC96E7D25F98* L_13;
 		L_13 = fsMetaType_get_Properties_m54618035A54E08C924EB7E8781AA55C1D19F950A_inline(__this, NULL);
@@ -8777,7 +8777,7 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:103>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:103>
 		bool L_14;
 		L_14 = fsMetaType_get_HasDefaultConstructor_m6AFFF40736CFD48C95681AF3228409840BB4F81E(__this, NULL);
 		if (L_14)
@@ -8786,30 +8786,30 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:105>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:105>
 		return (bool)0;
 	}
 
 IL_004e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:108>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:108>
 		Type_t* L_15 = __this->___ReflectedType;
 		fsMetaPropertyU5BU5D_t03BF317FB567AFD189BDBDC0F128AC96E7D25F98* L_16;
 		L_16 = fsMetaType_get_Properties_m54618035A54E08C924EB7E8781AA55C1D19F950A_inline(__this, NULL);
 		bool L_17 = __this->____isDefaultConstructorPublic;
 		il2cpp_codegen_runtime_class_init_inline(fsAotCompilationManager_tA4FA5D7D2FC305EE6984E234196A04392EC1B2EB_il2cpp_TypeInfo_var);
 		fsAotCompilationManager_AddAotCompilation_mC52615432A98FF68630197F195080908FB443A19(L_15, L_16, L_17, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:109>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:109>
 		return (bool)1;
 	}
 
 IL_0067:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:112>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:112>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 56272
+// Method Definition Index: 85915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* fsMetaType_CreateInstance_m29B05EF9602FCAE885BBC789C04C5EA32D60AE72 (fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8850,7 +8850,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* fsMetaType_CreateInstance_m29B
 	String_t* G_B27_0 = NULL;
 	String_t* G_B27_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:125>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:125>
 		Type_t* L_0 = __this->___ReflectedType;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		Type_t* L_1;
@@ -8879,7 +8879,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* fsMetaType_CreateInstance_m29B
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:127>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:127>
 		Type_t* L_6 = __this->___ReflectedType;
 		Type_t* L_7 = L_6;
 		if (L_7)
@@ -8917,7 +8917,7 @@ IL_003b:
 
 IL_0046:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:133>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:133>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_11 = { reinterpret_cast<intptr_t> (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_12;
@@ -8925,14 +8925,14 @@ IL_0046:
 		Type_t* L_13 = __this->___ReflectedType;
 		NullCheck(L_12);
 		bool L_14;
-		L_14 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_12, L_13);
+		L_14 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_12, L_13);
 		if (!L_14)
 		{
 			goto IL_0069;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:135>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:135>
 		Type_t* L_15 = __this->___ReflectedType;
 		ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* L_16;
 		L_16 = ScriptableObject_CreateInstance_mE015043D7EC19654FDFB830A9393B3914FF5FC24(L_15, NULL);
@@ -8941,7 +8941,7 @@ IL_0046:
 
 IL_0069:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:141>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_17 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.string_class->byval_arg) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_18;
@@ -8955,14 +8955,14 @@ IL_0069:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:143>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:143>
 		String_t* L_21 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		return L_21;
 	}
 
 IL_0086:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:146>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:146>
 		bool L_22;
 		L_22 = fsMetaType_get_HasDefaultConstructor_m6AFFF40736CFD48C95681AF3228409840BB4F81E(__this, NULL);
 		if (L_22)
@@ -8971,7 +8971,7 @@ IL_0086:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:152>
 		Type_t* L_23 = __this->___ReflectedType;
 		il2cpp_codegen_runtime_class_init_inline(FormatterServices_t37D3EFB704B4375FE9A0F532B7DEDE0A43FDF0E2_il2cpp_TypeInfo_var);
 		RuntimeObject* L_24;
@@ -8981,7 +8981,7 @@ IL_0086:
 
 IL_009a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:156>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:156>
 		Type_t* L_25 = __this->___ReflectedType;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		Type_t* L_26;
@@ -8995,11 +8995,11 @@ IL_009a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:160>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:160>
 		Type_t* L_28 = __this->___ReflectedType;
 		NullCheck(L_28);
 		Type_t* L_29;
-		L_29 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_28);
+		L_29 = VirtualFuncInvoker0< Type_t* >::Invoke(47, L_28);
 		RuntimeArray* L_30;
 		L_30 = Array_CreateInstance_m13B202130951A03AF5F52470A19E17D3AD2A8983(L_29, 0, NULL);
 		return L_30;
@@ -9010,7 +9010,7 @@ IL_00be:
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:170>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:170>
 		Type_t* L_31 = __this->___ReflectedType;
 		RuntimeObject* L_32;
 		L_32 = Activator_CreateInstance_m2BE3252B26369EA17E06A564F25172F6D002469F(L_31, (bool)1, NULL);
@@ -9041,9 +9041,9 @@ CATCH_00ce:
 	{
 		{
 			MissingMethodException_t3D861B41F6520C32A7994A884343802925703155* L_33 = ((MissingMethodException_t3D861B41F6520C32A7994A884343802925703155*)IL2CPP_GET_ACTIVE_EXCEPTION(MissingMethodException_t3D861B41F6520C32A7994A884343802925703155*));;
-			//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:174>
+			//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:174>
 			V_1 = L_33;
-			//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:176>
+			//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:176>
 			Type_t* L_34 = __this->___ReflectedType;
 			Type_t* L_35 = L_34;
 			if (L_35)
@@ -9086,9 +9086,9 @@ CATCH_00f7:
 	{
 		{
 			TargetInvocationException_t46C470A37ED9947AFD45BD814387DF64665B69F2* L_40 = ((TargetInvocationException_t46C470A37ED9947AFD45BD814387DF64665B69F2*)IL2CPP_GET_ACTIVE_EXCEPTION(TargetInvocationException_t46C470A37ED9947AFD45BD814387DF64665B69F2*));;
-			//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:179>
+			//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:179>
 			V_2 = L_40;
-			//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:181>
+			//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:181>
 			Type_t* L_41 = __this->___ReflectedType;
 			Type_t* L_42 = L_41;
 			if (L_42)
@@ -9131,9 +9131,9 @@ CATCH_0120:
 	{
 		{
 			MemberAccessException_t4BB9AF02B906BB4818600FC8988DECA4D37F2EFC* L_47 = ((MemberAccessException_t4BB9AF02B906BB4818600FC8988DECA4D37F2EFC*)IL2CPP_GET_ACTIVE_EXCEPTION(MemberAccessException_t4BB9AF02B906BB4818600FC8988DECA4D37F2EFC*));;
-			//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:183>
+			//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:183>
 			V_3 = L_47;
-			//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:185>
+			//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:185>
 			Type_t* L_48 = __this->___ReflectedType;
 			Type_t* L_49 = L_48;
 			if (L_49)
@@ -9174,12 +9174,12 @@ IL_0138:
 
 IL_0144:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:187>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:187>
 		RuntimeObject* L_54 = V_0;
 		return L_54;
 	}
 }
-// Method Definition Index: 56273
+// Method Definition Index: 85916
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743* fsMetaType_Get_m5622F5FF2787C35C795789C1373F6013DCAB4363 (fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* ___0_config, Type_t* ___1_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9201,7 +9201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6
 	bool V_3 = false;
 	Dictionary_2_tA74D83D57545F34B694A3C941D5A5CED5DE5F54E* V_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:195>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:195>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;
@@ -9238,7 +9238,7 @@ IL_0045:
 			{
 				Type_t* L_4 = V_2;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_4, (&V_3), NULL);
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:197>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:197>
 				il2cpp_codegen_runtime_class_init_inline(fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_il2cpp_TypeInfo_var);
 				Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525* L_5 = ((fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_StaticFields*)il2cpp_codegen_static_fields_for(fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_il2cpp_TypeInfo_var))->____configMetaTypes;
 				fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_6 = ___0_config;
@@ -9251,7 +9251,7 @@ IL_0045:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:199>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:199>
 				il2cpp_codegen_runtime_class_init_inline(fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_il2cpp_TypeInfo_var);
 				Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525* L_8 = ((fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_StaticFields*)il2cpp_codegen_static_fields_for(fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_il2cpp_TypeInfo_var))->____configMetaTypes;
 				fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_9 = ___0_config;
@@ -9267,7 +9267,7 @@ IL_0045:
 
 IL_003a_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:201>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:201>
 				goto IL_0046;
 			}
 		}
@@ -9279,7 +9279,7 @@ IL_003a_1:
 
 IL_0046:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:204>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:204>
 		Dictionary_2_tA74D83D57545F34B694A3C941D5A5CED5DE5F54E* L_13 = V_0;
 		Type_t* L_14 = ___1_type;
 		NullCheck(L_13);
@@ -9291,13 +9291,13 @@ IL_0046:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:206>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:206>
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_16 = ___0_config;
 		Type_t* L_17 = ___1_type;
 		fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743* L_18 = (fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743*)il2cpp_codegen_object_new(fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_il2cpp_TypeInfo_var);
 		fsMetaType__ctor_mC6683E69F4CE1C8FE4BC514BD4ED19E33CE35CF3(L_18, L_16, L_17, NULL);
 		V_1 = L_18;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:207>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:207>
 		Dictionary_2_tA74D83D57545F34B694A3C941D5A5CED5DE5F54E* L_19 = V_0;
 		Type_t* L_20 = ___1_type;
 		fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743* L_21 = V_1;
@@ -9307,12 +9307,12 @@ IL_0046:
 
 IL_0061:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:210>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:210>
 		fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743* L_22 = V_1;
 		return L_22;
 	}
 }
-// Method Definition Index: 56274
+// Method Definition Index: 85917
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaType_ClearCache_mC06B8136FCE8E8CC0A0F7DA75C72EAFD571DDD52 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9327,7 +9327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaType_ClearCache_mC06B8136FCE8E8CC0
 	Type_t* V_0 = NULL;
 	bool V_1 = false;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:219>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:219>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;
@@ -9363,13 +9363,13 @@ IL_002a:
 		{
 			Type_t* L_4 = V_0;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_4, (&V_1), NULL);
-			//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:221>
+			//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:221>
 			Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525* L_5 = (Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525*)il2cpp_codegen_object_new(Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525_il2cpp_TypeInfo_var);
 			Dictionary_2__ctor_mCA1741446BBCBB6DA1EEE4CBA933503E371880B9(L_5, Dictionary_2__ctor_mCA1741446BBCBB6DA1EEE4CBA933503E371880B9_RuntimeMethod_var);
 			il2cpp_codegen_runtime_class_init_inline(fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_il2cpp_TypeInfo_var);
 			((fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_StaticFields*)il2cpp_codegen_static_fields_for(fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_il2cpp_TypeInfo_var))->____configMetaTypes = L_5;
 			Il2CppCodeGenWriteBarrier((void**)(&((fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_StaticFields*)il2cpp_codegen_static_fields_for(fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_il2cpp_TypeInfo_var))->____configMetaTypes), (void*)L_5);
-			//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:222>
+			//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:222>
 			goto IL_002b;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -9380,11 +9380,11 @@ IL_002a:
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:223>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:223>
 		return;
 	}
 }
-// Method Definition Index: 56275
+// Method Definition Index: 85918
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaType_CollectProperties_m4ED60C5E38D1D5EC03A3A61803D7F60E21ED2D3C (fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* ___0_config, List_1_t9F06BD3141B39A6FF9DD30E497BC5A8F132B0043* ___1_properties, Type_t* ___2_reflectedType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9415,23 +9415,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaType_CollectProperties_m4ED60C5E38
 	PropertyInfo_t* V_7 = NULL;
 	FieldInfo_t* V_8 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:228>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:228>
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_0 = ___0_config;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___DefaultMemberSerialization;
 		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:229>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:229>
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_2 = ___0_config;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->___DefaultMemberSerialization;
 		V_1 = (bool)((((int32_t)L_3) == ((int32_t)1))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:231>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:231>
 		Type_t* L_4 = ___2_reflectedType;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_5;
 		L_5 = fsPortableReflection_GetAttribute_TisfsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38_m05C71253753EF477CA25996DA4B7A36E67881A2A(L_4, fsPortableReflection_GetAttribute_TisfsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38_m05C71253753EF477CA25996DA4B7A36E67881A2A_RuntimeMethod_var);
 		V_2 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:232>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:232>
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_6 = V_2;
 		if (!L_6)
 		{
@@ -9439,12 +9439,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaType_CollectProperties_m4ED60C5E38
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:234>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:234>
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_7 = V_2;
 		NullCheck(L_7);
 		int32_t L_8 = L_7->___MemberSerialization;
 		V_0 = (bool)((((int32_t)L_8) == ((int32_t)0))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:235>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:235>
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_9 = V_2;
 		NullCheck(L_9);
 		int32_t L_10 = L_9->___MemberSerialization;
@@ -9453,13 +9453,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaType_CollectProperties_m4ED60C5E38
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:238>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:238>
 		Type_t* L_11 = ___2_reflectedType;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_12;
 		L_12 = fsPortableReflection_GetDeclaredMembers_m65055614D9291573376917BF3044659CAF23409E(L_11, NULL);
 		V_3 = L_12;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:239>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:239>
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_13 = V_3;
 		V_4 = L_13;
 		V_5 = 0;
@@ -9471,7 +9471,7 @@ IL_0044:
 		U3CU3Ec__DisplayClass16_0_t1F2AD01733C50A5C8F3EED40EC24B1EF3D170687* L_14 = (U3CU3Ec__DisplayClass16_0_t1F2AD01733C50A5C8F3EED40EC24B1EF3D170687*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass16_0_t1F2AD01733C50A5C8F3EED40EC24B1EF3D170687_il2cpp_TypeInfo_var);
 		U3CU3Ec__DisplayClass16_0__ctor_m538342D591F27E0886D3D9F7969DB43E9F1AC3A0(L_14, NULL);
 		V_6 = L_14;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:239>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:239>
 		U3CU3Ec__DisplayClass16_0_t1F2AD01733C50A5C8F3EED40EC24B1EF3D170687* L_15 = V_6;
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_16 = V_4;
 		int32_t L_17 = V_5;
@@ -9481,7 +9481,7 @@ IL_0044:
 		NullCheck(L_15);
 		L_15->___member = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&L_15->___member), (void*)L_19);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:243>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:243>
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_20 = ___0_config;
 		NullCheck(L_20);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_21 = L_20->___IgnoreSerializeAttributes;
@@ -9496,17 +9496,17 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:248>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:248>
 		U3CU3Ec__DisplayClass16_0_t1F2AD01733C50A5C8F3EED40EC24B1EF3D170687* L_25 = V_6;
 		NullCheck(L_25);
 		MemberInfo_t* L_26 = L_25->___member;
 		V_7 = ((PropertyInfo_t*)IsInstClass((RuntimeObject*)L_26, PropertyInfo_t_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:249>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:249>
 		U3CU3Ec__DisplayClass16_0_t1F2AD01733C50A5C8F3EED40EC24B1EF3D170687* L_27 = V_6;
 		NullCheck(L_27);
 		MemberInfo_t* L_28 = L_27->___member;
 		V_8 = ((FieldInfo_t*)IsInstClass((RuntimeObject*)L_28, FieldInfo_t_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:253>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:253>
 		PropertyInfo_t* L_29 = V_7;
 		bool L_30;
 		L_30 = PropertyInfo_op_Equality_m3BFC2276AECF2A16B66F171D65516817B4578B4F(L_29, (PropertyInfo_t*)NULL, NULL);
@@ -9527,7 +9527,7 @@ IL_0044:
 
 IL_00a7:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:260>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:260>
 		PropertyInfo_t* L_33 = V_7;
 		bool L_34;
 		L_34 = PropertyInfo_op_Inequality_mE75A4F14CC678D8A670730FBD4338C718CACB51B(L_33, (PropertyInfo_t*)NULL, NULL);
@@ -9548,8 +9548,8 @@ IL_00a7:
 
 IL_00bc:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:267>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:268>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:267>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:268>
 		bool L_37 = V_0;
 		if (!L_37)
 		{
@@ -9573,8 +9573,8 @@ IL_00bc:
 
 IL_00d9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:275>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:276>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:275>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:276>
 		bool L_43 = V_1;
 		if (!L_43)
 		{
@@ -9598,7 +9598,7 @@ IL_00d9:
 
 IL_00f6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:281>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:281>
 		PropertyInfo_t* L_49 = V_7;
 		bool L_50;
 		L_50 = PropertyInfo_op_Inequality_mE75A4F14CC678D8A670730FBD4338C718CACB51B(L_49, (PropertyInfo_t*)NULL, NULL);
@@ -9608,7 +9608,7 @@ IL_00f6:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:283>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:283>
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_51 = ___0_config;
 		PropertyInfo_t* L_52 = V_7;
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_53 = V_3;
@@ -9622,7 +9622,7 @@ IL_00f6:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:285>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:285>
 		List_1_t9F06BD3141B39A6FF9DD30E497BC5A8F132B0043* L_56 = ___1_properties;
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_57 = ___0_config;
 		PropertyInfo_t* L_58 = V_7;
@@ -9635,7 +9635,7 @@ IL_00f6:
 
 IL_011c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:288>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:288>
 		FieldInfo_t* L_60 = V_8;
 		bool L_61;
 		L_61 = FieldInfo_op_Inequality_m95789A98E646494987E66A9E4188DCA86185066B(L_60, (FieldInfo_t*)NULL, NULL);
@@ -9645,7 +9645,7 @@ IL_011c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:290>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:290>
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_62 = ___0_config;
 		FieldInfo_t* L_63 = V_8;
 		bool L_64 = V_1;
@@ -9658,7 +9658,7 @@ IL_011c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:292>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:292>
 		List_1_t9F06BD3141B39A6FF9DD30E497BC5A8F132B0043* L_66 = ___1_properties;
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_67 = ___0_config;
 		FieldInfo_t* L_68 = V_8;
@@ -9676,7 +9676,7 @@ IL_013f:
 
 IL_0145:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:239>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:239>
 		int32_t L_71 = V_5;
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_72 = V_4;
 		NullCheck(L_72);
@@ -9686,14 +9686,14 @@ IL_0145:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:297>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:297>
 		Type_t* L_73 = ___2_reflectedType;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		Type_t* L_74;
 		L_74 = fsPortableReflection_Resolve_m995640D6EA5B5B1268075371EC800CF8720BF9C3(L_73, NULL);
 		NullCheck(L_74);
 		Type_t* L_75;
-		L_75 = VirtualFuncInvoker0< Type_t* >::Invoke(114, L_74);
+		L_75 = VirtualFuncInvoker0< Type_t* >::Invoke(117, L_74);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		bool L_76;
 		L_76 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_75, (Type_t*)NULL, NULL);
@@ -9703,7 +9703,7 @@ IL_0145:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:299>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:299>
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_77 = ___0_config;
 		List_1_t9F06BD3141B39A6FF9DD30E497BC5A8F132B0043* L_78 = ___1_properties;
 		Type_t* L_79 = ___2_reflectedType;
@@ -9712,18 +9712,18 @@ IL_0145:
 		L_80 = fsPortableReflection_Resolve_m995640D6EA5B5B1268075371EC800CF8720BF9C3(L_79, NULL);
 		NullCheck(L_80);
 		Type_t* L_81;
-		L_81 = VirtualFuncInvoker0< Type_t* >::Invoke(114, L_80);
+		L_81 = VirtualFuncInvoker0< Type_t* >::Invoke(117, L_80);
 		il2cpp_codegen_runtime_class_init_inline(fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_il2cpp_TypeInfo_var);
 		fsMetaType_CollectProperties_m4ED60C5E38D1D5EC03A3A61803D7F60E21ED2D3C(L_77, L_78, L_81, NULL);
 	}
 
 IL_0175:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:301>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:301>
 		return;
 	}
 }
-// Method Definition Index: 56276
+// Method Definition Index: 85919
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_IsAutoProperty_mC28CBE4BA104DE04A8D082D781C962C39287CC28 (PropertyInfo_t* ___0_property, MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* ___1_members, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9734,14 +9734,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_IsAutoProperty_mC28CBE4BA104D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:305>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:306>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:307>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:308>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:305>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:306>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:307>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:308>
 		PropertyInfo_t* L_0 = ___0_property;
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtualFuncInvoker0< bool >::Invoke(20, L_0);
+		L_1 = VirtualFuncInvoker0< bool >::Invoke(21, L_0);
 		if (!L_1)
 		{
 			goto IL_0027;
@@ -9751,7 +9751,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_IsAutoProperty_mC28CBE4BA104D
 		PropertyInfo_t* L_2 = ___0_property;
 		NullCheck(L_2);
 		bool L_3;
-		L_3 = VirtualFuncInvoker0< bool >::Invoke(19, L_2);
+		L_3 = VirtualFuncInvoker0< bool >::Invoke(20, L_2);
 		if (!L_3)
 		{
 			goto IL_0027;
@@ -9777,7 +9777,7 @@ IL_0027:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 56277
+// Method Definition Index: 85920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_CanSerializeProperty_mAD3B5D6C4B122AEBA0895E510A69BFDDA00427B2 (fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* ___0_config, PropertyInfo_t* ___1_property, MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* ___2_members, bool ___3_annotationFreeValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9803,7 +9803,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_CanSerializeProperty_mAD3B5D6
 		NullCheck(L_1);
 		L_1->___property = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___property), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:320>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:320>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (Delegate_t_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_4;
@@ -9813,40 +9813,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_CanSerializeProperty_mAD3B5D6
 		PropertyInfo_t* L_6 = L_5->___property;
 		NullCheck(L_6);
 		Type_t* L_7;
-		L_7 = VirtualFuncInvoker0< Type_t* >::Invoke(15, L_6);
+		L_7 = VirtualFuncInvoker0< Type_t* >::Invoke(16, L_6);
 		NullCheck(L_4);
 		bool L_8;
-		L_8 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_4, L_7);
+		L_8 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_4, L_7);
 		if (!L_8)
 		{
 			goto IL_002b;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:322>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:322>
 		return (bool)0;
 	}
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:325>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:325>
 		U3CU3Ec__DisplayClass18_0_t7A23E8400AD5D3DB797826E6FDCC44E7EFDA6B52* L_9 = V_0;
 		NullCheck(L_9);
 		PropertyInfo_t* L_10 = L_9->___property;
 		NullCheck(L_10);
 		MethodInfo_t* L_11;
-		L_11 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(23, L_10, (bool)0);
+		L_11 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(24, L_10, (bool)0);
 		V_1 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:326>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:326>
 		U3CU3Ec__DisplayClass18_0_t7A23E8400AD5D3DB797826E6FDCC44E7EFDA6B52* L_12 = V_0;
 		NullCheck(L_12);
 		PropertyInfo_t* L_13 = L_12->___property;
 		NullCheck(L_13);
 		MethodInfo_t* L_14;
-		L_14 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(25, L_13, (bool)0);
+		L_14 = VirtualFuncInvoker1< MethodInfo_t*, bool >::Invoke(26, L_13, (bool)0);
 		V_2 = L_14;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:329>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:330>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:329>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:330>
 		MethodInfo_t* L_15 = V_1;
 		bool L_16;
 		L_16 = MethodInfo_op_Inequality_mB73597A1FCC2F906DBCADDEC68A1B7D5B7E89FA8(L_15, (MethodInfo_t*)NULL, NULL);
@@ -9889,19 +9889,19 @@ IL_0056:
 
 IL_0067:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:332>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:332>
 		return (bool)0;
 	}
 
 IL_0069:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:338>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:338>
 		U3CU3Ec__DisplayClass18_0_t7A23E8400AD5D3DB797826E6FDCC44E7EFDA6B52* L_23 = V_0;
 		NullCheck(L_23);
 		PropertyInfo_t* L_24 = L_23->___property;
 		NullCheck(L_24);
 		ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* L_25;
-		L_25 = VirtualFuncInvoker0< ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* >::Invoke(16, L_24);
+		L_25 = VirtualFuncInvoker0< ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* >::Invoke(17, L_24);
 		NullCheck(L_25);
 		if (!(((RuntimeArray*)L_25)->max_length))
 		{
@@ -9909,13 +9909,13 @@ IL_0069:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:340>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:340>
 		return (bool)0;
 	}
 
 IL_0079:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:348>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:348>
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_26 = ___0_config;
 		NullCheck(L_26);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_27 = L_26->___SerializeAttributes;
@@ -9930,19 +9930,19 @@ IL_0079:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:350>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:350>
 		return (bool)1;
 	}
 
 IL_0094:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:355>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:355>
 		U3CU3Ec__DisplayClass18_0_t7A23E8400AD5D3DB797826E6FDCC44E7EFDA6B52* L_31 = V_0;
 		NullCheck(L_31);
 		PropertyInfo_t* L_32 = L_31->___property;
 		NullCheck(L_32);
 		bool L_33;
-		L_33 = VirtualFuncInvoker0< bool >::Invoke(19, L_32);
+		L_33 = VirtualFuncInvoker0< bool >::Invoke(20, L_32);
 		if (!L_33)
 		{
 			goto IL_00ae;
@@ -9954,7 +9954,7 @@ IL_0094:
 		PropertyInfo_t* L_35 = L_34->___property;
 		NullCheck(L_35);
 		bool L_36;
-		L_36 = VirtualFuncInvoker0< bool >::Invoke(20, L_35);
+		L_36 = VirtualFuncInvoker0< bool >::Invoke(21, L_35);
 		if (L_36)
 		{
 			goto IL_00b0;
@@ -9963,14 +9963,14 @@ IL_0094:
 
 IL_00ae:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:357>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:357>
 		return (bool)0;
 	}
 
 IL_00b0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:363>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:364>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:363>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:364>
 		MethodInfo_t* L_37 = V_1;
 		bool L_38;
 		L_38 = MethodInfo_op_Inequality_mB73597A1FCC2F906DBCADDEC68A1B7D5B7E89FA8(L_37, (MethodInfo_t*)NULL, NULL);
@@ -10024,18 +10024,18 @@ IL_00ca:
 
 IL_00e0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:366>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:366>
 		return (bool)1;
 	}
 
 IL_00e2:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:370>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:370>
 		bool L_49 = ___3_annotationFreeValue;
 		return L_49;
 	}
 }
-// Method Definition Index: 56278
+// Method Definition Index: 85921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_CanSerializeField_mD6450E719027D7DC41CA949858689F8B2B87682E (fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* ___0_config, FieldInfo_t* ___1_field, bool ___2_annotationFreeValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10059,7 +10059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_CanSerializeField_mD6450E7190
 		NullCheck(L_1);
 		L_1->___field = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___field), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:376>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:376>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (Delegate_t_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_4;
@@ -10069,23 +10069,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsMetaType_CanSerializeField_mD6450E7190
 		FieldInfo_t* L_6 = L_5->___field;
 		NullCheck(L_6);
 		Type_t* L_7;
-		L_7 = VirtualFuncInvoker0< Type_t* >::Invoke(16, L_6);
+		L_7 = VirtualFuncInvoker0< Type_t* >::Invoke(17, L_6);
 		NullCheck(L_4);
 		bool L_8;
-		L_8 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_4, L_7);
+		L_8 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_4, L_7);
 		if (!L_8)
 		{
 			goto IL_002b;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:378>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:378>
 		return (bool)0;
 	}
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:383>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:383>
 		U3CU3Ec__DisplayClass19_0_t045F379B05DE64CD5859B6F851C39D5E8A0F84D6* L_9 = V_0;
 		NullCheck(L_9);
 		FieldInfo_t* L_10 = L_9->___field;
@@ -10101,13 +10101,13 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:385>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:385>
 		return (bool)0;
 	}
 
 IL_0045:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:389>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:389>
 		U3CU3Ec__DisplayClass19_0_t045F379B05DE64CD5859B6F851C39D5E8A0F84D6* L_14 = V_0;
 		NullCheck(L_14);
 		FieldInfo_t* L_15 = L_14->___field;
@@ -10120,13 +10120,13 @@ IL_0045:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:391>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:391>
 		return (bool)0;
 	}
 
 IL_0054:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:399>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:399>
 		fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726* L_17 = ___0_config;
 		NullCheck(L_17);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_18 = L_17->___SerializeAttributes;
@@ -10141,13 +10141,13 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:401>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:401>
 		return (bool)1;
 	}
 
 IL_006f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:406>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:406>
 		bool L_22 = ___2_annotationFreeValue;
 		if (L_22)
 		{
@@ -10167,17 +10167,17 @@ IL_006f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:408>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:408>
 		return (bool)0;
 	}
 
 IL_0081:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:411>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:411>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 56279
+// Method Definition Index: 85922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaType__cctor_mE583D07A7F203890BAF8361A65C8885B0155B781 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10189,8 +10189,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaType__cctor_mE583D07A7F203890BAF83
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:189>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:190>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:189>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:190>
 		Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525* L_0 = (Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525*)il2cpp_codegen_object_new(Dictionary_2_tFE5F76A37152304D01BB6476659D5D42230E8525_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mCA1741446BBCBB6DA1EEE4CBA933503E371880B9(L_0, Dictionary_2__ctor_mCA1741446BBCBB6DA1EEE4CBA933503E371880B9_RuntimeMethod_var);
 		((fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_StaticFields*)il2cpp_codegen_static_fields_for(fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743_il2cpp_TypeInfo_var))->____configMetaTypes = L_0;
@@ -10206,7 +10206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsMetaType__cctor_mE583D07A7F203890BAF83
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56280
+// Method Definition Index: 85923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass16_0__ctor_m538342D591F27E0886D3D9F7969DB43E9F1AC3A0 (U3CU3Ec__DisplayClass16_0_t1F2AD01733C50A5C8F3EED40EC24B1EF3D170687* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10214,7 +10214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass16_0__ctor_m538342D
 		return;
 	}
 }
-// Method Definition Index: 56281
+// Method Definition Index: 85924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass16_0_U3CCollectPropertiesU3Eb__0_mBDC7709CE09425F240C42147C3BB2FDB7E76FAF5 (U3CU3Ec__DisplayClass16_0_t1F2AD01733C50A5C8F3EED40EC24B1EF3D170687* __this, Type_t* ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10224,7 +10224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass16_0_U3CCollectProp
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:243>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:243>
 		MemberInfo_t* L_0 = __this->___member;
 		Type_t* L_1 = ___0_t;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
@@ -10233,7 +10233,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass16_0_U3CCollectProp
 		return L_2;
 	}
 }
-// Method Definition Index: 56282
+// Method Definition Index: 85925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass16_0_U3CCollectPropertiesU3Eb__1_m086012131CD06B409756038400BF39327BF9F233 (U3CU3Ec__DisplayClass16_0_t1F2AD01733C50A5C8F3EED40EC24B1EF3D170687* __this, Type_t* ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10243,7 +10243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass16_0_U3CCollectProp
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:268>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:268>
 		MemberInfo_t* L_0 = __this->___member;
 		Type_t* L_1 = ___0_t;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
@@ -10252,7 +10252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass16_0_U3CCollectProp
 		return L_2;
 	}
 }
-// Method Definition Index: 56283
+// Method Definition Index: 85926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass16_0_U3CCollectPropertiesU3Eb__2_mCA3D8AC6B0001C61241D0164C6089EE68DF7F245 (U3CU3Ec__DisplayClass16_0_t1F2AD01733C50A5C8F3EED40EC24B1EF3D170687* __this, Type_t* ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10262,7 +10262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass16_0_U3CCollectProp
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:276>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:276>
 		MemberInfo_t* L_0 = __this->___member;
 		Type_t* L_1 = ___0_t;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
@@ -10279,7 +10279,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass16_0_U3CCollectProp
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56284
+// Method Definition Index: 85927
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0__ctor_m409998F2ADDDE7B61682E1940C31EB545A5333A9 (U3CU3Ec__DisplayClass18_0_t7A23E8400AD5D3DB797826E6FDCC44E7EFDA6B52* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10287,7 +10287,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0__ctor_m409998F
 		return;
 	}
 }
-// Method Definition Index: 56285
+// Method Definition Index: 85928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass18_0_U3CCanSerializePropertyU3Eb__0_m9DF628356CB27A717F31CD102E1D609070B00ABB (U3CU3Ec__DisplayClass18_0_t7A23E8400AD5D3DB797826E6FDCC44E7EFDA6B52* __this, Type_t* ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10297,7 +10297,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass18_0_U3CCanSerializ
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:348>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:348>
 		PropertyInfo_t* L_0 = __this->___property;
 		Type_t* L_1 = ___0_t;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
@@ -10314,7 +10314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass18_0_U3CCanSerializ
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56286
+// Method Definition Index: 85929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0__ctor_m577E5745A5BD61B689CD9DF9A336D664BDE608AA (U3CU3Ec__DisplayClass19_0_t045F379B05DE64CD5859B6F851C39D5E8A0F84D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10322,7 +10322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0__ctor_m577E574
 		return;
 	}
 }
-// Method Definition Index: 56287
+// Method Definition Index: 85930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass19_0_U3CCanSerializeFieldU3Eb__0_mFA28917E7AF68FAD4A6A425DF445DD5AC3115D07 (U3CU3Ec__DisplayClass19_0_t045F379B05DE64CD5859B6F851C39D5E8A0F84D6* __this, Type_t* ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10332,7 +10332,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass19_0_U3CCanSerializ
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:399>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:399>
 		FieldInfo_t* L_0 = __this->___field;
 		Type_t* L_1 = ___0_t;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
@@ -10349,7 +10349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass19_0_U3CCanSerializ
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56288
+// Method Definition Index: 85931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* fsReflectionUtility_GetInterface_mECB1C271163A4B35F1CB6F2976818AF0A50AD905 (Type_t* ___0_type, Type_t* ___1_interfaceType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10362,15 +10362,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* fsReflectionUtility_GetInterface_mECB
 	int32_t V_1 = 0;
 	Type_t* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:29>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:30>
 		Type_t* L_0 = ___1_interfaceType;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		Type_t* L_1;
 		L_1 = fsPortableReflection_Resolve_m995640D6EA5B5B1268075371EC800CF8720BF9C3(L_0, NULL);
 		NullCheck(L_1);
 		bool L_2;
-		L_2 = VirtualFuncInvoker0< bool >::Invoke(39, L_1);
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(40, L_1);
 		if (!L_2)
 		{
 			goto IL_0073;
@@ -10383,16 +10383,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* fsReflectionUtility_GetInterface_mECB
 		L_4 = fsPortableReflection_Resolve_m995640D6EA5B5B1268075371EC800CF8720BF9C3(L_3, NULL);
 		NullCheck(L_4);
 		bool L_5;
-		L_5 = VirtualFuncInvoker0< bool >::Invoke(40, L_4);
+		L_5 = VirtualFuncInvoker0< bool >::Invoke(41, L_4);
 		if (L_5)
 		{
 			goto IL_0073;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:32>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:33>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:33>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:34>
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_6 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3A568DD979BA71FD69E8EEE80B144BCDE0D0B023)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&fsReflectionUtility_GetInterface_mECB1C271163A4B35F1CB6F2976818AF0A50AD905_RuntimeMethod_var)));
@@ -10400,11 +10400,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* fsReflectionUtility_GetInterface_mECB
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:40>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:40>
 		Type_t* L_7 = ___0_type;
 		NullCheck(L_7);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_8;
-		L_8 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(116, L_7);
+		L_8 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(119, L_7);
 		V_0 = L_8;
 		V_1 = 0;
 		goto IL_0060;
@@ -10412,33 +10412,33 @@ IL_0025:
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:40>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:40>
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_9 = V_0;
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
 		int32_t L_11 = L_10;
 		Type_t* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		V_2 = L_12;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:42>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:42>
 		Type_t* L_13 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		Type_t* L_14;
 		L_14 = fsPortableReflection_Resolve_m995640D6EA5B5B1268075371EC800CF8720BF9C3(L_13, NULL);
 		NullCheck(L_14);
 		bool L_15;
-		L_15 = VirtualFuncInvoker0< bool >::Invoke(39, L_14);
+		L_15 = VirtualFuncInvoker0< bool >::Invoke(40, L_14);
 		if (!L_15)
 		{
 			goto IL_0051;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:44>
 		Type_t* L_16 = ___1_interfaceType;
 		Type_t* L_17 = V_2;
 		NullCheck(L_17);
 		Type_t* L_18;
-		L_18 = VirtualFuncInvoker0< Type_t* >::Invoke(48, L_17);
+		L_18 = VirtualFuncInvoker0< Type_t* >::Invoke(49, L_17);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		bool L_19;
 		L_19 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_16, L_18, NULL);
@@ -10448,14 +10448,14 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:46>
 		Type_t* L_20 = V_2;
 		return L_20;
 	}
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:49>
 		Type_t* L_21 = ___1_interfaceType;
 		Type_t* L_22 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -10467,7 +10467,7 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:51>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:51>
 		Type_t* L_24 = V_2;
 		return L_24;
 	}
@@ -10480,7 +10480,7 @@ IL_005c:
 
 IL_0060:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:40>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:40>
 		int32_t L_26 = V_1;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_27 = V_0;
 		NullCheck(L_27);
@@ -10490,20 +10490,20 @@ IL_0060:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:55>
 		Type_t* L_28 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		Type_t* L_29;
 		L_29 = fsPortableReflection_Resolve_m995640D6EA5B5B1268075371EC800CF8720BF9C3(L_28, NULL);
 		NullCheck(L_29);
 		Type_t* L_30;
-		L_30 = VirtualFuncInvoker0< Type_t* >::Invoke(114, L_29);
+		L_30 = VirtualFuncInvoker0< Type_t* >::Invoke(117, L_29);
 		___0_type = L_30;
 	}
 
 IL_0073:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:38>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:38>
 		Type_t* L_31 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		bool L_32;
@@ -10514,7 +10514,7 @@ IL_0073:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsReflectionUtility.cs:58>
 		return (Type_t*)NULL;
 	}
 }
@@ -10534,18 +10534,18 @@ IL_0073:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56289
+// Method Definition Index: 85932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsCyclicReferenceManager_Enter_m28863BBFD4BDEF23F1DCBC9D2FC71D797EB2FDB4 (fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:17>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:17>
 		int32_t L_0 = __this->____depth;
 		__this->____depth = ((int32_t)il2cpp_codegen_add(L_0, 1));
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:18>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 56290
+// Method Definition Index: 85933
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsCyclicReferenceManager_Exit_m91D1DB5745A082CE50E57ABB26B16E0F3661120F (fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10559,10 +10559,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsCyclicReferenceManager_Exit_m91D1DB574
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:22>
 		int32_t L_0 = __this->____depth;
 		__this->____depth = ((int32_t)il2cpp_codegen_subtract(L_0, 1));
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:24>
 		int32_t L_1 = __this->____depth;
 		if (L_1)
 		{
@@ -10570,16 +10570,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsCyclicReferenceManager_Exit_m91D1DB574
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:26>
 		il2cpp_codegen_runtime_class_init_inline(ObjectReferenceEqualityComparator_t16C6855ED0469BF805B533C786AA35E60E43BC24_il2cpp_TypeInfo_var);
 		RuntimeObject* L_2 = ((ObjectReferenceEqualityComparator_t16C6855ED0469BF805B533C786AA35E60E43BC24_StaticFields*)il2cpp_codegen_static_fields_for(ObjectReferenceEqualityComparator_t16C6855ED0469BF805B533C786AA35E60E43BC24_il2cpp_TypeInfo_var))->___Instance;
 		Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1* L_3 = (Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1*)il2cpp_codegen_object_new(Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m89AC42CD88BC0ED965D36B7028EF3DE23D290E1D(L_3, L_2, Dictionary_2__ctor_m89AC42CD88BC0ED965D36B7028EF3DE23D290E1D_RuntimeMethod_var);
 		__this->____objectIds = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____objectIds), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:27>
 		__this->____nextId = 0;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:28>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:28>
 		Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* L_4 = (Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907*)il2cpp_codegen_object_new(Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m92E9AB321FBD7147CA109C822D99C8B0610C27B7(L_4, Dictionary_2__ctor_m92E9AB321FBD7147CA109C822D99C8B0610C27B7_RuntimeMethod_var);
 		__this->____marked = L_4;
@@ -10588,7 +10588,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsCyclicReferenceManager_Exit_m91D1DB574
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:31>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:31>
 		int32_t L_5 = __this->____depth;
 		if ((((int32_t)L_5) >= ((int32_t)0)))
 		{
@@ -10596,9 +10596,9 @@ IL_0038:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:33>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:33>
 		__this->____depth = 0;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:34>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_6 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral196B9F158F47A1AD126F637AEA43035DC05202EA)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&fsCyclicReferenceManager_Exit_m91D1DB5745A082CE50E57ABB26B16E0F3661120F_RuntimeMethod_var)));
@@ -10606,12 +10606,12 @@ IL_0038:
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:37>
 		int32_t L_7 = __this->____depth;
 		return (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 56291
+// Method Definition Index: 85934
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* fsCyclicReferenceManager_GetReferenceObject_mA7330D4D27E050EE92EC6F5333767307B8E1B7C4 (fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* __this, int32_t ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10622,7 +10622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* fsCyclicReferenceManager_GetRe
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:42>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:42>
 		Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* L_0 = __this->____marked;
 		int32_t L_1 = ___0_id;
 		NullCheck(L_0);
@@ -10634,11 +10634,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* fsCyclicReferenceManager_GetRe
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:48>
 		String_t* L_3;
 		L_3 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___0_id), NULL);
 		String_t* L_4;
@@ -10650,7 +10650,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* fsCyclicReferenceManager_GetRe
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:51>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:51>
 		Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* L_6 = __this->____marked;
 		int32_t L_7 = ___0_id;
 		NullCheck(L_6);
@@ -10659,7 +10659,7 @@ IL_002a:
 		return L_8;
 	}
 }
-// Method Definition Index: 56292
+// Method Definition Index: 85935
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsCyclicReferenceManager_AddReferenceWithId_mEC4A2DE046EF97033AE58B86AA1AADBA88A170C5 (fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* __this, int32_t ___0_id, RuntimeObject* ___1_reference, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10669,17 +10669,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsCyclicReferenceManager_AddReferenceWit
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:56>
 		Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* L_0 = __this->____marked;
 		int32_t L_1 = ___0_id;
 		RuntimeObject* L_2 = ___1_reference;
 		NullCheck(L_0);
 		Dictionary_2_set_Item_m2888D71A14F2B8510102F24FEE90552E91B124C1(L_0, L_1, L_2, Dictionary_2_set_Item_m2888D71A14F2B8510102F24FEE90552E91B124C1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:57>
 		return;
 	}
 }
-// Method Definition Index: 56293
+// Method Definition Index: 85936
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t fsCyclicReferenceManager_GetReferenceId_m30B91E17BE1C02D89F10F705C0EE3FE8F0E0458F (fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10692,7 +10692,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t fsCyclicReferenceManager_GetReference
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:62>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:62>
 		Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1* L_0 = __this->____objectIds;
 		RuntimeObject* L_1 = ___0_item;
 		NullCheck(L_0);
@@ -10704,14 +10704,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t fsCyclicReferenceManager_GetReference
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:64>
 		int32_t L_3 = __this->____nextId;
 		V_1 = L_3;
 		int32_t L_4 = V_1;
 		__this->____nextId = ((int32_t)il2cpp_codegen_add(L_4, 1));
 		int32_t L_5 = V_1;
 		V_0 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:65>
 		Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1* L_6 = __this->____objectIds;
 		RuntimeObject* L_7 = ___0_item;
 		int32_t L_8 = V_0;
@@ -10721,12 +10721,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t fsCyclicReferenceManager_GetReference
 
 IL_002f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:67>
 		int32_t L_9 = V_0;
 		return L_9;
 	}
 }
-// Method Definition Index: 56294
+// Method Definition Index: 85937
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsCyclicReferenceManager_IsReference_mCE7FC77905F712E503F2CBE8D6F02244C74D9437 (fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10736,7 +10736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsCyclicReferenceManager_IsReference_mCE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:72>
 		Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* L_0 = __this->____marked;
 		RuntimeObject* L_1 = ___0_item;
 		int32_t L_2;
@@ -10747,7 +10747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsCyclicReferenceManager_IsReference_mCE
 		return L_3;
 	}
 }
-// Method Definition Index: 56295
+// Method Definition Index: 85938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsCyclicReferenceManager_MarkSerialized_m8CD82B690712E7EEE90E8B7C15EAF22E2E76B952 (fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10763,12 +10763,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsCyclicReferenceManager_MarkSerialized_
 	String_t* G_B4_0 = NULL;
 	String_t* G_B4_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:77>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:77>
 		RuntimeObject* L_0 = ___0_item;
 		int32_t L_1;
 		L_1 = fsCyclicReferenceManager_GetReferenceId_m30B91E17BE1C02D89F10F705C0EE3FE8F0E0458F(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:79>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:79>
 		Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* L_2 = __this->____marked;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
@@ -10780,8 +10780,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsCyclicReferenceManager_MarkSerialized_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:81>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:82>
 		RuntimeObject* L_5 = ___0_item;
 		if (L_5)
 		{
@@ -10817,17 +10817,17 @@ IL_0027:
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:85>
 		Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* L_10 = __this->____marked;
 		int32_t L_11 = V_0;
 		RuntimeObject* L_12 = ___0_item;
 		NullCheck(L_10);
 		Dictionary_2_set_Item_m2888D71A14F2B8510102F24FEE90552E91B124C1(L_10, L_11, L_12, Dictionary_2_set_Item_m2888D71A14F2B8510102F24FEE90552E91B124C1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:86>
 		return;
 	}
 }
-// Method Definition Index: 56296
+// Method Definition Index: 85939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsCyclicReferenceManager__ctor_m4904103AD3F430576C520F7C2C412C35C10BC1D0 (fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10841,14 +10841,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsCyclicReferenceManager__ctor_m4904103A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:9>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:9>
 		il2cpp_codegen_runtime_class_init_inline(ObjectReferenceEqualityComparator_t16C6855ED0469BF805B533C786AA35E60E43BC24_il2cpp_TypeInfo_var);
 		RuntimeObject* L_0 = ((ObjectReferenceEqualityComparator_t16C6855ED0469BF805B533C786AA35E60E43BC24_StaticFields*)il2cpp_codegen_static_fields_for(ObjectReferenceEqualityComparator_t16C6855ED0469BF805B533C786AA35E60E43BC24_il2cpp_TypeInfo_var))->___Instance;
 		Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1* L_1 = (Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1*)il2cpp_codegen_object_new(Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m89AC42CD88BC0ED965D36B7028EF3DE23D290E1D(L_1, L_0, Dictionary_2__ctor_m89AC42CD88BC0ED965D36B7028EF3DE23D290E1D_RuntimeMethod_var);
 		__this->____objectIds = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____objectIds), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:12>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:12>
 		Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* L_2 = (Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907*)il2cpp_codegen_object_new(Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m92E9AB321FBD7147CA109C822D99C8B0610C27B7(L_2, Dictionary_2__ctor_m92E9AB321FBD7147CA109C822D99C8B0610C27B7_RuntimeMethod_var);
 		__this->____marked = L_2;
@@ -10865,28 +10865,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsCyclicReferenceManager__ctor_m4904103A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56297
+// Method Definition Index: 85940
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectReferenceEqualityComparator_System_Collections_Generic_IEqualityComparerU3CSystem_ObjectU3E_Equals_mCF77DB060539A6992A81D2700283385C08751EB6 (ObjectReferenceEqualityComparator_t16C6855ED0469BF805B533C786AA35E60E43BC24* __this, RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:96>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:96>
 		RuntimeObject* L_0 = ___0_x;
 		RuntimeObject* L_1 = ___1_y;
 		return (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)L_1))? 1 : 0);
 	}
 }
-// Method Definition Index: 56298
+// Method Definition Index: 85941
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectReferenceEqualityComparator_System_Collections_Generic_IEqualityComparerU3CSystem_ObjectU3E_GetHashCode_mFB4BE9ACD40DEAE98F69833C25B3533F8DFED864 (ObjectReferenceEqualityComparator_t16C6855ED0469BF805B533C786AA35E60E43BC24* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:101>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:101>
 		RuntimeObject* L_0 = ___0_obj;
 		int32_t L_1;
 		L_1 = RuntimeHelpers_GetHashCode_m7B5D57E1EE2A59EDFA1BD237E9B37C6C836D774B(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 56299
+// Method Definition Index: 85942
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectReferenceEqualityComparator__ctor_m609265685F45AFF755A5EF6BCF53C9B2FAF2DF64 (ObjectReferenceEqualityComparator_t16C6855ED0469BF805B533C786AA35E60E43BC24* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10894,7 +10894,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectReferenceEqualityComparator__ctor_
 		return;
 	}
 }
-// Method Definition Index: 56300
+// Method Definition Index: 85943
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectReferenceEqualityComparator__cctor_m8B819E32F9065E54766F626C4A17B330217E2D51 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10904,7 +10904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectReferenceEqualityComparator__cctor
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:104>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsCyclicReferenceManager.cs:104>
 		ObjectReferenceEqualityComparator_t16C6855ED0469BF805B533C786AA35E60E43BC24* L_0 = (ObjectReferenceEqualityComparator_t16C6855ED0469BF805B533C786AA35E60E43BC24*)il2cpp_codegen_object_new(ObjectReferenceEqualityComparator_t16C6855ED0469BF805B533C786AA35E60E43BC24_il2cpp_TypeInfo_var);
 		ObjectReferenceEqualityComparator__ctor_m609265685F45AFF755A5EF6BCF53C9B2FAF2DF64(L_0, NULL);
 		((ObjectReferenceEqualityComparator_t16C6855ED0469BF805B533C786AA35E60E43BC24_StaticFields*)il2cpp_codegen_static_fields_for(ObjectReferenceEqualityComparator_t16C6855ED0469BF805B533C786AA35E60E43BC24_il2cpp_TypeInfo_var))->___Instance = L_0;
@@ -10928,7 +10928,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectReferenceEqualityComparator__cctor
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56308
+// Method Definition Index: 85951
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsPortableReflection_HasAttribute_mD4F1A8E233F51111056C7383B81BB3C2F6034477 (MemberInfo_t* ___0_element, Type_t* ___1_attributeType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10938,7 +10938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsPortableReflection_HasAttribute_mD4F1A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:102>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:102>
 		MemberInfo_t* L_0 = ___0_element;
 		Type_t* L_1 = ___1_attributeType;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
@@ -10947,11 +10947,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsPortableReflection_HasAttribute_mD4F1A
 		return L_2;
 	}
 }
-// Method Definition Index: 56309
+// Method Definition Index: 85952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsPortableReflection_HasAttribute_m1F9C28B7432B2B5C3DE18ACDF7E12F2318E52973 (MemberInfo_t* ___0_element, Type_t* ___1_attributeType, bool ___2_shouldCache, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:113>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:113>
 		MemberInfo_t* L_0 = ___0_element;
 		Type_t* L_1 = ___1_attributeType;
 		bool L_2;
@@ -10959,7 +10959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsPortableReflection_HasAttribute_m1F9C2
 		return L_2;
 	}
 }
-// Method Definition Index: 56310
+// Method Definition Index: 85953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA* fsPortableReflection_GetAttribute_m54325D68CE95535644F25CD39FAA3D4858745EB8 (MemberInfo_t* ___0_element, Type_t* ___1_attributeType, bool ___2_shouldCache, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10977,11 +10977,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Attribute_tFDA8EFEFB0711976D22474794576DAF28F
 	memset((&V_2), 0, sizeof(V_2));
 	AttributeU5BU5D_t0F73488E6F1249C889608E8DCC0BCC28A874E8F1* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:129>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:130>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:131>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:132>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:133>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:129>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:130>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:131>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:132>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:133>
 		il2cpp_codegen_initobj((&V_2), sizeof(AttributeQuery_tCBA10DD34B1CEA7A75740A1B98020B551D8445C7));
 		MemberInfo_t* L_0 = ___0_element;
 		(&V_2)->___MemberInfo = L_0;
@@ -10991,20 +10991,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Attribute_tFDA8EFEFB0711976D22474794576DAF28F
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_2)->___AttributeType), (void*)L_1);
 		AttributeQuery_tCBA10DD34B1CEA7A75740A1B98020B551D8445C7 L_2 = V_2;
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:136>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:136>
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		RuntimeObject* L_3 = ((fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_StaticFields*)il2cpp_codegen_static_fields_for(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var))->____cachedAttributeQueries;
 		AttributeQuery_tCBA10DD34B1CEA7A75740A1B98020B551D8445C7 L_4 = V_0;
 		NullCheck(L_3);
 		bool L_5;
-		L_5 = InterfaceFuncInvoker2< bool, AttributeQuery_tCBA10DD34B1CEA7A75740A1B98020B551D8445C7, Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA** >::Invoke(6, IDictionary_2_tF2ECBB7A1A6D5DBB7D72E7B2F8E55A1159709C07_il2cpp_TypeInfo_var, L_3, L_4, (&V_1));
+		L_5 = InterfaceFuncInvoker2< bool, AttributeQuery_tCBA10DD34B1CEA7A75740A1B98020B551D8445C7, Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA** >::Invoke(7, IDictionary_2_tF2ECBB7A1A6D5DBB7D72E7B2F8E55A1159709C07_il2cpp_TypeInfo_var, L_3, L_4, (&V_1));
 		if (L_5)
 		{
 			goto IL_004e;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:141>
 		MemberInfo_t* L_6 = ___0_element;
 		Type_t* L_7 = ___1_attributeType;
 		AttributeU5BU5D_t0F73488E6F1249C889608E8DCC0BCC28A874E8F1* L_8;
@@ -11012,7 +11012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Attribute_tFDA8EFEFB0711976D22474794576DAF28F
 		AttributeU5BU5D_t0F73488E6F1249C889608E8DCC0BCC28A874E8F1* L_9;
 		L_9 = Enumerable_ToArray_TisAttribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA_m1386E5D9BE2299D956F8334023BB11BC76318258((RuntimeObject*)L_8, Enumerable_ToArray_TisAttribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA_m1386E5D9BE2299D956F8334023BB11BC76318258_RuntimeMethod_var);
 		V_3 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:143>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:143>
 		AttributeU5BU5D_t0F73488E6F1249C889608E8DCC0BCC28A874E8F1* L_10 = V_3;
 		NullCheck(L_10);
 		if (!(((RuntimeArray*)L_10)->max_length))
@@ -11021,7 +11021,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Attribute_tFDA8EFEFB0711976D22474794576DAF28F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:145>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:145>
 		AttributeU5BU5D_t0F73488E6F1249C889608E8DCC0BCC28A874E8F1* L_11 = V_3;
 		NullCheck(L_11);
 		int32_t L_12 = 0;
@@ -11031,7 +11031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Attribute_tFDA8EFEFB0711976D22474794576DAF28F
 
 IL_003f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:147>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:147>
 		bool L_14 = ___2_shouldCache;
 		if (!L_14)
 		{
@@ -11039,7 +11039,7 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:149>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:149>
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		RuntimeObject* L_15 = ((fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_StaticFields*)il2cpp_codegen_static_fields_for(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var))->____cachedAttributeQueries;
 		AttributeQuery_tCBA10DD34B1CEA7A75740A1B98020B551D8445C7 L_16 = V_0;
@@ -11050,12 +11050,12 @@ IL_003f:
 
 IL_004e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:153>
 		Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA* L_18 = V_1;
 		return L_18;
 	}
 }
-// Method Definition Index: 56313
+// Method Definition Index: 85956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PropertyInfo_t* fsPortableReflection_GetDeclaredProperty_m78691C838C06D0C4ADCE259161DE2323504862FC (Type_t* ___0_type, String_t* ___1_propertyName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11067,20 +11067,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PropertyInfo_t* fsPortableReflection_GetDecla
 	PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:221>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:221>
 		Type_t* L_0 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7* L_1;
 		L_1 = fsPortableReflection_GetDeclaredProperties_mF26959E95815BD982802EC6160E3DA185B1DC6A7(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:223>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:223>
 		V_1 = 0;
 		goto IL_0023;
 	}
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:225>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:225>
 		PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7* L_2 = V_0;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
@@ -11088,7 +11088,7 @@ IL_000b:
 		PropertyInfo_t* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		NullCheck(L_5);
 		String_t* L_6;
-		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_5);
+		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_5);
 		String_t* L_7 = ___1_propertyName;
 		bool L_8;
 		L_8 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_6, L_7, NULL);
@@ -11098,7 +11098,7 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:227>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:227>
 		PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7* L_9 = V_0;
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
@@ -11109,14 +11109,14 @@ IL_000b:
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:223>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:223>
 		int32_t L_13 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:223>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:223>
 		int32_t L_14 = V_1;
 		PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7* L_15 = V_0;
 		NullCheck(L_15);
@@ -11126,11 +11126,11 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:231>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:231>
 		return (PropertyInfo_t*)NULL;
 	}
 }
-// Method Definition Index: 56314
+// Method Definition Index: 85957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfo_t* fsPortableReflection_GetDeclaredMethod_mDC22CDA0777452C8D2FE05B2FB07B14B697A1E5B (Type_t* ___0_type, String_t* ___1_methodName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11142,20 +11142,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfo_t* fsPortableReflection_GetDeclare
 	MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:236>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:236>
 		Type_t* L_0 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_1;
 		L_1 = fsPortableReflection_GetDeclaredMethods_mF1E5A4D80A892D0E7E9FED20061B23E39E413DB3(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:238>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:238>
 		V_1 = 0;
 		goto IL_0023;
 	}
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:240>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:240>
 		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_2 = V_0;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
@@ -11163,7 +11163,7 @@ IL_000b:
 		MethodInfo_t* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		NullCheck(L_5);
 		String_t* L_6;
-		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_5);
+		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_5);
 		String_t* L_7 = ___1_methodName;
 		bool L_8;
 		L_8 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_6, L_7, NULL);
@@ -11173,7 +11173,7 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:242>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:242>
 		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_9 = V_0;
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
@@ -11184,14 +11184,14 @@ IL_000b:
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:238>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:238>
 		int32_t L_13 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:238>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:238>
 		int32_t L_14 = V_1;
 		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_15 = V_0;
 		NullCheck(L_15);
@@ -11201,11 +11201,11 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:246>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:246>
 		return (MethodInfo_t*)NULL;
 	}
 }
-// Method Definition Index: 56315
+// Method Definition Index: 85958
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB* fsPortableReflection_GetDeclaredConstructor_m9F5B44FCB7E14D7E7CF90482A9D1D13C11445C01 (Type_t* ___0_type, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___1_parameters, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11220,33 +11220,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConstructorInfo_t1B5967EE7E5554272F79F8880183
 	ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* V_3 = NULL;
 	int32_t V_4 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:251>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:251>
 		Type_t* L_0 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		ConstructorInfoU5BU5D_t515A0B944728842263B6033C9A62F6392C3BCD8A* L_1;
 		L_1 = fsPortableReflection_GetDeclaredConstructors_mB5B777C7EC535253A345584074FC1D8FBA32160A(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:253>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:253>
 		V_1 = 0;
 		goto IL_0049;
 	}
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:255>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:255>
 		ConstructorInfoU5BU5D_t515A0B944728842263B6033C9A62F6392C3BCD8A* L_2 = V_0;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_2 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:256>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:256>
 		ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB* L_6 = V_2;
 		NullCheck(L_6);
 		ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* L_7;
-		L_7 = VirtualFuncInvoker0< ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* >::Invoke(15, L_6);
+		L_7 = VirtualFuncInvoker0< ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* >::Invoke(16, L_6);
 		V_3 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:258>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:258>
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_8 = ___1_parameters;
 		NullCheck(L_8);
 		ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* L_9 = V_3;
@@ -11257,14 +11257,14 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:263>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:263>
 		V_4 = 0;
 		goto IL_003c;
 	}
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:266>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:266>
 		ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* L_10 = V_3;
 		int32_t L_11 = V_4;
 		NullCheck(L_10);
@@ -11272,7 +11272,7 @@ IL_0023:
 		ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F* L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
 		NullCheck(L_13);
 		Type_t* L_14;
-		L_14 = VirtualFuncInvoker0< Type_t* >::Invoke(10, L_13);
+		L_14 = VirtualFuncInvoker0< Type_t* >::Invoke(11, L_13);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_15 = ___1_parameters;
 		int32_t L_16 = V_4;
 		NullCheck(L_15);
@@ -11281,14 +11281,14 @@ IL_0023:
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		bool L_19;
 		L_19 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_14, L_18, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:263>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:263>
 		int32_t L_20 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_20, 1));
 	}
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:263>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:263>
 		int32_t L_21 = V_4;
 		ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* L_22 = V_3;
 		NullCheck(L_22);
@@ -11298,21 +11298,21 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:272>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:272>
 		ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB* L_23 = V_2;
 		return L_23;
 	}
 
 IL_0045:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:253>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:253>
 		int32_t L_24 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 	}
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:253>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:253>
 		int32_t L_25 = V_1;
 		ConstructorInfoU5BU5D_t515A0B944728842263B6033C9A62F6392C3BCD8A* L_26 = V_0;
 		NullCheck(L_26);
@@ -11322,11 +11322,11 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:275>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:275>
 		return (ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB*)NULL;
 	}
 }
-// Method Definition Index: 56316
+// Method Definition Index: 85959
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConstructorInfoU5BU5D_t515A0B944728842263B6033C9A62F6392C3BCD8A* fsPortableReflection_GetDeclaredConstructors_mB5B777C7EC535253A345584074FC1D8FBA32160A (Type_t* ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11336,17 +11336,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConstructorInfoU5BU5D_t515A0B944728842263B603
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:283>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:283>
 		Type_t* L_0 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		int32_t L_1 = ((fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_StaticFields*)il2cpp_codegen_static_fields_for(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var))->___DeclaredFlags;
 		NullCheck(L_0);
 		ConstructorInfoU5BU5D_t515A0B944728842263B6033C9A62F6392C3BCD8A* L_2;
-		L_2 = VirtualFuncInvoker1< ConstructorInfoU5BU5D_t515A0B944728842263B6033C9A62F6392C3BCD8A*, int32_t >::Invoke(83, L_0, ((int32_t)((int32_t)L_1&((int32_t)-9))));
+		L_2 = VirtualFuncInvoker1< ConstructorInfoU5BU5D_t515A0B944728842263B6033C9A62F6392C3BCD8A*, int32_t >::Invoke(85, L_0, ((int32_t)((int32_t)L_1&((int32_t)-9))));
 		return L_2;
 	}
 }
-// Method Definition Index: 56317
+// Method Definition Index: 85960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* fsPortableReflection_GetFlattenedMember_m256C2194223720C664CD98A743944C0C8E4A2A1B (Type_t* ___0_type, String_t* ___1_memberName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11363,7 +11363,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A
 	MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* V_1 = NULL;
 	int32_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:289>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:289>
 		List_1_t269913CE854C1793B808480C94E04A8DB19CD0A4* L_0 = (List_1_t269913CE854C1793B808480C94E04A8DB19CD0A4*)il2cpp_codegen_object_new(List_1_t269913CE854C1793B808480C94E04A8DB19CD0A4_il2cpp_TypeInfo_var);
 		List_1__ctor_m1ECCAADF7DB1972688A2B429816CF4E0581D4E2A(L_0, List_1__ctor_m1ECCAADF7DB1972688A2B429816CF4E0581D4E2A_RuntimeMethod_var);
 		V_0 = L_0;
@@ -11372,20 +11372,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A
 
 IL_0008:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:293>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:293>
 		Type_t* L_1 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_2;
 		L_2 = fsPortableReflection_GetDeclaredMembers_m65055614D9291573376917BF3044659CAF23409E(L_1, NULL);
 		V_1 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:295>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:295>
 		V_2 = 0;
 		goto IL_0030;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:297>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:297>
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_3 = V_1;
 		int32_t L_4 = V_2;
 		NullCheck(L_3);
@@ -11393,7 +11393,7 @@ IL_0013:
 		MemberInfo_t* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		NullCheck(L_6);
 		String_t* L_7;
-		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_6);
+		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_6);
 		String_t* L_8 = ___1_memberName;
 		bool L_9;
 		L_9 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_7, L_8, NULL);
@@ -11403,7 +11403,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:299>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:299>
 		List_1_t269913CE854C1793B808480C94E04A8DB19CD0A4* L_10 = V_0;
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_11 = V_1;
 		int32_t L_12 = V_2;
@@ -11416,14 +11416,14 @@ IL_0013:
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:295>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:295>
 		int32_t L_15 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_15, 1));
 	}
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:295>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:295>
 		int32_t L_16 = V_2;
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_17 = V_1;
 		NullCheck(L_17);
@@ -11433,20 +11433,20 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:303>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:303>
 		Type_t* L_18 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		Type_t* L_19;
 		L_19 = fsPortableReflection_Resolve_m995640D6EA5B5B1268075371EC800CF8720BF9C3(L_18, NULL);
 		NullCheck(L_19);
 		Type_t* L_20;
-		L_20 = VirtualFuncInvoker0< Type_t* >::Invoke(114, L_19);
+		L_20 = VirtualFuncInvoker0< Type_t* >::Invoke(117, L_19);
 		___0_type = L_20;
 	}
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:291>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:291>
 		Type_t* L_21 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		bool L_22;
@@ -11457,7 +11457,7 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:306>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:306>
 		List_1_t269913CE854C1793B808480C94E04A8DB19CD0A4* L_23 = V_0;
 		NullCheck(L_23);
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_24;
@@ -11465,7 +11465,7 @@ IL_0043:
 		return L_24;
 	}
 }
-// Method Definition Index: 56318
+// Method Definition Index: 85961
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfo_t* fsPortableReflection_GetFlattenedMethod_mE5EF30F98C8A994F7581740E8ECEDBA6E42C8072 (Type_t* ___0_type, String_t* ___1_methodName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11482,20 +11482,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfo_t* fsPortableReflection_GetFlatten
 
 IL_0002:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:313>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:313>
 		Type_t* L_0 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_1;
 		L_1 = fsPortableReflection_GetDeclaredMethods_mF1E5A4D80A892D0E7E9FED20061B23E39E413DB3(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:315>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:315>
 		V_1 = 0;
 		goto IL_0025;
 	}
 
 IL_000d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:317>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:317>
 		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_2 = V_0;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
@@ -11503,7 +11503,7 @@ IL_000d:
 		MethodInfo_t* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		NullCheck(L_5);
 		String_t* L_6;
-		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_5);
+		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_5);
 		String_t* L_7 = ___1_methodName;
 		bool L_8;
 		L_8 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_6, L_7, NULL);
@@ -11513,7 +11513,7 @@ IL_000d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:319>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:319>
 		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_9 = V_0;
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
@@ -11524,14 +11524,14 @@ IL_000d:
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:315>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:315>
 		int32_t L_13 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:315>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:315>
 		int32_t L_14 = V_1;
 		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_15 = V_0;
 		NullCheck(L_15);
@@ -11541,20 +11541,20 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:323>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:323>
 		Type_t* L_16 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		Type_t* L_17;
 		L_17 = fsPortableReflection_Resolve_m995640D6EA5B5B1268075371EC800CF8720BF9C3(L_16, NULL);
 		NullCheck(L_17);
 		Type_t* L_18;
-		L_18 = VirtualFuncInvoker0< Type_t* >::Invoke(114, L_17);
+		L_18 = VirtualFuncInvoker0< Type_t* >::Invoke(117, L_17);
 		___0_type = L_18;
 	}
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:311>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:311>
 		Type_t* L_19 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		bool L_20;
@@ -11565,11 +11565,11 @@ IL_0038:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:326>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:326>
 		return (MethodInfo_t*)NULL;
 	}
 }
-// Method Definition Index: 56319
+// Method Definition Index: 85962
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* fsPortableReflection_GetFlattenedMethods_m870F6D5B997FE4FF32A953D21FEAB4426B0A7C3F (Type_t* ___0_type, String_t* ___1_methodName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11594,7 +11594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* fsPortableReflection_GetFlatte
 		return L_3;
 	}
 }
-// Method Definition Index: 56320
+// Method Definition Index: 85963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PropertyInfo_t* fsPortableReflection_GetFlattenedProperty_m2EEED0D98B03C3D763A13F22DAA28EB19D837452 (Type_t* ___0_type, String_t* ___1_propertyName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11611,20 +11611,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PropertyInfo_t* fsPortableReflection_GetFlatt
 
 IL_0002:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:351>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:351>
 		Type_t* L_0 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7* L_1;
 		L_1 = fsPortableReflection_GetDeclaredProperties_mF26959E95815BD982802EC6160E3DA185B1DC6A7(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:353>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:353>
 		V_1 = 0;
 		goto IL_0025;
 	}
 
 IL_000d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:355>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:355>
 		PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7* L_2 = V_0;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
@@ -11632,7 +11632,7 @@ IL_000d:
 		PropertyInfo_t* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		NullCheck(L_5);
 		String_t* L_6;
-		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_5);
+		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_5);
 		String_t* L_7 = ___1_propertyName;
 		bool L_8;
 		L_8 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_6, L_7, NULL);
@@ -11642,7 +11642,7 @@ IL_000d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:357>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:357>
 		PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7* L_9 = V_0;
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
@@ -11653,14 +11653,14 @@ IL_000d:
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:353>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:353>
 		int32_t L_13 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:353>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:353>
 		int32_t L_14 = V_1;
 		PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7* L_15 = V_0;
 		NullCheck(L_15);
@@ -11670,20 +11670,20 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:361>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:361>
 		Type_t* L_16 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		Type_t* L_17;
 		L_17 = fsPortableReflection_Resolve_m995640D6EA5B5B1268075371EC800CF8720BF9C3(L_16, NULL);
 		NullCheck(L_17);
 		Type_t* L_18;
-		L_18 = VirtualFuncInvoker0< Type_t* >::Invoke(114, L_17);
+		L_18 = VirtualFuncInvoker0< Type_t* >::Invoke(117, L_17);
 		___0_type = L_18;
 	}
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:349>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:349>
 		Type_t* L_19 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		bool L_20;
@@ -11694,11 +11694,11 @@ IL_0038:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:364>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:364>
 		return (PropertyInfo_t*)NULL;
 	}
 }
-// Method Definition Index: 56321
+// Method Definition Index: 85964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemberInfo_t* fsPortableReflection_GetDeclaredMember_m9D3EBC3250D57900AAAEF9647298F35764D03182 (Type_t* ___0_type, String_t* ___1_memberName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11710,20 +11710,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemberInfo_t* fsPortableReflection_GetDeclare
 	MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:369>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:369>
 		Type_t* L_0 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_1;
 		L_1 = fsPortableReflection_GetDeclaredMembers_m65055614D9291573376917BF3044659CAF23409E(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:371>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:371>
 		V_1 = 0;
 		goto IL_0023;
 	}
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:373>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:373>
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_2 = V_0;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
@@ -11731,7 +11731,7 @@ IL_000b:
 		MemberInfo_t* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		NullCheck(L_5);
 		String_t* L_6;
-		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_5);
+		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_5);
 		String_t* L_7 = ___1_memberName;
 		bool L_8;
 		L_8 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_6, L_7, NULL);
@@ -11741,7 +11741,7 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:375>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:375>
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_9 = V_0;
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
@@ -11752,14 +11752,14 @@ IL_000b:
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:371>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:371>
 		int32_t L_13 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:371>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:371>
 		int32_t L_14 = V_1;
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_15 = V_0;
 		NullCheck(L_15);
@@ -11769,11 +11769,11 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:379>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:379>
 		return (MemberInfo_t*)NULL;
 	}
 }
-// Method Definition Index: 56322
+// Method Definition Index: 85965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* fsPortableReflection_GetDeclaredMethods_mF1E5A4D80A892D0E7E9FED20061B23E39E413DB3 (Type_t* ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11783,17 +11783,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:387>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:387>
 		Type_t* L_0 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		int32_t L_1 = ((fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_StaticFields*)il2cpp_codegen_static_fields_for(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var))->___DeclaredFlags;
 		NullCheck(L_0);
 		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_2;
-		L_2 = VirtualFuncInvoker1< MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265*, int32_t >::Invoke(102, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265*, int32_t >::Invoke(105, L_0, L_1);
 		return L_2;
 	}
 }
-// Method Definition Index: 56323
+// Method Definition Index: 85966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7* fsPortableReflection_GetDeclaredProperties_mF26959E95815BD982802EC6160E3DA185B1DC6A7 (Type_t* ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11803,17 +11803,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:396>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:396>
 		Type_t* L_0 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		int32_t L_1 = ((fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_StaticFields*)il2cpp_codegen_static_fields_for(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var))->___DeclaredFlags;
 		NullCheck(L_0);
 		PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7* L_2;
-		L_2 = VirtualFuncInvoker1< PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7*, int32_t >::Invoke(111, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< PropertyInfoU5BU5D_tD81C248B41D0C76207C42DB9C332DC79F490B1D7*, int32_t >::Invoke(114, L_0, L_1);
 		return L_2;
 	}
 }
-// Method Definition Index: 56324
+// Method Definition Index: 85967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8* fsPortableReflection_GetDeclaredFields_m8FCC0F8F72BA45796F5C46E49F74E6187790D89B (Type_t* ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11823,17 +11823,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E332
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:405>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:405>
 		Type_t* L_0 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		int32_t L_1 = ((fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_StaticFields*)il2cpp_codegen_static_fields_for(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var))->___DeclaredFlags;
 		NullCheck(L_0);
 		FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8* L_2;
-		L_2 = VirtualFuncInvoker1< FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8*, int32_t >::Invoke(88, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8*, int32_t >::Invoke(91, L_0, L_1);
 		return L_2;
 	}
 }
-// Method Definition Index: 56325
+// Method Definition Index: 85968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* fsPortableReflection_GetDeclaredMembers_m65055614D9291573376917BF3044659CAF23409E (Type_t* ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11843,53 +11843,53 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:414>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:414>
 		Type_t* L_0 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		int32_t L_1 = ((fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_StaticFields*)il2cpp_codegen_static_fields_for(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var))->___DeclaredFlags;
 		NullCheck(L_0);
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_2;
-		L_2 = VirtualFuncInvoker1< MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053*, int32_t >::Invoke(93, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053*, int32_t >::Invoke(96, L_0, L_1);
 		return L_2;
 	}
 }
-// Method Definition Index: 56326
+// Method Definition Index: 85969
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemberInfo_t* fsPortableReflection_AsMemberInfo_m1946DBE25EE3BD47D336CD64258ECD41B4BB6C7A (Type_t* ___0_type, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:423>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:423>
 		Type_t* L_0 = ___0_type;
 		return L_0;
 	}
 }
-// Method Definition Index: 56327
+// Method Definition Index: 85970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsPortableReflection_IsType_m6A7FC85AB4E8D514EC4B764CDD328DC299CBD46F (MemberInfo_t* ___0_member, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:432>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:432>
 		MemberInfo_t* L_0 = ___0_member;
 		return (bool)((!(((RuntimeObject*)(Type_t*)((Type_t*)IsInstClass((RuntimeObject*)L_0, il2cpp_defaults.systemtype_class))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 56328
+// Method Definition Index: 85971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* fsPortableReflection_AsType_m9178246723D7842134DCE05F9B6F51B660C7CA86 (MemberInfo_t* ___0_member, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:441>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:441>
 		MemberInfo_t* L_0 = ___0_member;
 		return ((Type_t*)CastclassClass((RuntimeObject*)L_0, il2cpp_defaults.systemtype_class));
 	}
 }
-// Method Definition Index: 56329
+// Method Definition Index: 85972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* fsPortableReflection_Resolve_m995640D6EA5B5B1268075371EC800CF8720BF9C3 (Type_t* ___0_type, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:454>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:454>
 		Type_t* L_0 = ___0_type;
 		return L_0;
 	}
 }
-// Method Definition Index: 56330
+// Method Definition Index: 85973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsPortableReflection__cctor_m809A0F036D94DD50B44E6986C9AC53DA8215DE41 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11903,24 +11903,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsPortableReflection__cctor_m809A0F036D9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:58>
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_0 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)0);
 		((fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_StaticFields*)il2cpp_codegen_static_fields_for(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var))->___EmptyTypes = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_StaticFields*)il2cpp_codegen_static_fields_for(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var))->___EmptyTypes), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:188>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:189>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:188>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:189>
 		AttributeQueryComparator_t2FBE0BC91DB3A9551CE2E00214ADEFA9000EA7E1* L_1 = (AttributeQueryComparator_t2FBE0BC91DB3A9551CE2E00214ADEFA9000EA7E1*)il2cpp_codegen_object_new(AttributeQueryComparator_t2FBE0BC91DB3A9551CE2E00214ADEFA9000EA7E1_il2cpp_TypeInfo_var);
 		AttributeQueryComparator__ctor_m97A20B142642A29462C6A1EEC957529E30965B4C(L_1, NULL);
 		Dictionary_2_t6F7C5D1D47078EB234FB37466D2A9394EAA78700* L_2 = (Dictionary_2_t6F7C5D1D47078EB234FB37466D2A9394EAA78700*)il2cpp_codegen_object_new(Dictionary_2_t6F7C5D1D47078EB234FB37466D2A9394EAA78700_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m9CFE7D3EA7000C67AD7CA81BB321AA10E1469FE4(L_2, L_1, Dictionary_2__ctor_m9CFE7D3EA7000C67AD7CA81BB321AA10E1469FE4_RuntimeMethod_var);
 		((fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_StaticFields*)il2cpp_codegen_static_fields_for(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var))->____cachedAttributeQueries = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&((fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_StaticFields*)il2cpp_codegen_static_fields_for(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var))->____cachedAttributeQueries), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:211>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:212>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:213>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:214>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:215>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:216>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:211>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:212>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:213>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:214>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:215>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:216>
 		((fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_StaticFields*)il2cpp_codegen_static_fields_for(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var))->___DeclaredFlags = ((int32_t)62);
 		return;
 	}
@@ -11995,13 +11995,13 @@ IL2CPP_EXTERN_C void AttributeQuery_tCBA10DD34B1CEA7A75740A1B98020B551D8445C7_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56331
+// Method Definition Index: 85974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AttributeQueryComparator_Equals_m27EA6B949A2AAF440EFE865A87E20FB9CED53635 (AttributeQueryComparator_t2FBE0BC91DB3A9551CE2E00214ADEFA9000EA7E1* __this, AttributeQuery_tCBA10DD34B1CEA7A75740A1B98020B551D8445C7 ___0_x, AttributeQuery_tCBA10DD34B1CEA7A75740A1B98020B551D8445C7 ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:195>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:196>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:197>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:195>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:196>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:197>
 		AttributeQuery_tCBA10DD34B1CEA7A75740A1B98020B551D8445C7 L_0 = ___0_x;
 		MemberInfo_t* L_1 = L_0.___MemberInfo;
 		AttributeQuery_tCBA10DD34B1CEA7A75740A1B98020B551D8445C7 L_2 = ___1_y;
@@ -12029,13 +12029,13 @@ IL_0025:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 56332
+// Method Definition Index: 85975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AttributeQueryComparator_GetHashCode_m538CC0620B54C1478F4B17229A036FADB11E4359 (AttributeQueryComparator_t2FBE0BC91DB3A9551CE2E00214ADEFA9000EA7E1* __this, AttributeQuery_tCBA10DD34B1CEA7A75740A1B98020B551D8445C7 ___0_obj, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:202>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:203>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:204>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:202>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:203>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:204>
 		AttributeQuery_tCBA10DD34B1CEA7A75740A1B98020B551D8445C7 L_0 = ___0_obj;
 		MemberInfo_t* L_1 = L_0.___MemberInfo;
 		NullCheck(L_1);
@@ -12049,7 +12049,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AttributeQueryComparator_GetHashCode_
 		return ((int32_t)il2cpp_codegen_add(L_2, ((int32_t)il2cpp_codegen_multiply(((int32_t)17), L_5))));
 	}
 }
-// Method Definition Index: 56333
+// Method Definition Index: 85976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttributeQueryComparator__ctor_m97A20B142642A29462C6A1EEC957529E30965B4C (AttributeQueryComparator_t2FBE0BC91DB3A9551CE2E00214ADEFA9000EA7E1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12065,7 +12065,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttributeQueryComparator__ctor_m97A20B14
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56334
+// Method Definition Index: 85977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetFlattenedMethodsU3Ed__18__ctor_m7F0BE4CC309547C4870827556E890C1490D2744A (U3CGetFlattenedMethodsU3Ed__18_t70831644C1EC3C21994E34FEB71B2D71B7BE57F8* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -12078,14 +12078,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetFlattenedMethodsU3Ed__18__ctor_m7F
 		return;
 	}
 }
-// Method Definition Index: 56335
+// Method Definition Index: 85978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetFlattenedMethodsU3Ed__18_System_IDisposable_Dispose_m19043E561F795B54EAD95D6D55C2850086C7C47A (U3CGetFlattenedMethodsU3Ed__18_t70831644C1EC3C21994E34FEB71B2D71B7BE57F8* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 56336
+// Method Definition Index: 85979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGetFlattenedMethodsU3Ed__18_MoveNext_m666D577C002579E158E70ACED569A87B46A24F76 (U3CGetFlattenedMethodsU3Ed__18_t70831644C1EC3C21994E34FEB71B2D71B7BE57F8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12124,21 +12124,21 @@ IL_0010:
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:333>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:333>
 		Type_t* L_3 = __this->___type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_4;
 		L_4 = fsPortableReflection_GetDeclaredMethods_mF1E5A4D80A892D0E7E9FED20061B23E39E413DB3(L_3, NULL);
 		__this->___U3CmethodsU3E5__2 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CmethodsU3E5__2), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:335>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:335>
 		__this->___U3CiU3E5__3 = 0;
 		goto IL_0088;
 	}
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:337>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:337>
 		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_5 = __this->___U3CmethodsU3E5__2;
 		int32_t L_6 = __this->___U3CiU3E5__3;
 		NullCheck(L_5);
@@ -12146,7 +12146,7 @@ IL_0036:
 		MethodInfo_t* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
 		NullCheck(L_8);
 		String_t* L_9;
-		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_8);
+		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_8);
 		String_t* L_10 = __this->___methodName;
 		bool L_11;
 		L_11 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_9, L_10, NULL);
@@ -12156,7 +12156,7 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:339>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:339>
 		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_12 = __this->___U3CmethodsU3E5__2;
 		int32_t L_13 = __this->___U3CiU3E5__3;
 		NullCheck(L_12);
@@ -12175,7 +12175,7 @@ IL_0071:
 
 IL_0078:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:335>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:335>
 		int32_t L_16 = __this->___U3CiU3E5__3;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 		int32_t L_17 = V_1;
@@ -12184,7 +12184,7 @@ IL_0078:
 
 IL_0088:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:335>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:335>
 		int32_t L_18 = __this->___U3CiU3E5__3;
 		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_19 = __this->___U3CmethodsU3E5__2;
 		NullCheck(L_19);
@@ -12194,24 +12194,24 @@ IL_0088:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:343>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:343>
 		Type_t* L_20 = __this->___type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		Type_t* L_21;
 		L_21 = fsPortableReflection_Resolve_m995640D6EA5B5B1268075371EC800CF8720BF9C3(L_20, NULL);
 		NullCheck(L_21);
 		Type_t* L_22;
-		L_22 = VirtualFuncInvoker0< Type_t* >::Invoke(114, L_21);
+		L_22 = VirtualFuncInvoker0< Type_t* >::Invoke(117, L_21);
 		__this->___type = L_22;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___type), (void*)L_22);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:344>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:344>
 		__this->___U3CmethodsU3E5__2 = (MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CmethodsU3E5__2), (void*)(MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265*)NULL);
 	}
 
 IL_00b5:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:331>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:331>
 		Type_t* L_23 = __this->___type;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		bool L_24;
@@ -12222,11 +12222,11 @@ IL_00b5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:345>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsPortableReflection.cs:345>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 56337
+// Method Definition Index: 85980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfo_t* U3CGetFlattenedMethodsU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_Reflection_MethodInfoU3E_get_Current_mC639E4E6A5387ED89CB1BCEABA98D3C6C283A194 (U3CGetFlattenedMethodsU3Ed__18_t70831644C1EC3C21994E34FEB71B2D71B7BE57F8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12234,7 +12234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfo_t* U3CGetFlattenedMethodsU3Ed__18_
 		return L_0;
 	}
 }
-// Method Definition Index: 56338
+// Method Definition Index: 85981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetFlattenedMethodsU3Ed__18_System_Collections_IEnumerator_Reset_m16294D7AAFE21382278CC8476757735C8C4CB1CF (U3CGetFlattenedMethodsU3Ed__18_t70831644C1EC3C21994E34FEB71B2D71B7BE57F8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12243,7 +12243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetFlattenedMethodsU3Ed__18_System_Co
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CGetFlattenedMethodsU3Ed__18_System_Collections_IEnumerator_Reset_m16294D7AAFE21382278CC8476757735C8C4CB1CF_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 56339
+// Method Definition Index: 85982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetFlattenedMethodsU3Ed__18_System_Collections_IEnumerator_get_Current_m92677A00E18102A11A9622778BBD048A9A260305 (U3CGetFlattenedMethodsU3Ed__18_t70831644C1EC3C21994E34FEB71B2D71B7BE57F8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12251,7 +12251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetFlattenedMethodsU3Ed__18
 		return L_0;
 	}
 }
-// Method Definition Index: 56340
+// Method Definition Index: 85983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetFlattenedMethodsU3Ed__18_System_Collections_Generic_IEnumerableU3CSystem_Reflection_MethodInfoU3E_GetEnumerator_m9F33A98F7A9AACE36540CC6A70C726AE11DEEAA6 (U3CGetFlattenedMethodsU3Ed__18_t70831644C1EC3C21994E34FEB71B2D71B7BE57F8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12306,7 +12306,7 @@ IL_0029:
 		return L_8;
 	}
 }
-// Method Definition Index: 56341
+// Method Definition Index: 85984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetFlattenedMethodsU3Ed__18_System_Collections_IEnumerable_GetEnumerator_m685FD0717AF9751145A9D3A5D44DDC593367EA49 (U3CGetFlattenedMethodsU3Ed__18_t70831644C1EC3C21994E34FEB71B2D71B7BE57F8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12323,29 +12323,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetFlattenedMethodsU3Ed__18
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56342
+// Method Definition Index: 85985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* fsTypeExtensions_CSharpName_mA1935C2EB35A9B042BDC965DA3A75B31F60B5671 (Type_t* ___0_type, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:20>
 		Type_t* L_0 = ___0_type;
 		String_t* L_1;
 		L_1 = fsTypeExtensions_CSharpName_m7B9CEB55166AB73F3E8475491EB08E4F91475FE6(L_0, (bool)0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 56343
+// Method Definition Index: 85986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* fsTypeExtensions_CSharpName_m49752530E5F80BA4B4B6E966655E505D47FAD092 (Type_t* ___0_type, bool ___1_includeNamespace, bool ___2_ensureSafeDeclarationName, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:25>
 		Type_t* L_0 = ___0_type;
 		bool L_1 = ___1_includeNamespace;
 		String_t* L_2;
 		L_2 = fsTypeExtensions_CSharpName_m7B9CEB55166AB73F3E8475491EB08E4F91475FE6(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:26>
 		bool L_3 = ___2_ensureSafeDeclarationName;
 		if (!L_3)
 		{
@@ -12353,7 +12353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* fsTypeExtensions_CSharpName_m497525
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:28>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:28>
 		String_t* L_4 = V_0;
 		NullCheck(L_4);
 		String_t* L_5;
@@ -12369,12 +12369,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* fsTypeExtensions_CSharpName_m497525
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:30>
 		String_t* L_8 = V_0;
 		return L_8;
 	}
 }
-// Method Definition Index: 56344
+// Method Definition Index: 85987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* fsTypeExtensions_CSharpName_m7B9CEB55166AB73F3E8475491EB08E4F91475FE6 (Type_t* ___0_type, bool ___1_includeNamespace, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12412,7 +12412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* fsTypeExtensions_CSharpName_m7B9CEB
 		bool L_2 = ___1_includeNamespace;
 		NullCheck(L_1);
 		L_1->___includeNamespace = L_2;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:43>
 		Type_t* L_3 = ___0_type;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_4 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.void_class->byval_arg) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -12426,13 +12426,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* fsTypeExtensions_CSharpName_m7B9CEB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:45>
 		return _stringLiteral6ECB47BAE746457DBE91D0BA044A27960D4563D9;
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:47>
 		Type_t* L_7 = ___0_type;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_8 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.int32_class->byval_arg) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -12446,13 +12446,13 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:49>
 		return _stringLiteral0BA8CB3B900ECEF5E697192B8CDA6B626EB0CE72;
 	}
 
 IL_003d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:51>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:51>
 		Type_t* L_11 = ___0_type;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_12 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.single_class->byval_arg) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -12466,13 +12466,13 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:53>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:53>
 		return _stringLiteralE3DFC065B6A6D9931B797808DD066491AAB82B29;
 	}
 
 IL_0055:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:55>
 		Type_t* L_15 = ___0_type;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_16 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.boolean_class->byval_arg) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -12486,13 +12486,13 @@ IL_0055:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:57>
 		return _stringLiteral673CC9996FD90AFE21BD8D0E6E6824353AF4BDA2;
 	}
 
 IL_006d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:59>
 		Type_t* L_19 = ___0_type;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_20 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.double_class->byval_arg) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -12506,13 +12506,13 @@ IL_006d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:61>
 		return _stringLiteral007174B876FA7EECC4152046B9308966D3E2B5B8;
 	}
 
 IL_0085:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:63>
 		Type_t* L_23 = ___0_type;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_24 = { reinterpret_cast<intptr_t> (&il2cpp_defaults.string_class->byval_arg) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -12526,24 +12526,24 @@ IL_0085:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:65>
 		return _stringLiteral2F1705A1AA8BA6FCE863E7F2CBA4BC28458C77AE;
 	}
 
 IL_009d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:70>
 		Type_t* L_27 = ___0_type;
 		NullCheck(L_27);
 		bool L_28;
-		L_28 = VirtualFuncInvoker0< bool >::Invoke(37, L_27);
+		L_28 = VirtualFuncInvoker0< bool >::Invoke(38, L_27);
 		if (!L_28)
 		{
 			goto IL_00ac;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:72>
 		Type_t* L_29 = ___0_type;
 		NullCheck(L_29);
 		String_t* L_30;
@@ -12553,15 +12553,15 @@ IL_009d:
 
 IL_00ac:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:75>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:75>
 		V_1 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:77>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:77>
 		Type_t* L_31 = ___0_type;
 		NullCheck(L_31);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_32;
-		L_32 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(50, L_31);
+		L_32 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(51, L_31);
 		V_2 = (RuntimeObject*)L_32;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:78>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:78>
 		Type_t* L_33 = ___0_type;
 		NullCheck(L_33);
 		bool L_34;
@@ -12572,25 +12572,25 @@ IL_00ac:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:80>
 		String_t* L_35 = V_1;
 		Type_t* L_36 = ___0_type;
 		NullCheck(L_36);
 		Type_t* L_37;
-		L_37 = VirtualFuncInvoker0< Type_t* >::Invoke(8, L_36);
+		L_37 = VirtualFuncInvoker0< Type_t* >::Invoke(9, L_36);
 		String_t* L_38;
 		L_38 = fsTypeExtensions_CSharpName_mA1935C2EB35A9B042BDC965DA3A75B31F60B5671(L_37, NULL);
 		String_t* L_39;
 		L_39 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_35, L_38, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, NULL);
 		V_1 = L_39;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:90>
 		Type_t* L_40 = ___0_type;
 		NullCheck(L_40);
 		Type_t* L_41;
-		L_41 = VirtualFuncInvoker0< Type_t* >::Invoke(8, L_40);
+		L_41 = VirtualFuncInvoker0< Type_t* >::Invoke(9, L_40);
 		NullCheck(L_41);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_42;
-		L_42 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(50, L_41);
+		L_42 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(51, L_41);
 		NullCheck(L_42);
 		if (!(((RuntimeArray*)L_42)->max_length))
 		{
@@ -12598,15 +12598,15 @@ IL_00ac:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:92>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:92>
 		RuntimeObject* L_43 = V_2;
 		Type_t* L_44 = ___0_type;
 		NullCheck(L_44);
 		Type_t* L_45;
-		L_45 = VirtualFuncInvoker0< Type_t* >::Invoke(8, L_44);
+		L_45 = VirtualFuncInvoker0< Type_t* >::Invoke(9, L_44);
 		NullCheck(L_45);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_46;
-		L_46 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(50, L_45);
+		L_46 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(51, L_45);
 		NullCheck(L_46);
 		RuntimeObject* L_47;
 		L_47 = Enumerable_Skip_TisType_t_m7D71748DB6853797A890979775BC2B668679D174(L_43, ((int32_t)(((RuntimeArray*)L_46)->max_length)), Enumerable_Skip_TisType_t_m7D71748DB6853797A890979775BC2B668679D174_RuntimeMethod_var);
@@ -12615,7 +12615,7 @@ IL_00ac:
 
 IL_00fa:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:96>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:96>
 		RuntimeObject* L_48 = V_2;
 		bool L_49;
 		L_49 = Enumerable_Any_TisType_t_m73AC0FF907FFC6B1E9B1C9E8804176B00EB92517(L_48, Enumerable_Any_TisType_t_m73AC0FF907FFC6B1E9B1C9E8804176B00EB92517_RuntimeMethod_var);
@@ -12625,12 +12625,12 @@ IL_00fa:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:98>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:98>
 		String_t* L_50 = V_1;
 		Type_t* L_51 = ___0_type;
 		NullCheck(L_51);
 		String_t* L_52;
-		L_52 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_51);
+		L_52 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_51);
 		String_t* L_53;
 		L_53 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_50, L_52, NULL);
 		V_1 = L_53;
@@ -12639,16 +12639,16 @@ IL_00fa:
 
 IL_0111:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:102>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:102>
 		Type_t* L_54 = ___0_type;
 		NullCheck(L_54);
 		String_t* L_55;
-		L_55 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_54);
+		L_55 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_54);
 		NullCheck(L_55);
 		int32_t L_56;
 		L_56 = String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966(L_55, ((int32_t)96), NULL);
 		V_3 = L_56;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:103>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:103>
 		int32_t L_57 = V_3;
 		if ((((int32_t)L_57) <= ((int32_t)0)))
 		{
@@ -12656,12 +12656,12 @@ IL_0111:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:105>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:105>
 		String_t* L_58 = V_1;
 		Type_t* L_59 = ___0_type;
 		NullCheck(L_59);
 		String_t* L_60;
-		L_60 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_59);
+		L_60 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_59);
 		int32_t L_61 = V_3;
 		NullCheck(L_60);
 		String_t* L_62;
@@ -12673,7 +12673,7 @@ IL_0111:
 
 IL_0137:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:107>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:107>
 		String_t* L_64 = V_1;
 		RuntimeObject* L_65 = V_2;
 		U3CU3Ec__DisplayClass2_0_tAB0840C77123F2A797DA2837B414E58DEE35E9A9* L_66 = V_0;
@@ -12692,7 +12692,7 @@ IL_0137:
 
 IL_0169:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:110>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:110>
 		U3CU3Ec__DisplayClass2_0_tAB0840C77123F2A797DA2837B414E58DEE35E9A9* L_72 = V_0;
 		NullCheck(L_72);
 		bool L_73 = L_72->___includeNamespace;
@@ -12705,18 +12705,18 @@ IL_0169:
 		Type_t* L_74 = ___0_type;
 		NullCheck(L_74);
 		String_t* L_75;
-		L_75 = VirtualFuncInvoker0< String_t* >::Invoke(23, L_74);
+		L_75 = VirtualFuncInvoker0< String_t* >::Invoke(24, L_74);
 		if (!L_75)
 		{
 			goto IL_018b;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:112>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:112>
 		Type_t* L_76 = ___0_type;
 		NullCheck(L_76);
 		String_t* L_77;
-		L_77 = VirtualFuncInvoker0< String_t* >::Invoke(23, L_76);
+		L_77 = VirtualFuncInvoker0< String_t* >::Invoke(24, L_76);
 		String_t* L_78 = V_1;
 		String_t* L_79;
 		L_79 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_77, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, L_78, NULL);
@@ -12725,7 +12725,7 @@ IL_0169:
 
 IL_018b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:115>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:115>
 		String_t* L_80 = V_1;
 		return L_80;
 	}
@@ -12738,7 +12738,7 @@ IL_018b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56345
+// Method Definition Index: 85988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m80831530C50B87BB035A96D17E242F8B7011C105 (U3CU3Ec__DisplayClass2_0_tAB0840C77123F2A797DA2837B414E58DEE35E9A9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12746,11 +12746,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m80831530
 		return;
 	}
 }
-// Method Definition Index: 56346
+// Method Definition Index: 85989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec__DisplayClass2_0_U3CCSharpNameU3Eb__0_mB271DB9009C764D4CB33A03876DB554A4EEFB2C3 (U3CU3Ec__DisplayClass2_0_tAB0840C77123F2A797DA2837B414E58DEE35E9A9* __this, Type_t* ___0_t, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:107>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsTypeExtensions.cs:107>
 		Type_t* L_0 = ___0_t;
 		bool L_1 = __this->___includeNamespace;
 		String_t* L_2;
@@ -12824,7 +12824,7 @@ IL2CPP_EXTERN_C void fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8_m
 IL2CPP_EXTERN_C void fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8_marshal_com_cleanup(fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 56347
+// Method Definition Index: 85990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* fsVersionedType_Migrate_mA2431BCBC723C85F909F6D50CCC218ABFAED65AB (fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8* __this, RuntimeObject* ___0_ancestorInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12834,7 +12834,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* fsVersionedType_Migrate_mA2431
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:27>
 		Type_t* L_0 = __this->___ModelType;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
@@ -12856,7 +12856,7 @@ IL2CPP_EXTERN_C  RuntimeObject* fsVersionedType_Migrate_mA2431BCBC723C85F909F6D5
 	_returnValue = fsVersionedType_Migrate_mA2431BCBC723C85F909F6D50CCC218ABFAED65AB(_thisAdjusted, ___0_ancestorInstance, method);
 	return _returnValue;
 }
-// Method Definition Index: 56348
+// Method Definition Index: 85991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* fsVersionedType_ToString_m584F4EBD02BC6D0502664D2047FF3D71270A359F (fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12883,7 +12883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* fsVersionedType_ToString_m584F4EBD0
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B3_2 = NULL;
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B3_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:32>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)7);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -12962,11 +12962,11 @@ IL2CPP_EXTERN_C  String_t* fsVersionedType_ToString_m584F4EBD02BC6D0502664D2047F
 	_returnValue = fsVersionedType_ToString_m584F4EBD02BC6D0502664D2047FF3D71270A359F(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 56349
+// Method Definition Index: 85992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsVersionedType_op_Equality_mAF3B2FB598AEF17A48568258E5E6DD971A47F30B (fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 ___0_a, fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 ___1_b, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:37>
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_0 = ___0_a;
 		Type_t* L_1 = L_0.___ModelType;
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_2 = ___1_b;
@@ -12977,11 +12977,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsVersionedType_op_Equality_mAF3B2FB598A
 		return L_4;
 	}
 }
-// Method Definition Index: 56350
+// Method Definition Index: 85993
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsVersionedType_op_Inequality_mA18B11606615674838B3FB7388C787DA11B459C6 (fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 ___0_a, fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 ___1_b, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:42>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:42>
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_0 = ___0_a;
 		Type_t* L_1 = L_0.___ModelType;
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_2 = ___1_b;
@@ -12992,7 +12992,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsVersionedType_op_Inequality_mA18B11606
 		return L_4;
 	}
 }
-// Method Definition Index: 56351
+// Method Definition Index: 85994
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsVersionedType_Equals_m051C07595BCB7037C2E668E0E09D0A4C74A2958F (fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13002,9 +13002,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsVersionedType_Equals_m051C07595BCB7037
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:49>
 		RuntimeObject* L_0 = ___0_obj;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8_il2cpp_TypeInfo_var)))
 		{
@@ -13035,11 +13035,11 @@ IL2CPP_EXTERN_C  bool fsVersionedType_Equals_m051C07595BCB7037C2E668E0E09D0A4C74
 	_returnValue = fsVersionedType_Equals_m051C07595BCB7037C2E668E0E09D0A4C74A2958F(_thisAdjusted, ___0_obj, method);
 	return _returnValue;
 }
-// Method Definition Index: 56352
+// Method Definition Index: 85995
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t fsVersionedType_GetHashCode_m02754D5563950758CECD86BE72D69DD7046C47C6 (fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionedType.cs:54>
 		Type_t* L_0 = __this->___ModelType;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -13064,7 +13064,7 @@ IL2CPP_EXTERN_C  int32_t fsVersionedType_GetHashCode_m02754D5563950758CECD86BE72
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56353
+// Method Definition Index: 85996
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 fsVersionManager_GetVersionImportPath_mF78001EFBFAB16E1FB6D627FB2327FAA6382BCC6 (String_t* ___0_currentVersion, fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 ___1_targetVersion, List_1_t7182E9791DD2596935EC5EBF901871476E91B95D** ___2_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13082,13 +13082,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:12>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:12>
 		List_1_t7182E9791DD2596935EC5EBF901871476E91B95D** L_0 = ___2_path;
 		List_1_t7182E9791DD2596935EC5EBF901871476E91B95D* L_1 = (List_1_t7182E9791DD2596935EC5EBF901871476E91B95D*)il2cpp_codegen_object_new(List_1_t7182E9791DD2596935EC5EBF901871476E91B95D_il2cpp_TypeInfo_var);
 		List_1__ctor_m9E93111D8C1F56BE86EFCF88046DA5F7C5B95E92(L_1, List_1__ctor_m9E93111D8C1F56BE86EFCF88046DA5F7C5B95E92_RuntimeMethod_var);
 		*((RuntimeObject**)L_0) = (RuntimeObject*)L_1;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:14>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:14>
 		List_1_t7182E9791DD2596935EC5EBF901871476E91B95D** L_2 = ___2_path;
 		List_1_t7182E9791DD2596935EC5EBF901871476E91B95D* L_3 = *((List_1_t7182E9791DD2596935EC5EBF901871476E91B95D**)L_2);
 		String_t* L_4 = ___0_currentVersion;
@@ -13102,7 +13102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:16>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:16>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = L_7;
 		NullCheck(L_8);
@@ -13132,19 +13132,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:19>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:19>
 		List_1_t7182E9791DD2596935EC5EBF901871476E91B95D** L_18 = ___2_path;
 		List_1_t7182E9791DD2596935EC5EBF901871476E91B95D* L_19 = *((List_1_t7182E9791DD2596935EC5EBF901871476E91B95D**)L_18);
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_20 = ___1_targetVersion;
 		NullCheck(L_19);
 		List_1_Add_mAF53B32DBF05898F4578B6DA990EAF6492B8366F_inline(L_19, L_20, List_1_Add_mAF53B32DBF05898F4578B6DA990EAF6492B8366F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:20>
 		il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_21 = ((fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_StaticFields*)il2cpp_codegen_static_fields_for(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var))->___Success;
 		return L_21;
 	}
 }
-// Method Definition Index: 56354
+// Method Definition Index: 85997
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsVersionManager_GetVersionImportPathRecursive_mB3A3038031C067D3C072AC7FA1A6483F923360B4 (List_1_t7182E9791DD2596935EC5EBF901871476E91B95D* ___0_path, String_t* ___1_currentVersion, fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 ___2_current, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13158,14 +13158,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool fsVersionManager_GetVersionImportPathRec
 	fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:25>
 		V_0 = 0;
 		goto IL_0036;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:27>
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_0 = ___2_current;
 		fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F* L_1 = L_0.___Ancestors;
 		int32_t L_2 = V_0;
@@ -13173,8 +13173,8 @@ IL_0004:
 		int32_t L_3 = L_2;
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:29>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:30>
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_5 = V_1;
 		String_t* L_6 = L_5.___VersionString;
 		String_t* L_7 = ___1_currentVersion;
@@ -13200,25 +13200,25 @@ IL_0004:
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:32>
 		List_1_t7182E9791DD2596935EC5EBF901871476E91B95D* L_13 = ___0_path;
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_14 = V_1;
 		NullCheck(L_13);
 		List_1_Add_mAF53B32DBF05898F4578B6DA990EAF6492B8366F_inline(L_13, L_14, List_1_Add_mAF53B32DBF05898F4578B6DA990EAF6492B8366F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:33>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:33>
 		return (bool)1;
 	}
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:25>
 		int32_t L_15 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_15, 1));
 	}
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:25>
 		int32_t L_16 = V_0;
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_17 = ___2_current;
 		fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F* L_18 = L_17.___Ancestors;
@@ -13229,11 +13229,11 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:37>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 56355
+// Method Definition Index: 85998
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B81D2A28A fsVersionManager_GetVersionedType_m4CF940685782769880C5341A1C3D2FC703906484 (Type_t* ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13267,7 +13267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B8
 	String_t* G_B9_1 = NULL;
 	int32_t G_B13_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:44>
 		il2cpp_codegen_runtime_class_init_inline(fsVersionManager_tE7F82D8ACD918E0A88D0ACD0E6B7F2F84755BEC3_il2cpp_TypeInfo_var);
 		Dictionary_2_t01172F6C8656F6A4EC35BC23F314D690D75BC84F* L_0 = ((fsVersionManager_tE7F82D8ACD918E0A88D0ACD0E6B7F2F84755BEC3_StaticFields*)il2cpp_codegen_static_fields_for(fsVersionManager_tE7F82D8ACD918E0A88D0ACD0E6B7F2F84755BEC3_il2cpp_TypeInfo_var))->____cache;
 		Type_t* L_1 = ___0_type;
@@ -13280,13 +13280,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B8
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:46>
 		Type_t* L_3 = ___0_type;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_4;
 		L_4 = fsPortableReflection_GetAttribute_TisfsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38_m05C71253753EF477CA25996DA4B7A36E67881A2A(L_3, fsPortableReflection_GetAttribute_TisfsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38_m05C71253753EF477CA25996DA4B7A36E67881A2A_RuntimeMethod_var);
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:48>
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_5 = V_1;
 		if (!L_5)
 		{
@@ -13294,7 +13294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B8
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:50>
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_6 = V_1;
 		NullCheck(L_6);
 		String_t* L_7 = L_6->___VersionString;
@@ -13317,7 +13317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B8
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:53>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:53>
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_11 = V_1;
 		NullCheck(L_11);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_12 = L_11->___PreviousModels;
@@ -13338,7 +13338,7 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:55>
 		Type_t* L_16 = ___0_type;
 		Type_t* L_17 = L_16;
 		if (L_17)
@@ -13376,7 +13376,7 @@ IL_005e:
 
 IL_006e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:59>
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_21 = V_1;
 		NullCheck(L_21);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_22 = L_21->___PreviousModels;
@@ -13403,14 +13403,14 @@ IL_0081:
 	{
 		fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F* L_25 = (fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F*)(fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F*)SZArrayNew(fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F_il2cpp_TypeInfo_var, (uint32_t)G_B13_0);
 		V_2 = L_25;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:60>
 		V_3 = 0;
 		goto IL_00d7;
 	}
 
 IL_008b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:62>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:62>
 		fsObjectAttribute_t01E43E525187363F108B146EC18F42D731E84E38* L_26 = V_1;
 		NullCheck(L_26);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_27 = L_26->___PreviousModels;
@@ -13422,7 +13422,7 @@ IL_008b:
 		fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B81D2A28A L_31;
 		L_31 = fsVersionManager_GetVersionedType_m4CF940685782769880C5341A1C3D2FC703906484(L_30, NULL);
 		V_4 = L_31;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:63>
 		bool L_32;
 		L_32 = fsOption_1_get_IsEmpty_m95C6343EC3B5E180C487DF2F28019391A5B6672E((&V_4), fsOption_1_get_IsEmpty_m95C6343EC3B5E180C487DF2F28019391A5B6672E_RuntimeMethod_var);
 		if (!L_32)
@@ -13431,7 +13431,7 @@ IL_008b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:65>
 		Il2CppFakeBox<fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B81D2A28A> L_33(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B81D2A28A_il2cpp_TypeInfo_var)), (&V_4));
 		String_t* L_34;
 		L_34 = ValueType_ToString_mFE1CB83BECC99D07BEA7EAB25AF73BE5A727C04D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_33), NULL);
@@ -13444,21 +13444,21 @@ IL_008b:
 
 IL_00c5:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:67>
 		fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F* L_37 = V_2;
 		int32_t L_38 = V_3;
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_39;
 		L_39 = fsOption_1_get_Value_m06DFFCCEB8E41DDEAEC89C3133DC3E75E3EA2241((&V_4), fsOption_1_get_Value_m06DFFCCEB8E41DDEAEC89C3133DC3E75E3EA2241_RuntimeMethod_var);
 		NullCheck(L_37);
 		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(L_38), (fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8)L_39);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:60>
 		int32_t L_40 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_40, 1));
 	}
 
 IL_00d7:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:60>
 		int32_t L_41 = V_3;
 		fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F* L_42 = V_2;
 		NullCheck(L_42);
@@ -13468,12 +13468,12 @@ IL_00d7:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:71>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:72>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:73>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:74>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:75>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:73>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:75>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:76>
 		il2cpp_codegen_initobj((&V_5), sizeof(fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8));
 		fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F* L_43 = V_2;
 		(&V_5)->___Ancestors = L_43;
@@ -13487,14 +13487,14 @@ IL_00d7:
 		(&V_5)->___ModelType = L_46;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_5)->___ModelType), (void*)L_46);
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_47 = V_5;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:80>
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_48 = L_47;
 		il2cpp_codegen_runtime_class_init_inline(fsVersionManager_tE7F82D8ACD918E0A88D0ACD0E6B7F2F84755BEC3_il2cpp_TypeInfo_var);
 		fsVersionManager_VerifyUniqueVersionStrings_m930312E5E49A7FEFFAED1994F0B9633BC9BE4276(L_48, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:81>
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_49 = L_48;
 		fsVersionManager_VerifyConstructors_m8411C5605527031779BFE91B425DF200A968ACD7(L_49, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:83>
 		fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B81D2A28A L_50;
 		L_50 = fsOption_Just_TisfsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8_m2924676A18A4C69DA6F8C6EEB7A1DAFA576EB5B0(L_49, fsOption_Just_TisfsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8_m2924676A18A4C69DA6F8C6EEB7A1DAFA576EB5B0_RuntimeMethod_var);
 		V_0 = L_50;
@@ -13502,7 +13502,7 @@ IL_00d7:
 
 IL_0116:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:87>
 		il2cpp_codegen_runtime_class_init_inline(fsVersionManager_tE7F82D8ACD918E0A88D0ACD0E6B7F2F84755BEC3_il2cpp_TypeInfo_var);
 		Dictionary_2_t01172F6C8656F6A4EC35BC23F314D690D75BC84F* L_51 = ((fsVersionManager_tE7F82D8ACD918E0A88D0ACD0E6B7F2F84755BEC3_StaticFields*)il2cpp_codegen_static_fields_for(fsVersionManager_tE7F82D8ACD918E0A88D0ACD0E6B7F2F84755BEC3_il2cpp_TypeInfo_var))->____cache;
 		Type_t* L_52 = ___0_type;
@@ -13513,12 +13513,12 @@ IL_0116:
 
 IL_0122:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:90>
 		fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B81D2A28A L_54 = V_0;
 		return L_54;
 	}
 }
-// Method Definition Index: 56356
+// Method Definition Index: 85999
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsVersionManager_VerifyConstructors_m8411C5605527031779BFE91B425DF200A968ACD7 (fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13534,37 +13534,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsVersionManager_VerifyConstructors_m841
 	int32_t V_4 = 0;
 	ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* V_5 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:99>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:99>
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_0 = ___0_type;
 		Type_t* L_1 = L_0.___ModelType;
 		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
 		ConstructorInfoU5BU5D_t515A0B944728842263B6033C9A62F6392C3BCD8A* L_2;
 		L_2 = fsPortableReflection_GetDeclaredConstructors_mB5B777C7EC535253A345584074FC1D8FBA32160A(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:101>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:101>
 		V_1 = 0;
 		goto IL_0071;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:103>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:103>
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_3 = ___0_type;
 		fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F* L_4 = L_3.___Ancestors;
 		int32_t L_5 = V_1;
 		NullCheck(L_4);
 		Type_t* L_6 = ((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___ModelType;
 		V_2 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:105>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:105>
 		V_3 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:106>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:106>
 		V_4 = 0;
 		goto IL_0056;
 	}
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:108>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:108>
 		ConstructorInfoU5BU5D_t515A0B944728842263B6033C9A62F6392C3BCD8A* L_7 = V_0;
 		int32_t L_8 = V_4;
 		NullCheck(L_7);
@@ -13572,9 +13572,9 @@ IL_0029:
 		ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
 		NullCheck(L_10);
 		ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* L_11;
-		L_11 = VirtualFuncInvoker0< ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* >::Invoke(15, L_10);
+		L_11 = VirtualFuncInvoker0< ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* >::Invoke(16, L_10);
 		V_5 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:109>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:109>
 		ParameterInfoU5BU5D_t86995AB4A1693393FE29B058CC3FD727DF0B984C* L_12 = V_5;
 		NullCheck(L_12);
 		if ((!(((uint32_t)((int32_t)(((RuntimeArray*)L_12)->max_length))) == ((uint32_t)1))))
@@ -13589,7 +13589,7 @@ IL_0029:
 		ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F* L_15 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
 		NullCheck(L_15);
 		Type_t* L_16;
-		L_16 = VirtualFuncInvoker0< Type_t* >::Invoke(10, L_15);
+		L_16 = VirtualFuncInvoker0< Type_t* >::Invoke(11, L_15);
 		Type_t* L_17 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		bool L_18;
@@ -13600,22 +13600,22 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:111>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:111>
 		V_3 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:112>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:112>
 		goto IL_005d;
 	}
 
 IL_0050:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:106>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:106>
 		int32_t L_19 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_19, 1));
 	}
 
 IL_0056:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:106>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:106>
 		int32_t L_20 = V_4;
 		ConstructorInfoU5BU5D_t515A0B944728842263B6033C9A62F6392C3BCD8A* L_21 = V_0;
 		NullCheck(L_21);
@@ -13627,7 +13627,7 @@ IL_0056:
 
 IL_005d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:116>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:116>
 		bool L_22 = V_3;
 		if (L_22)
 		{
@@ -13635,7 +13635,7 @@ IL_005d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:118>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:118>
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_23 = ___0_type;
 		Type_t* L_24 = L_23.___ModelType;
 		Type_t* L_25 = V_2;
@@ -13646,14 +13646,14 @@ IL_005d:
 
 IL_006d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:101>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:101>
 		int32_t L_27 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_0071:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:101>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:101>
 		int32_t L_28 = V_1;
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_29 = ___0_type;
 		fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F* L_30 = L_29.___Ancestors;
@@ -13664,11 +13664,11 @@ IL_0071:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:121>
 		return;
 	}
 }
-// Method Definition Index: 56357
+// Method Definition Index: 86000
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsVersionManager_VerifyUniqueVersionStrings_m930312E5E49A7FEFFAED1994F0B9633BC9BE4276 (fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13695,15 +13695,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsVersionManager_VerifyUniqueVersionStri
 	fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:130>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:130>
 		Dictionary_2_t0E98B58821A879161B744DA2602DA878A7E5C58A* L_0 = (Dictionary_2_t0E98B58821A879161B744DA2602DA878A7E5C58A*)il2cpp_codegen_object_new(Dictionary_2_t0E98B58821A879161B744DA2602DA878A7E5C58A_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m552A02EB796CECBF0D6B1D2F5BCA4434A2AC9428(L_0, Dictionary_2__ctor_m552A02EB796CECBF0D6B1D2F5BCA4434A2AC9428_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:132>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:132>
 		Queue_1_t66D4A65BAEEC35917BB5E09E63B6FDB1F110200A* L_1 = (Queue_1_t66D4A65BAEEC35917BB5E09E63B6FDB1F110200A*)il2cpp_codegen_object_new(Queue_1_t66D4A65BAEEC35917BB5E09E63B6FDB1F110200A_il2cpp_TypeInfo_var);
 		Queue_1__ctor_mF9F0CCD361DD36335F701637DB0A91CDFCD40E19(L_1, Queue_1__ctor_mF9F0CCD361DD36335F701637DB0A91CDFCD40E19_RuntimeMethod_var);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:133>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:133>
 		Queue_1_t66D4A65BAEEC35917BB5E09E63B6FDB1F110200A* L_2 = V_1;
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_3 = ___0_type;
 		NullCheck(L_2);
@@ -13713,13 +13713,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsVersionManager_VerifyUniqueVersionStri
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:137>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:137>
 		Queue_1_t66D4A65BAEEC35917BB5E09E63B6FDB1F110200A* L_4 = V_1;
 		NullCheck(L_4);
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_5;
 		L_5 = Queue_1_Dequeue_m54E80CEB7DA8D9BE61571B0F602A47B14C0FC0C2(L_4, Queue_1_Dequeue_m54E80CEB7DA8D9BE61571B0F602A47B14C0FC0C2_RuntimeMethod_var);
 		V_2 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:143>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:143>
 		Dictionary_2_t0E98B58821A879161B744DA2602DA878A7E5C58A* L_6 = V_0;
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_7 = V_2;
 		String_t* L_8 = L_7.___VersionString;
@@ -13749,7 +13749,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:145>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:145>
 		Dictionary_2_t0E98B58821A879161B744DA2602DA878A7E5C58A* L_17 = V_0;
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_18 = V_2;
 		String_t* L_19 = L_18.___VersionString;
@@ -13767,7 +13767,7 @@ IL_0018:
 
 IL_0064:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:147>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:147>
 		Dictionary_2_t0E98B58821A879161B744DA2602DA878A7E5C58A* L_26 = V_0;
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_27 = V_2;
 		String_t* L_28 = L_27.___VersionString;
@@ -13775,7 +13775,7 @@ IL_0064:
 		Type_t* L_30 = L_29.___ModelType;
 		NullCheck(L_26);
 		Dictionary_2_set_Item_mD50E387D30F70E1F0A66F0230DE70CA791753F38(L_26, L_28, L_30, Dictionary_2_set_Item_mD50E387D30F70E1F0A66F0230DE70CA791753F38_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:150>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:150>
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_31 = V_2;
 		fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F* L_32 = L_31.___Ancestors;
 		V_3 = L_32;
@@ -13785,14 +13785,14 @@ IL_0064:
 
 IL_0082:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:150>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:150>
 		fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F* L_33 = V_3;
 		int32_t L_34 = V_4;
 		NullCheck(L_33);
 		int32_t L_35 = L_34;
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_36 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
 		V_5 = L_36;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:152>
 		Queue_1_t66D4A65BAEEC35917BB5E09E63B6FDB1F110200A* L_37 = V_1;
 		fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 L_38 = V_5;
 		NullCheck(L_37);
@@ -13803,7 +13803,7 @@ IL_0082:
 
 IL_009a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:150>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:150>
 		int32_t L_40 = V_4;
 		fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F* L_41 = V_3;
 		NullCheck(L_41);
@@ -13815,7 +13815,7 @@ IL_009a:
 
 IL_00a1:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:135>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:135>
 		Queue_1_t66D4A65BAEEC35917BB5E09E63B6FDB1F110200A* L_42 = V_1;
 		NullCheck(L_42);
 		int32_t L_43;
@@ -13826,11 +13826,11 @@ IL_00a1:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:155>
 		return;
 	}
 }
-// Method Definition Index: 56358
+// Method Definition Index: 86001
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsVersionManager__cctor_m54A1308F62862C4480603F2633A6DAB7362EBF92 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13842,7 +13842,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsVersionManager__cctor_m54A1308F62862C4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:8>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsVersionManager.cs:8>
 		Dictionary_2_t01172F6C8656F6A4EC35BC23F314D690D75BC84F* L_0 = (Dictionary_2_t01172F6C8656F6A4EC35BC23F314D690D75BC84F*)il2cpp_codegen_object_new(Dictionary_2_t01172F6C8656F6A4EC35BC23F314D690D75BC84F_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mC2BE576BC0A6111C417951E5B8D2B17B28D6E3E1(L_0, Dictionary_2__ctor_mC2BE576BC0A6111C417951E5B8D2B17B28D6E3E1_RuntimeMethod_var);
 		((fsVersionManager_tE7F82D8ACD918E0A88D0ACD0E6B7F2F84755BEC3_StaticFields*)il2cpp_codegen_static_fields_for(fsVersionManager_tE7F82D8ACD918E0A88D0ACD0E6B7F2F84755BEC3_il2cpp_TypeInfo_var))->____cache = L_0;
@@ -13858,7 +13858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsVersionManager__cctor_m54A1308F62862C4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56359
+// Method Definition Index: 86002
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityEvent_Converter_CanProcess_mF33E0BCD3D574E605A042AE18FF9AFA98E3A8A17 (UnityEvent_Converter_tD5E136836112018EC719F5845E73129360FD5CE7* __this, Type_t* ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13869,7 +13869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityEvent_Converter_CanProcess_mF33E0BC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:31>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:31>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;
@@ -13882,7 +13882,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityEvent_Converter_CanProcess_mF33E0BC
 		L_4 = fsPortableReflection_Resolve_m995640D6EA5B5B1268075371EC800CF8720BF9C3(L_3, NULL);
 		NullCheck(L_2);
 		bool L_5;
-		L_5 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_2, L_4);
+		L_5 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_2, L_4);
 		if (!L_5)
 		{
 			goto IL_002b;
@@ -13895,7 +13895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityEvent_Converter_CanProcess_mF33E0BC
 		L_7 = fsPortableReflection_Resolve_m995640D6EA5B5B1268075371EC800CF8720BF9C3(L_6, NULL);
 		NullCheck(L_7);
 		bool L_8;
-		L_8 = VirtualFuncInvoker0< bool >::Invoke(39, L_7);
+		L_8 = VirtualFuncInvoker0< bool >::Invoke(40, L_7);
 		return (bool)((((int32_t)L_8) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -13904,15 +13904,15 @@ IL_002b:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 56360
+// Method Definition Index: 86003
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityEvent_Converter_RequestCycleSupport_mC04BC3D9FFA6A8379930309C1B0AA784E383CA16 (UnityEvent_Converter_tD5E136836112018EC719F5845E73129360FD5CE7* __this, Type_t* ___0_storageType, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:36>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:36>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 56361
+// Method Definition Index: 86004
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 UnityEvent_Converter_TryDeserialize_mF282933A6D6E144C5A62D119971C9E0F248D0F46 (UnityEvent_Converter_tD5E136836112018EC719F5845E73129360FD5CE7* __this, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* ___0_data, RuntimeObject** ___1_instance, Type_t* ___2_storageType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13923,14 +13923,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 	}
 	Type_t* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:41>
 		RuntimeObject** L_0 = ___1_instance;
 		RuntimeObject* L_1 = *((RuntimeObject**)L_0);
 		V_0 = ((Type_t*)CastclassClass((RuntimeObject*)L_1, il2cpp_defaults.systemtype_class));
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:43>
 		il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_2 = ((fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_StaticFields*)il2cpp_codegen_static_fields_for(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var))->___Success;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:44>
 		RuntimeObject** L_3 = ___1_instance;
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* L_4 = ___0_data;
 		String_t* L_5;
@@ -13940,11 +13940,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		L_7 = JsonUtility_FromJson_m6DF4F85BE40F8A96BAFEC189306813ECE30DF44A(L_5, L_6, NULL);
 		*((RuntimeObject**)L_3) = (RuntimeObject*)L_7;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_3, (void*)(RuntimeObject*)L_7);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:45>
 		return L_2;
 	}
 }
-// Method Definition Index: 56362
+// Method Definition Index: 86005
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 UnityEvent_Converter_TrySerialize_m6CD4D0DC6D17598539EFA307927488B75D84DF35 (UnityEvent_Converter_tD5E136836112018EC719F5845E73129360FD5CE7* __this, RuntimeObject* ___0_instance, fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** ___1_serialized, Type_t* ___2_storageType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13954,10 +13954,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:50>
 		il2cpp_codegen_runtime_class_init_inline(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var);
 		fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974 L_0 = ((fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_StaticFields*)il2cpp_codegen_static_fields_for(fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974_il2cpp_TypeInfo_var))->___Success;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:51>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:51>
 		fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23** L_1 = ___1_serialized;
 		RuntimeObject* L_2 = ___0_instance;
 		String_t* L_3;
@@ -13966,11 +13966,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA
 		L_4 = fsJsonParser_Parse_m8BE8A63CD24E3C0D05A65A977FF70AC8E1D34336(L_3, NULL);
 		*((RuntimeObject**)L_1) = (RuntimeObject*)L_4;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_1, (void*)(RuntimeObject*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity/UnityEvent_Converter.cs:52>
 		return L_0;
 	}
 }
-// Method Definition Index: 56363
+// Method Definition Index: 86006
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_Converter__ctor_m0A71D6EB6E2E88D3C169C846139E958E799465E4 (UnityEvent_Converter_tD5E136836112018EC719F5845E73129360FD5CE7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13986,90 +13986,90 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_Converter__ctor_m0A71D6EB6E2E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56364
+// Method Definition Index: 86007
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ParsedAssemblyQualifiedName_get_AssemblyDescriptionString_mDD1B7B2E04A769B237A6C7569CB08036C0692BF3 (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:11>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:11>
 		String_t* L_0 = __this->___U3CAssemblyDescriptionStringU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56365
+// Method Definition Index: 86008
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ParsedAssemblyQualifiedName_get_TypeName_m0936BDF09D58E5801C30963AD6A00710D188C96D (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:13>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:13>
 		String_t* L_0 = __this->___U3CTypeNameU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56366
+// Method Definition Index: 86009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParsedAssemblyQualifiedName_set_TypeName_m6DA7C54E5AD807C130846D6855D04CDD0AD9595B (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:13>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:13>
 		String_t* L_0 = ___0_value;
 		__this->___U3CTypeNameU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTypeNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56367
+// Method Definition Index: 86010
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ParsedAssemblyQualifiedName_get_ShortAssemblyName_mB0679285F4E7E777B9B01D8412917EEA8A72A92E (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:15>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:15>
 		String_t* L_0 = __this->___U3CShortAssemblyNameU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56368
+// Method Definition Index: 86011
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ParsedAssemblyQualifiedName_get_Version_mB5D6313EA08302F5BA346DA662D4AEA06D2601B1 (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:17>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:17>
 		String_t* L_0 = __this->___U3CVersionU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56369
+// Method Definition Index: 86012
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ParsedAssemblyQualifiedName_get_Culture_mA75E05DA2B2430A0AB144013B9A4A8B83B71C4CE (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:19>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:19>
 		String_t* L_0 = __this->___U3CCultureU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56370
+// Method Definition Index: 86013
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ParsedAssemblyQualifiedName_get_PublicKeyToken_mBA4564B8953EDB3F62897858D15FDB032D5E4DF1 (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:21>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:21>
 		String_t* L_0 = __this->___U3CPublicKeyTokenU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56371
+// Method Definition Index: 86014
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tEFA322F48B03785A6AFA90D4676E16328FF6C4E9* ParsedAssemblyQualifiedName_get_GenericParameters_mB90B86B5D8874418CF577CA298C2C306E29F2BD9 (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:23>
 		List_1_tEFA322F48B03785A6AFA90D4676E16328FF6C4E9* L_0 = __this->___U3CGenericParametersU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56372
+// Method Definition Index: 86015
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParsedAssemblyQualifiedName_get_GenericParameterCount_m44F25295A74A3912CF2C4D6F6386175B62E26FDD (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:25>
 		int32_t L_0 = __this->___U3CGenericParameterCountU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56373
+// Method Definition Index: 86016
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParsedAssemblyQualifiedName__ctor_m315CCD24E7F356425EFA2B5D89D924E746449987 (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, String_t* ___0_AssemblyQualifiedName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14108,43 +14108,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParsedAssemblyQualifiedName__ctor_m315CC
 	Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* G_B21_0 = NULL;
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B21_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:23>
 		List_1_tEFA322F48B03785A6AFA90D4676E16328FF6C4E9* L_0 = (List_1_tEFA322F48B03785A6AFA90D4676E16328FF6C4E9*)il2cpp_codegen_object_new(List_1_tEFA322F48B03785A6AFA90D4676E16328FF6C4E9_il2cpp_TypeInfo_var);
 		List_1__ctor_m8E5B95552F6130227ACC9495422E4C83DD764DFB(L_0, List_1__ctor_m8E5B95552F6130227ACC9495422E4C83DD764DFB_RuntimeMethod_var);
 		__this->___U3CGenericParametersU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CGenericParametersU3Ek__BackingField), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:27>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:29>
 		String_t* L_1 = ___0_AssemblyQualifiedName;
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:30>
 		V_1 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:32>
 		Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF* L_3 = (Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF*)il2cpp_codegen_object_new(Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF_il2cpp_TypeInfo_var);
 		Block__ctor_m244AF359DB9C35E945F34949B0C751AE74BDB25E(L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:34>
 		V_3 = 0;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:35>
 		V_4 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:37>
 		V_5 = 0;
 		goto IL_0112;
 	}
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:39>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:39>
 		String_t* L_4 = ___0_AssemblyQualifiedName;
 		int32_t L_5 = V_5;
 		NullCheck(L_4);
 		Il2CppChar L_6;
 		L_6 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_4, L_5, NULL);
 		V_6 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:41>
 		Il2CppChar L_7 = V_6;
 		if ((!(((uint32_t)L_7) == ((uint32_t)((int32_t)91)))))
 		{
@@ -14152,7 +14152,7 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:43>
 		String_t* L_8 = ___0_AssemblyQualifiedName;
 		int32_t L_9 = V_5;
 		NullCheck(L_8);
@@ -14164,7 +14164,7 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:45>
 		int32_t L_11 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 		goto IL_010c;
@@ -14172,7 +14172,7 @@ IL_002b:
 
 IL_0054:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:49>
 		int32_t L_12 = V_3;
 		if (L_12)
 		{
@@ -14180,22 +14180,22 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:51>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:51>
 		int32_t L_13 = V_5;
 		V_0 = L_13;
 	}
 
 IL_005a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:54>
 		int32_t L_14 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_14, 1));
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:56>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:57>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:58>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:59>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:60>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:61>
 		Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF* L_15 = (Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF*)il2cpp_codegen_object_new(Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF_il2cpp_TypeInfo_var);
 		Block__ctor_m244AF359DB9C35E945F34949B0C751AE74BDB25E(L_15, NULL);
 		Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF* L_16 = L_15;
@@ -14212,14 +14212,14 @@ IL_005a:
 		L_20->___parentBlock = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&L_20->___parentBlock), (void*)L_21);
 		V_7 = L_20;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:63>
 		Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF* L_22 = V_4;
 		NullCheck(L_22);
 		List_1_t85812977073AD90622C1915AAFE06D1EAB782A80* L_23 = L_22->___innerBlocks;
 		Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF* L_24 = V_7;
 		NullCheck(L_23);
 		List_1_Add_m2FEDD54E41884887830DAAB6459C15D3E39C78F0_inline(L_23, L_24, List_1_Add_m2FEDD54E41884887830DAAB6459C15D3E39C78F0_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:65>
 		Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF* L_25 = V_7;
 		V_4 = L_25;
 		goto IL_010c;
@@ -14227,7 +14227,7 @@ IL_005a:
 
 IL_0092:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:68>
 		Il2CppChar L_26 = V_6;
 		if ((!(((uint32_t)L_26) == ((uint32_t)((int32_t)93)))))
 		{
@@ -14235,12 +14235,12 @@ IL_0092:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:70>
 		Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF* L_27 = V_4;
 		int32_t L_28 = V_5;
 		NullCheck(L_27);
 		L_27->___endIndex = ((int32_t)il2cpp_codegen_subtract(L_28, 1));
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:72>
 		String_t* L_29 = ___0_AssemblyQualifiedName;
 		Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF* L_30 = V_4;
 		NullCheck(L_30);
@@ -14254,7 +14254,7 @@ IL_0092:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:74>
 		Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF* L_33 = V_4;
 		String_t* L_34 = ___0_AssemblyQualifiedName;
 		Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF* L_35 = V_4;
@@ -14272,7 +14272,7 @@ IL_0092:
 		NullCheck(L_33);
 		L_33->___parsedAssemblyQualifiedName = L_41;
 		Il2CppCodeGenWriteBarrier((void**)(&L_33->___parsedAssemblyQualifiedName), (void*)L_41);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:76>
 		int32_t L_42 = V_3;
 		if ((!(((uint32_t)L_42) == ((uint32_t)2))))
 		{
@@ -14280,7 +14280,7 @@ IL_0092:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:78>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:78>
 		List_1_tEFA322F48B03785A6AFA90D4676E16328FF6C4E9* L_43;
 		L_43 = ParsedAssemblyQualifiedName_get_GenericParameters_mB90B86B5D8874418CF577CA298C2C306E29F2BD9_inline(__this, NULL);
 		Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF* L_44 = V_4;
@@ -14292,12 +14292,12 @@ IL_0092:
 
 IL_00ed:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:82>
 		Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF* L_46 = V_4;
 		NullCheck(L_46);
 		Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF* L_47 = L_46->___parentBlock;
 		V_4 = L_47;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:83>
 		int32_t L_48 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_48, 1));
 		goto IL_010c;
@@ -14305,7 +14305,7 @@ IL_00ed:
 
 IL_00fc:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:85>
 		int32_t L_49 = V_3;
 		if (L_49)
 		{
@@ -14320,25 +14320,25 @@ IL_00fc:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:87>
 		int32_t L_51 = V_5;
 		V_0 = L_51;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:88>
 		V_1 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:90>
 		goto IL_011f;
 	}
 
 IL_010c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:37>
 		int32_t L_52 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_52, 1));
 	}
 
 IL_0112:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:37>
 		int32_t L_53 = V_5;
 		String_t* L_54 = ___0_AssemblyQualifiedName;
 		NullCheck(L_54);
@@ -14352,21 +14352,21 @@ IL_0112:
 
 IL_011f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:95>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:95>
 		String_t* L_56 = ___0_AssemblyQualifiedName;
 		int32_t L_57 = V_0;
 		NullCheck(L_56);
 		String_t* L_58;
 		L_58 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_56, 0, L_57, NULL);
 		ParsedAssemblyQualifiedName_set_TypeName_m6DA7C54E5AD807C130846D6855D04CDD0AD9595B_inline(__this, L_58, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:97>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:97>
 		String_t* L_59;
 		L_59 = ParsedAssemblyQualifiedName_get_TypeName_m0936BDF09D58E5801C30963AD6A00710D188C96D_inline(__this, NULL);
 		NullCheck(L_59);
 		int32_t L_60;
 		L_60 = String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966(L_59, ((int32_t)96), NULL);
 		V_2 = L_60;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:99>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:99>
 		int32_t L_61 = V_2;
 		if ((((int32_t)L_61) < ((int32_t)0)))
 		{
@@ -14374,7 +14374,7 @@ IL_011f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:101>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:101>
 		String_t* L_62;
 		L_62 = ParsedAssemblyQualifiedName_get_TypeName_m0936BDF09D58E5801C30963AD6A00710D188C96D_inline(__this, NULL);
 		int32_t L_63 = V_2;
@@ -14382,7 +14382,7 @@ IL_011f:
 		String_t* L_64;
 		L_64 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_62, 0, L_63, NULL);
 		ParsedAssemblyQualifiedName_set_TypeName_m6DA7C54E5AD807C130846D6855D04CDD0AD9595B_inline(__this, L_64, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:102>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:102>
 		List_1_tEFA322F48B03785A6AFA90D4676E16328FF6C4E9* L_65;
 		L_65 = ParsedAssemblyQualifiedName_get_GenericParameters_mB90B86B5D8874418CF577CA298C2C306E29F2BD9_inline(__this, NULL);
 		NullCheck(L_65);
@@ -14393,7 +14393,7 @@ IL_011f:
 
 IL_0163:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:105>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:105>
 		bool L_67 = V_1;
 		if (!L_67)
 		{
@@ -14401,7 +14401,7 @@ IL_0163:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:107>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:107>
 		String_t* L_68 = ___0_AssemblyQualifiedName;
 		int32_t L_69 = V_0;
 		NullCheck(L_68);
@@ -14409,9 +14409,9 @@ IL_0163:
 		L_70 = String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472(L_68, ((int32_t)il2cpp_codegen_add(L_69, 2)), NULL);
 		__this->___U3CAssemblyDescriptionStringU3Ek__BackingField = L_70;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAssemblyDescriptionStringU3Ek__BackingField), (void*)L_70);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:109>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:110>
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:111>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:109>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:110>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:111>
 		String_t* L_71;
 		L_71 = ParsedAssemblyQualifiedName_get_AssemblyDescriptionString_mDD1B7B2E04A769B237A6C7569CB08036C0692BF3_inline(__this, NULL);
 		NullCheck(L_71);
@@ -14448,25 +14448,25 @@ IL_01a5:
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_79;
 		L_79 = Enumerable_ToList_TisString_t_m86360148F90DE6EA1A8363F38B7C2A88FD139131(L_78, Enumerable_ToList_TisString_t_m86360148F90DE6EA1A8363F38B7C2A88FD139131_RuntimeMethod_var);
 		V_8 = L_79;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:113>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:113>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_80 = V_8;
 		String_t* L_81;
 		L_81 = ParsedAssemblyQualifiedName_LookForPairThenRemove_mB52C7A56627743F09A32D7AD3D369F35A5DA00A7(L_80, _stringLiteralE200AC1425952F4F5CEAAA9C773B6D17B90E47C1, NULL);
 		__this->___U3CVersionU3Ek__BackingField = L_81;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CVersionU3Ek__BackingField), (void*)L_81);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:114>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_82 = V_8;
 		String_t* L_83;
 		L_83 = ParsedAssemblyQualifiedName_LookForPairThenRemove_mB52C7A56627743F09A32D7AD3D369F35A5DA00A7(L_82, _stringLiteral24C9260A59416A490E59FCDF0B52885DD5245AB8, NULL);
 		__this->___U3CCultureU3Ek__BackingField = L_83;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCultureU3Ek__BackingField), (void*)L_83);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:115>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:115>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_84 = V_8;
 		String_t* L_85;
 		L_85 = ParsedAssemblyQualifiedName_LookForPairThenRemove_mB52C7A56627743F09A32D7AD3D369F35A5DA00A7(L_84, _stringLiteralBD25AF8CE65F9B78B53D55B0E5E9E67330F6FFA1, NULL);
 		__this->___U3CPublicKeyTokenU3Ek__BackingField = L_85;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CPublicKeyTokenU3Ek__BackingField), (void*)L_85);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:117>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:117>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_86 = V_8;
 		NullCheck(L_86);
 		int32_t L_87;
@@ -14477,7 +14477,7 @@ IL_01a5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:119>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:119>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_88 = V_8;
 		NullCheck(L_88);
 		String_t* L_89;
@@ -14488,11 +14488,11 @@ IL_01a5:
 
 IL_01ff:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:122>
 		return;
 	}
 }
-// Method Definition Index: 56374
+// Method Definition Index: 86017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ParsedAssemblyQualifiedName_LookForPairThenRemove_mB52C7A56627743F09A32D7AD3D369F35A5DA00A7 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_strings, String_t* ___1_Name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14507,40 +14507,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ParsedAssemblyQualifiedName_LookFor
 	String_t* V_1 = NULL;
 	int32_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:141>
 		V_0 = 0;
 		goto IL_0037;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:143>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:143>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___0_strings;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
 		String_t* L_2;
 		L_2 = List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8(L_0, L_1, List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var);
 		V_1 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:144>
 		String_t* L_3 = V_1;
 		String_t* L_4 = ___1_Name;
 		NullCheck(L_3);
 		int32_t L_5;
 		L_5 = String_IndexOf_m69E9BDAFD93767C85A7FF861B453415D3B4A200F(L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:146>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:146>
 		if (L_5)
 		{
 			goto IL_0033;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:148>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:148>
 		String_t* L_6 = V_1;
 		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966(L_6, ((int32_t)61), NULL);
 		V_2 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:150>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:150>
 		int32_t L_8 = V_2;
 		if ((((int32_t)L_8) <= ((int32_t)0)))
 		{
@@ -14548,31 +14548,31 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:152>
 		String_t* L_9 = V_1;
 		int32_t L_10 = V_2;
 		NullCheck(L_9);
 		String_t* L_11;
 		L_11 = String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472(L_9, ((int32_t)il2cpp_codegen_add(L_10, 1)), NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:153>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_12 = ___0_strings;
 		int32_t L_13 = V_0;
 		NullCheck(L_12);
 		List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D(L_12, L_13, List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:155>
 		return L_11;
 	}
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:141>
 		int32_t L_14 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:141>
 		int32_t L_15 = V_0;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_16 = ___0_strings;
 		NullCheck(L_16);
@@ -14584,11 +14584,11 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:160>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:160>
 		return (String_t*)NULL;
 	}
 }
-// Method Definition Index: 56375
+// Method Definition Index: 86018
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParsedAssemblyQualifiedName_Replace_mCC21E16D96DA9BA55A966F1A1F09FB6539E2B5FE (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, String_t* ___0_oldTypeName, String_t* ___1_newTypeName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14603,7 +14603,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParsedAssemblyQualifiedName_Replace_mCC2
 	Enumerator_t51259A7EAC9FC0A67A0FCDA0D5680385F2122CD7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:165>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:165>
 		String_t* L_0;
 		L_0 = ParsedAssemblyQualifiedName_get_TypeName_m0936BDF09D58E5801C30963AD6A00710D188C96D_inline(__this, NULL);
 		String_t* L_1 = ___0_oldTypeName;
@@ -14615,14 +14615,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParsedAssemblyQualifiedName_Replace_mCC2
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:167>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:167>
 		String_t* L_3 = ___1_newTypeName;
 		ParsedAssemblyQualifiedName_set_TypeName_m6DA7C54E5AD807C130846D6855D04CDD0AD9595B_inline(__this, L_3, NULL);
 	}
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:170>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:170>
 		List_1_tEFA322F48B03785A6AFA90D4676E16328FF6C4E9* L_4;
 		L_4 = ParsedAssemblyQualifiedName_get_GenericParameters_mB90B86B5D8874418CF577CA298C2C306E29F2BD9_inline(__this, NULL);
 		NullCheck(L_4);
@@ -14648,10 +14648,10 @@ FINALLY_003c:
 
 IL_0023_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:170>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:170>
 				ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* L_6;
 				L_6 = Enumerator_get_Current_mD9CBDA50191DF66243D7FF4BBED51D6B2E982E70_inline((&V_0), Enumerator_get_Current_mD9CBDA50191DF66243D7FF4BBED51D6B2E982E70_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:172>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:172>
 				String_t* L_7 = ___0_oldTypeName;
 				String_t* L_8 = ___1_newTypeName;
 				NullCheck(L_6);
@@ -14660,7 +14660,7 @@ IL_0023_1:
 
 IL_0031_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:170>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:170>
 				bool L_9;
 				L_9 = Enumerator_MoveNext_m6260A594649D6139AB78AD552CB3BB96186F6D0E((&V_0), Enumerator_MoveNext_m6260A594649D6139AB78AD552CB3BB96186F6D0E_RuntimeMethod_var);
 				if (L_9)
@@ -14680,11 +14680,11 @@ IL_0031_1:
 
 IL_004a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:174>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:174>
 		return;
 	}
 }
-// Method Definition Index: 56376
+// Method Definition Index: 86019
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ParsedAssemblyQualifiedName_ToString_m050616A35FCD939174FD52F283AF9A794C9BD8F4 (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, bool ___0_includeAssemblyDescription, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14707,18 +14707,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ParsedAssemblyQualifiedName_ToStrin
 	memset((&V_1), 0, sizeof(V_1));
 	ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:178>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:178>
 		StringBuilder_t* L_0 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:180>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:180>
 		StringBuilder_t* L_1 = V_0;
 		String_t* L_2;
 		L_2 = ParsedAssemblyQualifiedName_get_TypeName_m0936BDF09D58E5801C30963AD6A00710D188C96D_inline(__this, NULL);
 		NullCheck(L_1);
 		StringBuilder_t* L_3;
 		L_3 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:182>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:182>
 		List_1_tEFA322F48B03785A6AFA90D4676E16328FF6C4E9* L_4;
 		L_4 = ParsedAssemblyQualifiedName_get_GenericParameters_mB90B86B5D8874418CF577CA298C2C306E29F2BD9_inline(__this, NULL);
 		NullCheck(L_4);
@@ -14730,24 +14730,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ParsedAssemblyQualifiedName_ToStrin
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:184>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:184>
 		StringBuilder_t* L_6 = V_0;
 		NullCheck(L_6);
 		StringBuilder_t* L_7;
 		L_7 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_6, _stringLiteral54F4AAE0436CBCC0163FCF662535D64F6E0BB00C, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:186>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:186>
 		StringBuilder_t* L_8 = V_0;
 		int32_t L_9;
 		L_9 = ParsedAssemblyQualifiedName_get_GenericParameterCount_m44F25295A74A3912CF2C4D6F6386175B62E26FDD_inline(__this, NULL);
 		NullCheck(L_8);
 		StringBuilder_t* L_10;
 		L_10 = StringBuilder_Append_m283B617AC29FB0DD6F3A7D8C01D385C25A5F0FAA(L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:188>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:188>
 		StringBuilder_t* L_11 = V_0;
 		NullCheck(L_11);
 		StringBuilder_t* L_12;
 		L_12 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_11, _stringLiteralFDE83360537AACA4E9932F93BFEEBE4A2B475AB4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:190>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:190>
 		List_1_tEFA322F48B03785A6AFA90D4676E16328FF6C4E9* L_13;
 		L_13 = ParsedAssemblyQualifiedName_get_GenericParameters_mB90B86B5D8874418CF577CA298C2C306E29F2BD9_inline(__this, NULL);
 		NullCheck(L_13);
@@ -14773,11 +14773,11 @@ FINALLY_0075:
 
 IL_0054_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:190>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:190>
 				ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* L_15;
 				L_15 = Enumerator_get_Current_mD9CBDA50191DF66243D7FF4BBED51D6B2E982E70_inline((&V_1), Enumerator_get_Current_mD9CBDA50191DF66243D7FF4BBED51D6B2E982E70_RuntimeMethod_var);
 				V_2 = L_15;
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:192>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:192>
 				StringBuilder_t* L_16 = V_0;
 				ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* L_17 = V_2;
 				NullCheck(L_17);
@@ -14790,7 +14790,7 @@ IL_0054_1:
 
 IL_006a_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:190>
+				//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:190>
 				bool L_20;
 				L_20 = Enumerator_MoveNext_m6260A594649D6139AB78AD552CB3BB96186F6D0E((&V_1), Enumerator_MoveNext_m6260A594649D6139AB78AD552CB3BB96186F6D0E_RuntimeMethod_var);
 				if (L_20)
@@ -14810,7 +14810,7 @@ IL_006a_1:
 
 IL_0083:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:195>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:195>
 		StringBuilder_t* L_21 = V_0;
 		NullCheck(L_21);
 		StringBuilder_t* L_22;
@@ -14819,7 +14819,7 @@ IL_0083:
 
 IL_008f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:198>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:198>
 		bool L_23 = ___0_includeAssemblyDescription;
 		if (!L_23)
 		{
@@ -14827,12 +14827,12 @@ IL_008f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:200>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:200>
 		StringBuilder_t* L_24 = V_0;
 		NullCheck(L_24);
 		StringBuilder_t* L_25;
 		L_25 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_24, _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D, NULL);
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:202>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:202>
 		StringBuilder_t* L_26 = V_0;
 		String_t* L_27;
 		L_27 = ParsedAssemblyQualifiedName_get_AssemblyDescriptionString_mDD1B7B2E04A769B237A6C7569CB08036C0692BF3_inline(__this, NULL);
@@ -14843,7 +14843,7 @@ IL_008f:
 
 IL_00ab:
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:205>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:205>
 		StringBuilder_t* L_29 = V_0;
 		NullCheck(L_29);
 		String_t* L_30;
@@ -14851,11 +14851,11 @@ IL_00ab:
 		return L_30;
 	}
 }
-// Method Definition Index: 56377
+// Method Definition Index: 86020
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ParsedAssemblyQualifiedName_ToString_m310458C0B895B8067DF9768429AC09C6C48ED182 (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:210>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:210>
 		String_t* L_0;
 		L_0 = ParsedAssemblyQualifiedName_ToString_m050616A35FCD939174FD52F283AF9A794C9BD8F4(__this, (bool)0, NULL);
 		return L_0;
@@ -14869,7 +14869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ParsedAssemblyQualifiedName_ToStrin
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56378
+// Method Definition Index: 86021
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Block__ctor_m244AF359DB9C35E945F34949B0C751AE74BDB25E (Block_t98EA2E64F5912FCF6445957B8FD5468D31E51DBF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14880,7 +14880,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Block__ctor_m244AF359DB9C35E945F34949B0C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:134>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:134>
 		List_1_t85812977073AD90622C1915AAFE06D1EAB782A80* L_0 = (List_1_t85812977073AD90622C1915AAFE06D1EAB782A80*)il2cpp_codegen_object_new(List_1_t85812977073AD90622C1915AAFE06D1EAB782A80_il2cpp_TypeInfo_var);
 		List_1__ctor_mA719E4695AE06900A16266CFD7C37B4307F8F537(L_0, List_1__ctor_mA719E4695AE06900A16266CFD7C37B4307F8F537_RuntimeMethod_var);
 		__this->___innerBlocks = L_0;
@@ -14897,7 +14897,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Block__ctor_m244AF359DB9C35E945F34949B0C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 56379
+// Method Definition Index: 86022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mFFA8631D1FFBBA191FC7C4FAADD021C474EA8ABB (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14914,7 +14914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mFFA8631D1FFBBA191FC7C4FA
 		return;
 	}
 }
-// Method Definition Index: 56380
+// Method Definition Index: 86023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m548D4B502CD6FB161BB96A5511E48DD6B9992C05 (U3CU3Ec_tDDC890DE4A0BCB833741E07D5C2D5F93290D7701* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14922,11 +14922,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m548D4B502CD6FB161BB96A551
 		return;
 	}
 }
-// Method Definition Index: 56381
+// Method Definition Index: 86024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3C_ctorU3Eb__25_0_mC0E3FF0BADCAD1F5B27D17749F8BCB1484154A3C (U3CU3Ec_tDDC890DE4A0BCB833741E07D5C2D5F93290D7701* __this, String_t* ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:110>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:110>
 		String_t* L_0 = ___0_x;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -14961,156 +14961,156 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3C_ctorU3Eb__25_0_mC0E3FF0
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 56194
+// Method Definition Index: 85837
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool fsResult_get_Succeeded_m01E08C3B731D94618B867B7B55DCC0061CD11769_inline (fsResult_tEB0578624BDC55E2B1775451433E6E3CBDA8D974* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsResult.cs:149>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsResult.cs:149>
 		bool L_0 = __this->____success;
 		return L_0;
 	}
 }
-// Method Definition Index: 56249
+// Method Definition Index: 85892
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void fsMetaProperty_set_StorageType_mBC9EEB04E34352346F970CB36245E0CAC10F29E6_inline (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, Type_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:48>
 		Type_t* L_0 = ___0_value;
 		__this->___U3CStorageTypeU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CStorageTypeU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56259
+// Method Definition Index: 85902
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void fsMetaProperty_set_MemberName_m910365017A946E12F897AA268E2C54E92D8B0492_inline (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:76>
 		String_t* L_0 = ___0_value;
 		__this->___U3CMemberNameU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CMemberNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56261
+// Method Definition Index: 85904
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void fsMetaProperty_set_IsPublic_mDDC0D9F1D8C16C97D5A967A66B90C96CF00EFDBA_inline (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:81>
 		bool L_0 = ___0_value;
 		__this->___U3CIsPublicU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 56263
+// Method Definition Index: 85906
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void fsMetaProperty_set_IsReadOnly_m81F1BE9C4A906FD3A846B032068D8CF2E7C69ED4_inline (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:87>
 		bool L_0 = ___0_value;
 		__this->___U3CIsReadOnlyU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 56253
+// Method Definition Index: 85896
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void fsMetaProperty_set_CanRead_m29A21E1EC23A8330A771140563638EBE23C01C73_inline (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:61>
 		bool L_0 = ___0_value;
 		__this->___U3CCanReadU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 56255
+// Method Definition Index: 85898
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void fsMetaProperty_set_CanWrite_mCE48F80DD621B06344EE627E0E71B988A63BC694_inline (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:66>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:66>
 		bool L_0 = ___0_value;
 		__this->___U3CCanWriteU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 56257
+// Method Definition Index: 85900
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void fsMetaProperty_set_JsonName_mF0BBA2CA8267D1CCEB6AD349EC15006B2FC68ED4_inline (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:71>
 		String_t* L_0 = ___0_value;
 		__this->___U3CJsonNameU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CJsonNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56251
+// Method Definition Index: 85894
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void fsMetaProperty_set_OverrideConverterType_m37267DED2A75405AF6B2E4FF77802820C8F8B04B_inline (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, Type_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:56>
 		Type_t* L_0 = ___0_value;
 		__this->___U3COverrideConverterTypeU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3COverrideConverterTypeU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56256
+// Method Definition Index: 85899
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* fsMetaProperty_get_JsonName_mA58DF433A59CBE9214939853C7F4E9D4B838A652_inline (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:71>
 		String_t* L_0 = __this->___U3CJsonNameU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56258
+// Method Definition Index: 85901
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* fsMetaProperty_get_MemberName_mED2E167648A8A76B9C0FD73A6405012D82D9EDBE_inline (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:76>
 		String_t* L_0 = __this->___U3CMemberNameU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56269
+// Method Definition Index: 85912
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void fsMetaType_set_Properties_m75C4CFDD1D8A0844B8E8E61B1028BB013A011A9E_inline (fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743* __this, fsMetaPropertyU5BU5D_t03BF317FB567AFD189BDBDC0F128AC96E7D25F98* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:30>
 		fsMetaPropertyU5BU5D_t03BF317FB567AFD189BDBDC0F128AC96E7D25F98* L_0 = ___0_value;
 		__this->___U3CPropertiesU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CPropertiesU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56268
+// Method Definition Index: 85911
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR fsMetaPropertyU5BU5D_t03BF317FB567AFD189BDBDC0F128AC96E7D25F98* fsMetaType_get_Properties_m54618035A54E08C924EB7E8781AA55C1D19F950A_inline (fsMetaType_t8AFD73AF409551D5F98120D64017EF5A6963A743* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaType.cs:30>
 		fsMetaPropertyU5BU5D_t03BF317FB567AFD189BDBDC0F128AC96E7D25F98* L_0 = __this->___U3CPropertiesU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56260
+// Method Definition Index: 85903
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool fsMetaProperty_get_IsPublic_m30FEC58C34CBDB5F59B85174A8B4F1CB9D7FFE7D_inline (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:81>
 		bool L_0 = __this->___U3CIsPublicU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56262
+// Method Definition Index: 85905
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool fsMetaProperty_get_IsReadOnly_m0C3E3C1607BF2EE1BFE02073A743AD580EB0EB5A_inline (fsMetaProperty_t521F69311410D624C0468C57AFB52101D2229266* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection/fsMetaProperty.cs:87>
 		bool L_0 = __this->___U3CIsReadOnlyU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 439
+// Method Definition Index: 700
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15118,54 +15118,54 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 		return L_0;
 	}
 }
-// Method Definition Index: 56371
+// Method Definition Index: 86014
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tEFA322F48B03785A6AFA90D4676E16328FF6C4E9* ParsedAssemblyQualifiedName_get_GenericParameters_mB90B86B5D8874418CF577CA298C2C306E29F2BD9_inline (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:23>
 		List_1_tEFA322F48B03785A6AFA90D4676E16328FF6C4E9* L_0 = __this->___U3CGenericParametersU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56366
+// Method Definition Index: 86009
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ParsedAssemblyQualifiedName_set_TypeName_m6DA7C54E5AD807C130846D6855D04CDD0AD9595B_inline (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:13>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:13>
 		String_t* L_0 = ___0_value;
 		__this->___U3CTypeNameU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTypeNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 56365
+// Method Definition Index: 86008
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ParsedAssemblyQualifiedName_get_TypeName_m0936BDF09D58E5801C30963AD6A00710D188C96D_inline (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:13>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:13>
 		String_t* L_0 = __this->___U3CTypeNameU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56364
+// Method Definition Index: 86007
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ParsedAssemblyQualifiedName_get_AssemblyDescriptionString_mDD1B7B2E04A769B237A6C7569CB08036C0692BF3_inline (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:11>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:11>
 		String_t* L_0 = __this->___U3CAssemblyDescriptionStringU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 56372
+// Method Definition Index: 86015
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ParsedAssemblyQualifiedName_get_GenericParameterCount_m44F25295A74A3912CF2C4D6F6386175B62E26FDD_inline (ParsedAssemblyQualifiedName_tB768816007386BC77077F505470B9B98BDD176D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser/ParsedAssemblyQualifiedName.cs:25>
 		int32_t L_0 = __this->___U3CGenericParameterCountU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 9473
+// Method Definition Index: 11399
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
@@ -15203,7 +15203,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 9523
+// Method Definition Index: 11450
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15211,7 +15211,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 9462
+// Method Definition Index: 11388
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15219,16 +15219,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 		return L_0;
 	}
 }
-// Method Definition Index: 56301
+// Method Definition Index: 85944
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool fsOption_1_get_HasValue_mA83E56B4674C678E7C760EABB73397EF37356E6F_gshared_inline (fsOption_1_t5307CE32C845EE97F1173CDBB2385C4B81D2A28A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsOption.cs:13>
+		//<source_info:./Library/PackageCache/com.unity.visualscripting@8bed5ad90189/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal/fsOption.cs:13>
 		bool L_0 = __this->____hasValue;
 		return L_0;
 	}
 }
-// Method Definition Index: 9462
+// Method Definition Index: 11388
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m227BDE4BFC9E9B9F809829B05F487F3935B1FE25_gshared_inline (List_1_t7182E9791DD2596935EC5EBF901871476E91B95D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15236,13 +15236,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m227BDE4
 		return L_0;
 	}
 }
-// Method Definition Index: 635
+// Method Definition Index: 898
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_m31D9E56C7CAE538FD8564F34CABA2C2A537ED393_gshared_inline (Func_3_tAB0692B406AF1455ADB5F518BF283E084B5E8566* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 1757
+// Method Definition Index: 2224
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m6B76D139692C43B2AF7C695FAB044B16ACFAF355_gshared_inline (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15250,7 +15250,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m6B7
 		return L_0;
 	}
 }
-// Method Definition Index: 9473
+// Method Definition Index: 11399
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mAF53B32DBF05898F4578B6DA990EAF6492B8366F_gshared_inline (List_1_t7182E9791DD2596935EC5EBF901871476E91B95D* __this, fsVersionedType_tE569BD045F7DEDEC2122CC6CC0023B62B95332E8 ___0_item, const RuntimeMethod* method) 
 {
 	fsVersionedTypeU5BU5D_tF4A5B18C49769943892747B1A1040CAE86746E1F* V_0 = NULL;
@@ -15288,7 +15288,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 9550
+// Method Definition Index: 11494
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Queue_1_get_Count_m651F8A9D673A33075773C8090B4EA59E2C4916BB_gshared_inline (Queue_1_t66D4A65BAEEC35917BB5E09E63B6FDB1F110200A* __this, const RuntimeMethod* method) 
 {
 	{

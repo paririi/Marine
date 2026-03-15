@@ -154,7 +154,9 @@
           },
           {
             "name": "ComputeShader",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Authentication.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
