@@ -245,9 +245,10 @@ public class EnvironmentController : MonoBehaviour
 
         SetEnvironment(predictedEnvironment);
 
-        // Enable AR plane detection for the detected environment
+        // Enable AR plane detection for the detected environment (had to put this so that it does not show during scanning)
         if (planeManager != null)
             planeManager.enabled = true;
+
 
         // Wait for a moment to let users see the success message before switching to the main UI
         yield return new WaitForSeconds(successModalDuration);
@@ -391,13 +392,16 @@ public class EnvironmentController : MonoBehaviour
 
         if (topBarPanel != null)
             topBarPanel.SetActive(true);
+
+        if (planeManager != null) 
+            planeManager.enabled = true;
     }
 
     public void ChooseWaterManually()
     {
         SetEnvironment(EnvironmentType.Water);
 
-        if (scanPanel != null)
+        if (scanPanel != null) 
             scanPanel.SetActive(false);
 
         if (topBarPanel != null)

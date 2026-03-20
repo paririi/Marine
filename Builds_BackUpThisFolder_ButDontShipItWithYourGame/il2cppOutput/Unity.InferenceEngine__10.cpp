@@ -45643,7 +45643,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ReadOnlySpan_1_get_Length
 		return L_0;
 	}
 }
-// Method Definition Index: 53513
+// Method Definition Index: 53522
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AwaitableAsyncMethodBuilder_1_Start_TisU3CReadbackAndCloneAsyncU3Ed__28_t46CCFC83E1CD01FE0D5D1505B68C3636F783EACE_m73EF4714A02A3CA6850B75013BB8C236DE38B88D_gshared_inline (AwaitableAsyncMethodBuilder_1_t00E7C6E1E5EA8C38B6D58E4844BDDEE65DDB1FBE* __this, U3CReadbackAndCloneAsyncU3Ed__28_t46CCFC83E1CD01FE0D5D1505B68C3636F783EACE* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -45709,7 +45709,7 @@ IL_002a:
 		return;
 	}
 }
-// Method Definition Index: 53515
+// Method Definition Index: 53524
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AwaitableAsyncMethodBuilder_1_AwaitOnCompleted_TisAwaiter_t26F90337DE3A96B94DAEC4C5DB17DA2DCC6BEBA3_TisU3CReadbackAndCloneAsyncU3Ed__28_t46CCFC83E1CD01FE0D5D1505B68C3636F783EACE_m07C332057770B18068E02462A4E1D9AA8035C422_gshared_inline (AwaitableAsyncMethodBuilder_1_t00E7C6E1E5EA8C38B6D58E4844BDDEE65DDB1FBE* __this, Awaiter_t26F90337DE3A96B94DAEC4C5DB17DA2DCC6BEBA3* ___0_awaiter, U3CReadbackAndCloneAsyncU3Ed__28_t46CCFC83E1CD01FE0D5D1505B68C3636F783EACE* ___1_stateMachine, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -45735,7 +45735,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AwaitableAsyncMethodBuilder_
 		return;
 	}
 }
-// Method Definition Index: 53514
+// Method Definition Index: 53523
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AwaitableAsyncMethodBuilder_1_SetStateMachine_m76CF091929F9310EB1DBF8CF614CAF422F3AAAD8_gshared_inline (AwaitableAsyncMethodBuilder_1_t00E7C6E1E5EA8C38B6D58E4844BDDEE65DDB1FBE* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -45748,7 +45748,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 53523
+// Method Definition Index: 53532
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StateMachineBox_1_set_StateMachine_m1C95B0BD64E1AA5D28C4793B80CC6860C13282A9_gshared_inline (StateMachineBox_1_t820D65257488B8E562FDD3A3D038D8736B5174C1* __this, U3CReadbackAndCloneAsyncU3Ed__28_t46CCFC83E1CD01FE0D5D1505B68C3636F783EACE ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -45770,7 +45770,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StateMachineBox_1_set_StateM
 		return;
 	}
 }
-// Method Definition Index: 53524
+// Method Definition Index: 53533
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* StateMachineBox_1_get_MoveNext_mD54E28ACD118A365D22BAD382CD4359B44A7CA46_gshared_inline (StateMachineBox_1_t820D65257488B8E562FDD3A3D038D8736B5174C1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -45778,7 +45778,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Action_tD00B0A84D7945E50C2DFFC28E
 		return L_0;
 	}
 }
-// Method Definition Index: 53581
+// Method Definition Index: 53590
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter_OnCompleted_m54AA5645710470D18BA1DE8FE88EEE64D9EC2B69_gshared_inline (Awaiter_t26F90337DE3A96B94DAEC4C5DB17DA2DCC6BEBA3* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) 
 {
 	{
@@ -45789,7 +45789,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaiter_OnCompleted_m54AA564
 		return;
 	}
 }
-// Method Definition Index: 53571
+// Method Definition Index: 53580
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Awaitable_1_ContinueWith_m9623B60F047E7645D4D7E78E53035436B35F786F_gshared_inline (Awaitable_1_t930CFED16F9CF1C249A6F549ED50B88F57B93591* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_continuation, const RuntimeMethod* method) 
 {
 	{

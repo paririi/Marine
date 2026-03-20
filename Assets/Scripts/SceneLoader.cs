@@ -18,4 +18,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("AR");
     }
+
+    public void LoadQuizScene()
+    {
+        SceneManager.LoadScene("Quiz");
+    }
 }

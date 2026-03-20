@@ -1,0 +1,156 @@
+{
+  "questions": [
+    {
+      "difficulty": "Easy",
+      "question": "Which of the following is a marine animal?",
+      "options": ["Dolphin", "Tiger", "Camel"],
+      "correctAnswerIndex": 0,
+      "correctExplanation": "Dolphins are marine mammals that live in the ocean.",
+      "wrongExplanation": "Tigers and camels are land animals. Dolphins are marine animals."
+    },
+    {
+      "difficulty": "Easy",
+      "question": "Where do fish live?",
+      "options": ["Ocean", "Desert", "Mountain"],
+      "correctAnswerIndex": 0,
+      "correctExplanation": "Most fish live in water, and many species live in the ocean.",
+      "wrongExplanation": "Fish live in water, not in deserts or on mountains."
+    },
+   {
+      "difficulty": "Easy",
+      "question": "Which of these belongs to a marine habitat?",
+      "options": ["Cactus", "Pine tree", "Coral"],
+      "correctAnswerIndex": 2,
+      "correctExplanation": "Coral belongs to a marine habitat and supports many sea creatures.",
+      "wrongExplanation": "Cactus and pine tree are land plants. Coral belongs to the sea."
+    },
+    {
+      "difficulty": "Easy",
+      "question": "Why is the ocean important?",
+      "options": ["It grows cars", "It supports marine life", "It builds roads"],
+      "correctAnswerIndex": 1,
+      "correctExplanation": "The ocean provides habitat and resources for marine organisms.",
+      "wrongExplanation": "The ocean supports marine life. It does not grow cars or build roads."
+    },
+    {
+      "difficulty": "Medium",
+      "question": "What is one major cause of ocean pollution?",
+      "options": ["Plastic waste", "Clouds", "Wind"],
+      "correctAnswerIndex": 0,
+      "correctExplanation": "Plastic waste is one of the biggest pollutants in oceans, harming marine life.",
+      "wrongExplanation": "Plastic waste pollutes oceans, while clouds and wind do not directly cause pollution."
+    },
+    {
+      "difficulty": "Medium",
+      "question": "Which human activity can harm coral reefs?",
+      "options": ["Sustainable fishing", "Careful tourism", "Pollution"],
+      "correctAnswerIndex": 2,
+      "correctExplanation": "Pollution can damage coral reefs and harm marine ecosystems.",
+      "wrongExplanation": "Pollution harms coral reefs, while sustainable practices help protect them."
+    },
+    {
+      "difficulty": "Medium",
+      "question": "Why is reducing plastic use important for oceans?",
+      "options": ["It keeps oceans clean", "It makes water salty", "It increases waves"],
+      "correctAnswerIndex": 0,
+      "correctExplanation": "Reducing plastic helps prevent pollution and protects marine life.",
+      "wrongExplanation": "Reducing plastic keeps oceans clean and safe for marine life."
+    },
+    {
+      "difficulty": "Medium",
+      "question": "Which animal is most affected by plastic pollution?",
+      "options": ["Sea turtle", "Lion", "Horse"],
+      "correctAnswerIndex": 0,
+      "correctExplanation": "Sea turtles often mistake plastic for food, which can be harmful or fatal.",
+      "wrongExplanation": "Sea turtles are affected by plastic pollution, unlike land animals like lions or horses."
+    },
+    {
+      "difficulty": "Medium",
+      "question": "What role do oceans play in climate regulation?",
+      "options": ["They store heat and carbon", "They produce cars", "They stop rain"],
+      "correctAnswerIndex": 0,
+      "correctExplanation": "Oceans absorb heat and carbon dioxide, helping regulate Earth's climate.",
+      "wrongExplanation": "Oceans help regulate climate by storing heat and carbon, not by producing cars or stopping rain."
+    },
+    {
+      "difficulty": "Hard",
+      "question": "Why are coral reefs important?",
+      "options": [
+        "They provide shelter for marine life",
+        "They increase desert rainfall",
+        "They produce metal"
+      ],
+      "correctAnswerIndex": 0,
+      "correctExplanation": "Coral reefs provide shelter, food, and breeding grounds for many marine species.",
+      "wrongExplanation": "Coral reefs are important because they support marine life, not because they affect deserts or produce metal."
+    },
+    {
+      "difficulty": "Hard",
+      "question": "What is overfishing?",
+      "options": [
+        "Catching too many fish too quickly",
+        "Fishing only small fish",
+        "Fishing during rain"
+      ],
+      "correctAnswerIndex": 0,
+      "correctExplanation": "Overfishing happens when fish are caught faster than they can reproduce.",
+      "wrongExplanation": "Overfishing means catching too many fish too quickly, not fishing during rain or only small fish."
+    },
+    {
+      "difficulty": "Hard",
+      "question": "What can harm marine ecosystems?",
+      "options": ["Clean water", "Protected habitats", "Pollution"],
+      "correctAnswerIndex": 2,
+      "correctExplanation": "Pollution harms marine ecosystems and threatens wildlife.",
+      "wrongExplanation": "Clean water and protected habitats help marine ecosystems. Pollution harms them."
+    },
+    {
+      "difficulty": "Hard",
+      "question": "Why are mangroves important?",
+      "options": [
+        "They protect coastlines and support marine life",
+        "They increase desert size",
+        "They produce plastic"
+      ],
+      "correctAnswerIndex": 0,
+      "correctExplanation": "Mangroves protect shorelines and provide habitats for many marine species.",
+      "wrongExplanation": "Mangroves protect coasts and support ecosystems, not deserts or plastic production."
+    },
+    {
+      "difficulty": "Hard",
+      "question": "Why should marine species be protected?",
+      "options": [
+        "To reduce ocean water",
+        "To maintain ecosystem balance",
+        "To remove biodiversity"
+      ],
+      "correctAnswerIndex": 1,
+      "correctExplanation": "Protecting marine species helps keep ecosystems balanced and healthy.",
+      "wrongExplanation": "Marine species are protected to preserve biodiversity and ecosystem balance."
+    },
+    {
+      "difficulty": "Hard",
+      "question": "What is coral bleaching?",
+      "options": [
+        "Corals turning white due to stress",
+        "Corals growing faster",
+        "Corals producing more oxygen"
+      ],
+      "correctAnswerIndex": 0,
+      "correctExplanation": "Coral bleaching occurs when corals lose their color due to environmental stress like rising temperatures.",
+      "wrongExplanation": "Coral bleaching happens when corals turn white due to stress, not when they grow or produce oxygen."
+    },
+    {
+      "difficulty": "Hard",
+      "question": "What is one effect of melting polar ice on marine life?",
+      "options": [
+        "Loss of habitat for species like seals and polar bears",
+        "Increase in desert animals",
+        "Decrease in ocean waves"
+      ],
+      "correctAnswerIndex": 0,
+      "correctExplanation": "Melting ice reduces habitats for species that depend on it.",
+      "wrongExplanation": "Melting ice causes habitat loss, not changes to deserts or waves."
+    }
+  ]
+}

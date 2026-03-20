@@ -6456,7 +6456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowHelper_ThrowArgumentOutOfRangeExcep
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 96521
+// Method Definition Index: 96534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* Multiply_1_get_a_mBB6F021C24BC57CB6FE6549808AC9CF5AAE49979_gshared (Multiply_1_t7CBC77A95D8FFB8F42F0497EB654DA2D6DC6D4DD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6465,7 +6465,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D
 		return L_0;
 	}
 }
-// Method Definition Index: 96522
+// Method Definition Index: 96535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Multiply_1_set_a_mC535F48C3882B6E9F9C5FE8FC2363EBA45AE8027_gshared (Multiply_1_t7CBC77A95D8FFB8F42F0497EB654DA2D6DC6D4DD* __this, ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -6476,7 +6476,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Multiply_1_set_a_mC535F48C3882B6E9F9C5FE
 		return;
 	}
 }
-// Method Definition Index: 96523
+// Method Definition Index: 96536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* Multiply_1_get_b_mDED2DA15F281D81D0261C7A29066A5084F9E469B_gshared (Multiply_1_t7CBC77A95D8FFB8F42F0497EB654DA2D6DC6D4DD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6485,7 +6485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D
 		return L_0;
 	}
 }
-// Method Definition Index: 96524
+// Method Definition Index: 96537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Multiply_1_set_b_mDA366022CC29F453FDFF45AD06EF82CEEBA46BFB_gshared (Multiply_1_t7CBC77A95D8FFB8F42F0497EB654DA2D6DC6D4DD* __this, ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -6496,7 +6496,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Multiply_1_set_b_mDA366022CC29F453FDFF45
 		return;
 	}
 }
-// Method Definition Index: 96525
+// Method Definition Index: 96538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* Multiply_1_get_product_m3B95ECDCCFAAA01F368E675629E8B088B576B5B6_gshared (Multiply_1_t7CBC77A95D8FFB8F42F0497EB654DA2D6DC6D4DD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6505,7 +6505,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueOutput_tADDC9DBF6515A1572E876C3881B5F110
 		return L_0;
 	}
 }
-// Method Definition Index: 96526
+// Method Definition Index: 96539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Multiply_1_set_product_m47BBAEFE8B1045A4E1B8354C1D23A15AEC50FFEC_gshared (Multiply_1_t7CBC77A95D8FFB8F42F0497EB654DA2D6DC6D4DD* __this, ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -6516,7 +6516,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Multiply_1_set_product_m47BBAEFE8B1045A4
 		return;
 	}
 }
-// Method Definition Index: 96527
+// Method Definition Index: 96540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Multiply_1_get_defaultB_mD88DBA36DC24C419F47AF46544D693644B684CA0_gshared (Multiply_1_t7CBC77A95D8FFB8F42F0497EB654DA2D6DC6D4DD* __this, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t923611EBDAEB867F344036083DDF4E9C9E19DBBF = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
@@ -6531,7 +6531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Multiply_1_get_defaultB_mD88DBA36DC24C41
 		return;
 	}
 }
-// Method Definition Index: 96528
+// Method Definition Index: 96541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Multiply_1_Definition_m3B362725320D855F204951C9D96FCA9D24B8B938_gshared (Multiply_1_t7CBC77A95D8FFB8F42F0497EB654DA2D6DC6D4DD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6584,7 +6584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Multiply_1_Definition_m3B362725320D855F2
 		return;
 	}
 }
-// Method Definition Index: 96529
+// Method Definition Index: 96542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Multiply_1_Operation_mAC8D62F33EDB85B20F2BB4A5386428F4BBD3B90C_gshared (Multiply_1_t7CBC77A95D8FFB8F42F0497EB654DA2D6DC6D4DD* __this, Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582* ___0_flow, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t923611EBDAEB867F344036083DDF4E9C9E19DBBF = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
@@ -6608,7 +6608,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Multiply_1_Operation_mAC8D62F33EDB85B20F
 		return;
 	}
 }
-// Method Definition Index: 96531
+// Method Definition Index: 96544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Multiply_1__ctor_m56392958A7F79FE47E8182153A93D82990956CF9_gshared (Multiply_1_t7CBC77A95D8FFB8F42F0497EB654DA2D6DC6D4DD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7215,7 +7215,7 @@ IL2CPP_EXTERN_C  NativeArray_1_tA250DFA6F2B09B543458A4231692763973E84C57 NativeA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 87801
+// Method Definition Index: 87814
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayStaticId_1__cctor_m67213AA7112EE9BCD68829DC44441438CB42950A_gshared (const RuntimeMethod* method) 
 {
 	{

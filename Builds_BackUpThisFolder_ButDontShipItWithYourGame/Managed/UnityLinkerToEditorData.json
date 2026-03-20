@@ -21,7 +21,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -36,14 +37,26 @@
         "name": "Animation",
         "dependencies": [
           {
+            "name": "AnimationClip",
+            "scenes": [
+              "Assets/Scenes/AR.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Animator",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/AR.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AnimatorController",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/AR.unity"
+            ],
             "dependencyType": 1,
             "icon": null
           },
@@ -51,6 +64,12 @@
             "name": "AnimatorOverrideController",
             "scenes": [],
             "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Motion",
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
@@ -80,14 +99,17 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Quiz.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -96,7 +118,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -109,8 +132,18 @@
           },
           {
             "name": "AudioResource",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/Scenes/Quiz.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AudioSource",
+            "scenes": [
+              "Assets/Scenes/Quiz.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -141,7 +174,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -165,7 +199,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -187,7 +222,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -203,7 +239,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -237,7 +274,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -247,7 +285,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -275,7 +314,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -299,7 +339,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -333,7 +374,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -349,7 +391,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -359,7 +402,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -399,7 +443,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -415,7 +460,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -449,7 +495,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -458,6 +505,14 @@
             "name": "ShaderNameRegistry",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "SkinnedMeshRenderer",
+            "scenes": [
+              "Assets/Scenes/AR.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -477,7 +532,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1471,7 +1527,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1516,7 +1573,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1532,7 +1590,8 @@
             "scenes": [
               "Assets/Scenes/AR.unity",
               "Assets/Scenes/Authentication.unity",
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/Quiz.unity"
             ],
             "dependencyType": 0,
             "icon": null
