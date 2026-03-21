@@ -12,8 +12,18 @@ public class SandSpeciesPlacement : MonoBehaviour
     [Header("UI")]
     [SerializeField] private TMP_Text placementHint;
 
-    [Header("Selected Sand Prefab")]
-    [SerializeField] private GameObject selectedPrefab;
+    [Header("Information Modal")]
+    [SerializeField] private GameObject informationModal;
+    [SerializeField] private TMP_Text speciesNameText;
+    [SerializeField] private TMP_Text speciesDataText;
+
+    [Header("Sand Species")]
+    [SerializeField] private SpeciesData crabSpecies;
+    [SerializeField] private SpeciesData starfishSpecies;
+    [SerializeField] private SpeciesData seashellSpecies;
+
+    private SpeciesData selectedSpecies;
+    private GameObject selectedPrefab;
 
     [Header("Behaviour")]
     [SerializeField] private bool allowOnlyOne = true;
@@ -26,12 +36,30 @@ public class SandSpeciesPlacement : MonoBehaviour
         if (raycastManager == null)
             raycastManager = Object.FindFirstObjectByType<ARRaycastManager>();
 
+        if (informationModal != null)
+            informationModal.SetActive(false);
+
         UpdateHintText();
     }
 
-    public void SelectPrefab(GameObject prefab)
+    public void SelectCrab()
     {
-        selectedPrefab = prefab;
+        selectedSpecies = crabSpecies;
+        selectedPrefab = crabSpecies.prefab;
+        UpdateHintText();
+    }
+
+    public void SelectStarfish()
+    {
+        selectedSpecies = starfishSpecies;
+        selectedPrefab = starfishSpecies.prefab;
+        UpdateHintText();
+    }
+
+    public void SelectSeashell()
+    {
+        selectedSpecies = seashellSpecies;
+        selectedPrefab = seashellSpecies.prefab;
         UpdateHintText();
     }
 
@@ -39,7 +67,6 @@ public class SandSpeciesPlacement : MonoBehaviour
     {
         if (raycastManager == null) return;
 
-        // Placing the selected prefab on the plane when the user taps
         if (selectedPrefab != null && Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
@@ -48,13 +75,6 @@ public class SandSpeciesPlacement : MonoBehaviour
                 raycastManager.Raycast(touch.position, hits, TrackableType.PlaneWithinPolygon))
             {
                 Pose pose = hits[0].pose;
-
-                // Get the plane we hit
-                ARPlane hitPlane = null;
-                if (hits[0].trackable is ARPlane plane)
-                {
-                    hitPlane = plane;
-                }
 
                 if (allowOnlyOne && spawned != null)
                 {
@@ -65,19 +85,11 @@ public class SandSpeciesPlacement : MonoBehaviour
                     spawned = Instantiate(selectedPrefab, pose.position, pose.rotation);
                 }
 
-                // Pass plane to crab movement script
-                SandWander crab = spawned.GetComponent<SandWander>();
-                if (crab != null && hitPlane != null)
-                {
-                    crab.SetPlane(hitPlane);
-                }
-
                 selectedPrefab = null;
                 UpdateHintText();
             }
         }
 
-        // ====== INTERACTION ======
         if (spawned == null) return;
 
         HandleDrag();
@@ -85,7 +97,6 @@ public class SandSpeciesPlacement : MonoBehaviour
         HandleRotation();
     }
 
-    //Drag to move motion
     void HandleDrag()
     {
         if (Input.touchCount != 1) return;
@@ -96,13 +107,11 @@ public class SandSpeciesPlacement : MonoBehaviour
         {
             if (raycastManager.Raycast(touch.position, hits, TrackableType.PlaneWithinPolygon))
             {
-                Pose pose = hits[0].pose;
-                spawned.transform.position = pose.position;
+                spawned.transform.position = hits[0].pose.position;
             }
         }
     }
 
-    //Pinch to zoom motion
     void HandlePinchZoom()
     {
         if (Input.touchCount != 2) return;
@@ -117,14 +126,14 @@ public class SandSpeciesPlacement : MonoBehaviour
 
         spawned.transform.localScale += Vector3.one * scaleFactor;
 
-        // Clamping the scale to prevent it from being too small or too large
-        float min = 0.1f; 
+        float min = 0.1f;
         float max = 2f;
-        spawned.transform.localScale = Vector3.Max(Vector3.one * min, 
-            Vector3.Min(Vector3.one * max, spawned.transform.localScale)); 
+
+        spawned.transform.localScale = Vector3.Max(
+            Vector3.one * min,
+            Vector3.Min(Vector3.one * max, spawned.transform.localScale));
     }
 
-    //Rotation motion
     void HandleRotation()
     {
         if (Input.touchCount != 2) return;
@@ -136,8 +145,30 @@ public class SandSpeciesPlacement : MonoBehaviour
         Vector2 currDir = t1.position - t2.position;
 
         float angle = Vector2.SignedAngle(prevDir, currDir);
-
         spawned.transform.Rotate(0, -angle, 0);
+    }
+
+    public void OpenSpeciesInfo()
+    {
+        if (selectedSpecies == null)
+        {
+            speciesNameText.text = "No Species Selected";
+            speciesDataText.text =
+                "Please select a species first to view its educational information.";
+
+            informationModal.SetActive(true);
+            return;
+        }
+
+        speciesNameText.text = selectedSpecies.speciesName;
+        speciesDataText.text = selectedSpecies.educationalInfo;
+
+        informationModal.SetActive(true);
+    }
+
+    public void CloseSpeciesInfo()
+    {
+        informationModal.SetActive(false);
     }
 
     public void DeleteSpawned()
@@ -149,6 +180,8 @@ public class SandSpeciesPlacement : MonoBehaviour
         }
 
         selectedPrefab = null;
+        selectedSpecies = null;
+
         UpdateHintText();
     }
 
@@ -156,10 +189,10 @@ public class SandSpeciesPlacement : MonoBehaviour
     {
         if (placementHint == null) return;
 
-        if (selectedPrefab == null)
+        if (selectedPrefab == null || selectedSpecies == null)
             placementHint.text = "";
         else
-            placementHint.text = $"Tap the ground to place {selectedPrefab.name}";
+            placementHint.text =
+                $"Tap the ground to place {selectedSpecies.speciesName}";
     }
-
 }

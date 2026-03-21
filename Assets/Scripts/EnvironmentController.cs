@@ -13,12 +13,15 @@ public enum EnvironmentType
 
 public class EnvironmentController : MonoBehaviour
 {
+    [Header("Instruction UI")]
+    [SerializeField] private GameObject instructionModal;
+    [SerializeField] private GameObject sandPlacementInstructionModal;
+
     [Header("Main Scan UI")]
     [SerializeField] private GameObject scanPanel;
-    [SerializeField] private GameObject topBarPanel;
     [SerializeField] private TMP_Text scanTitleText;
-    [SerializeField] private TMP_Text infoText;
-    [SerializeField] private TMP_Text topBarText;
+    [SerializeField] private GameObject hintBox;
+    [SerializeField] private TMP_Text hintText;
     [SerializeField] private Button rescanButton;
     [SerializeField] private RectTransform loadingIcon;
 
@@ -33,10 +36,13 @@ public class EnvironmentController : MonoBehaviour
     [SerializeField] private GameObject sandSpeciesPanel;
     [SerializeField] private GameObject manualSelectionPanel;
 
+    [Header("Options Menu")]
+    [SerializeField] private GameObject optionsMenu;
+
     [Header("Environment Detection Model")]
     [SerializeField] private EnvironmentMLClassifier mlClassifier;
 
-    [Header("AR Plane")] //To turn on only after successful scan
+    [Header("AR Plane")]
     [SerializeField] private ARPlaneManager planeManager;
 
     [Header("Loading Animation")]
@@ -44,14 +50,14 @@ public class EnvironmentController : MonoBehaviour
     [SerializeField] private float dotsAnimationSpeed = 0.5f;
 
     [Header("UI Elements Timing")]
-    [SerializeField] private float scanDuration = 4f;
+    [SerializeField] private float scanDuration = 3.5f;
     [SerializeField] private float firstErrorModalDuration = 3f;
     [SerializeField] private float secondErrorModalDuration = 3f;
     [SerializeField] private float successModalDuration = 2f;
 
     [Header("Scan Settings")]
     [SerializeField] private int maxScanAttempts = 2;
-    [SerializeField][Range(0f, 1f)] private float confidenceThreshold = 0.75f;
+    [SerializeField, Range(0f, 1f)] private float confidenceThreshold = 0.75f;
 
     public EnvironmentType CurrentEnvironment { get; private set; } = EnvironmentType.Unknown;
 
@@ -72,25 +78,18 @@ public class EnvironmentController : MonoBehaviour
 
         CurrentEnvironment = EnvironmentType.Unknown;
 
-        if (topBarText != null)
-            topBarText.text = "Detected: Unknown";
+        scanPanel?.SetActive(false);
+        instructionModal?.SetActive(true);
 
-        if (waterSpeciesPanel != null)
-            waterSpeciesPanel.SetActive(false);
+        waterSpeciesPanel?.SetActive(false);
+        sandSpeciesPanel?.SetActive(false);
+        manualSelectionPanel?.SetActive(false);
+        successModal?.SetActive(false);
+        errorModal?.SetActive(false);
+        optionsMenu?.SetActive(false);
+        hintBox?.SetActive(false);
 
-        if (sandSpeciesPanel != null)
-            sandSpeciesPanel.SetActive(false);
-
-        if (manualSelectionPanel != null)
-            manualSelectionPanel.SetActive(false);
-
-        if (successModal != null)
-            successModal.SetActive(false);
-
-        if (errorModal != null)
-            errorModal.SetActive(false);
-
-        StartScan();
+        SetPlaneState(false);
     }
 
     private void Update()
@@ -99,34 +98,62 @@ public class EnvironmentController : MonoBehaviour
             loadingIcon.Rotate(0f, 0f, -loadingSpinSpeed * Time.deltaTime);
     }
 
-    public void StartScan() 
+    private void SetPlaneState(bool enabledState)
     {
-        if (isScanning)
-            return;
+        if (planeManager == null) return;
+
+        planeManager.enabled = enabledState;
+
+        foreach (var plane in planeManager.trackables)
+        {
+            if (plane != null)
+                plane.gameObject.SetActive(enabledState);
+        }
+    }
+
+    private void UpdateOptionsMenuVisibility()
+    {
+        if (optionsMenu == null) return;
+
+        bool shouldShow =
+            (waterSpeciesPanel != null && waterSpeciesPanel.activeSelf) ||
+            (sandSpeciesPanel != null && sandSpeciesPanel.activeSelf);
+
+        optionsMenu.SetActive(shouldShow);
+    }
+
+    public void CloseInstructionAndStartScan()
+    {
+        instructionModal?.SetActive(false);
+        StartScan();
+    }
+
+    public void StartScan()
+    {
+        if (isScanning) return;
 
         currentScanAttempts++;
         isScanning = true;
+        CurrentEnvironment = EnvironmentType.Unknown;
 
-        if (scanPanel != null)
-            scanPanel.SetActive(true);
+        scanPanel?.SetActive(true);
+        successModal?.SetActive(false);
+        errorModal?.SetActive(false);
+        waterSpeciesPanel?.SetActive(false);
+        sandSpeciesPanel?.SetActive(false);
+        manualSelectionPanel?.SetActive(false);
+        optionsMenu?.SetActive(false);
+        hintBox?.SetActive(false);
 
-        if (topBarPanel != null)
-            topBarPanel.SetActive(false);
-
-        if (successModal != null)
-            successModal.SetActive(false);
-
-        if (errorModal != null)
-            errorModal.SetActive(false);
+        SetPlaneState(false);
 
         if (scanTitleText != null)
             scanTitleText.text = ScanningBaseText;
 
-        if (infoText != null)
-            infoText.text = "Move your phone around slowly";
+        if (hintText != null)
+            hintText.text = string.Empty;
 
-        if (rescanButton != null)
-            rescanButton.gameObject.SetActive(false);
+        rescanButton?.gameObject.SetActive(false);
 
         if (loadingIcon != null)
         {
@@ -136,14 +163,16 @@ public class EnvironmentController : MonoBehaviour
 
         if (dotsCoroutine != null)
             StopCoroutine(dotsCoroutine);
+
         dotsCoroutine = StartCoroutine(AnimateLoadingDots());
 
         if (scanRoutineCoroutine != null)
             StopCoroutine(scanRoutineCoroutine);
+
         scanRoutineCoroutine = StartCoroutine(ScanRoutine());
     }
 
-    private void OnRescanPressed() 
+    private void OnRescanPressed()
     {
         StartScan();
     }
@@ -154,6 +183,7 @@ public class EnvironmentController : MonoBehaviour
 
         EnvironmentType predictedEnvironment;
         float confidence;
+
         GetScanPrediction(out predictedEnvironment, out confidence);
 
         isScanning = false;
@@ -174,27 +204,19 @@ public class EnvironmentController : MonoBehaviour
         while (isScanning)
         {
             if (scanTitleText != null)
-            {
-                string dots = new string('.', dotCount);
-                scanTitleText.text = ScanningBaseText + dots;
-            }
+                scanTitleText.text = ScanningBaseText + new string('.', dotCount);
 
-            dotCount++;
-            if (dotCount > 3)
-                dotCount = 0;
+            dotCount = (dotCount + 1) % 4;
 
             yield return new WaitForSeconds(dotsAnimationSpeed);
         }
     }
-   
-    private void GetScanPrediction(out EnvironmentType predictedEnvironment, out float confidence) 
+
+    private void GetScanPrediction(out EnvironmentType predictedEnvironment, out float confidence)
     {
-        if (mlClassifier != null)
-        {
-            bool success = mlClassifier.TryPredictFromCamera(out predictedEnvironment, out confidence);
-            if (success)
-                return;
-        }
+        if (mlClassifier != null &&
+            mlClassifier.TryPredictFromCamera(out predictedEnvironment, out confidence))
+            return;
 
         predictedEnvironment = EnvironmentType.Unknown;
         confidence = 0f;
@@ -221,19 +243,19 @@ public class EnvironmentController : MonoBehaviour
         }
 
         if (currentScanAttempts < maxScanAttempts)
-        {
             StartCoroutine(HandleLowConfidenceFailure(predictedEnvironment, confidence));
-        }
         else
-        {
             StartCoroutine(HandleManualSelectionFallback());
-        }
     }
 
     private IEnumerator HandleSuccess(EnvironmentType predictedEnvironment, float confidence)
     {
-        if (loadingIcon != null)
-            loadingIcon.gameObject.SetActive(false);
+        loadingIcon?.gameObject.SetActive(false);
+        hintBox?.SetActive(false);
+
+        // Hide scanning title immediately
+        if (scanTitleText != null)
+            scanTitleText.gameObject.SetActive(false);
 
         if (successModal != null)
         {
@@ -245,29 +267,15 @@ public class EnvironmentController : MonoBehaviour
 
         SetEnvironment(predictedEnvironment);
 
-        // Enable AR plane detection for the detected environment (had to put this so that it does not show during scanning)
-        if (planeManager != null)
-            planeManager.enabled = true;
-
-
-        // Wait for a moment to let users see the success message before switching to the main UI
         yield return new WaitForSeconds(successModalDuration);
 
-        if (successModal != null)
-            successModal.SetActive(false);
-
-        if (scanPanel != null)
-            scanPanel.SetActive(false);
-
-        if (topBarPanel != null)
-            topBarPanel.SetActive(true);
+        successModal?.SetActive(false);
+        scanPanel?.SetActive(false);
     }
 
-    // This handles the case where the model gives an "unknown" prediction, meaning it couldn't identify a known environment at all (as opposed to giving a low confidence prediction for a specific environment)
     private IEnumerator HandleUnknownEnvironment()
     {
-        if (loadingIcon != null)
-            loadingIcon.gameObject.SetActive(false);
+        loadingIcon?.gameObject.SetActive(false);
 
         if (errorModal != null)
         {
@@ -279,25 +287,24 @@ public class EnvironmentController : MonoBehaviour
 
         yield return new WaitForSeconds(firstErrorModalDuration);
 
-        // Hide error modal but keep user on scan screen to try again
-        if (errorModal != null)
-            errorModal.SetActive(false);
+        errorModal?.SetActive(false);
 
         if (scanTitleText != null)
             scanTitleText.text = "Scan Failed";
 
-        if (infoText != null)
-            infoText.text = "Please scan a sand or sea surface";
+        hintBox?.SetActive(true);
 
-        if (rescanButton != null)
-            rescanButton.gameObject.SetActive(true);
+        if (hintText != null)
+            hintText.text = "Please scan a sand or sea surface";
+
+        rescanButton?.gameObject.SetActive(true);
+
+        SetPlaneState(false);
     }
 
-    // This handles cases where the model gives a prediction but it's not confident enough (low confidence basically)
     private IEnumerator HandleLowConfidenceFailure(EnvironmentType predictedEnvironment, float confidence)
     {
-        if (loadingIcon != null)
-            loadingIcon.gameObject.SetActive(false);
+        loadingIcon?.gameObject.SetActive(false);
 
         if (errorModal != null)
         {
@@ -310,27 +317,26 @@ public class EnvironmentController : MonoBehaviour
 
         yield return new WaitForSeconds(firstErrorModalDuration);
 
-        if (errorModal != null)
-            errorModal.SetActive(false);
+        errorModal?.SetActive(false);
 
         if (scanTitleText != null)
             scanTitleText.text = "Scan Failed";
 
-        if (infoText != null)
-            infoText.text = "Move camera closer to the surface and try again";
+        hintBox?.SetActive(true);
 
-        if (rescanButton != null)
-            rescanButton.gameObject.SetActive(true);
+        if (hintText != null)
+            hintText.text = "Move camera closer to the surface and try again";
+
+        rescanButton?.gameObject.SetActive(true);
+
+        SetPlaneState(false);
     }
 
-    // This handles the case where after max attempts, we still don't have a confident prediction, so we ask the user to choose manually
     private IEnumerator HandleManualSelectionFallback()
     {
-        if (loadingIcon != null)
-            loadingIcon.gameObject.SetActive(false);
-
-        if (rescanButton != null)
-            rescanButton.gameObject.SetActive(false);
+        loadingIcon?.gameObject.SetActive(false);
+        hintBox?.SetActive(false);
+        rescanButton?.gameObject.SetActive(false);
 
         if (errorModal != null)
         {
@@ -342,69 +348,42 @@ public class EnvironmentController : MonoBehaviour
 
         yield return new WaitForSeconds(secondErrorModalDuration);
 
-        if (errorModal != null)
-            errorModal.SetActive(false);
+        errorModal?.SetActive(false);
+        scanPanel?.SetActive(false);
 
-        if (scanPanel != null)
-            scanPanel.SetActive(false);
+        waterSpeciesPanel?.SetActive(false);
+        sandSpeciesPanel?.SetActive(false);
+        manualSelectionPanel?.SetActive(true);
 
-        if (topBarPanel != null)
-            topBarPanel.SetActive(true);
-
-        CurrentEnvironment = EnvironmentType.Unknown;
-
-        if (topBarText != null)
-            topBarText.text = "Detected: Unknown";
-
-        if (waterSpeciesPanel != null)
-            waterSpeciesPanel.SetActive(false);
-
-        if (sandSpeciesPanel != null)
-            sandSpeciesPanel.SetActive(false);
-
-        if (manualSelectionPanel != null)
-            manualSelectionPanel.SetActive(true);
+        SetPlaneState(false);
     }
-    
+
     public void SetEnvironment(EnvironmentType environment)
     {
         CurrentEnvironment = environment;
 
-        if (topBarText != null)
-            topBarText.text = $"Detected: {environment}";
+        waterSpeciesPanel?.SetActive(environment == EnvironmentType.Water);
+        sandSpeciesPanel?.SetActive(environment == EnvironmentType.Sand);
+        manualSelectionPanel?.SetActive(false);
 
-        if (waterSpeciesPanel != null)
-            waterSpeciesPanel.SetActive(environment == EnvironmentType.Water);
+        UpdateOptionsMenuVisibility();
+        SetPlaneState(environment == EnvironmentType.Sand);
 
-        if (sandSpeciesPanel != null)
-            sandSpeciesPanel.SetActive(environment == EnvironmentType.Sand);
-
-        if (manualSelectionPanel != null)
-            manualSelectionPanel.SetActive(false);
+        if (environment == EnvironmentType.Sand && sandPlacementInstructionModal != null)
+        {
+            sandPlacementInstructionModal.SetActive(true);
+        }
     }
 
     public void ChooseSandManually()
     {
         SetEnvironment(EnvironmentType.Sand);
-
-        if (scanPanel != null)
-            scanPanel.SetActive(false);
-
-        if (topBarPanel != null)
-            topBarPanel.SetActive(true);
-
-        if (planeManager != null) 
-            planeManager.enabled = true;
+        scanPanel?.SetActive(false);
     }
 
     public void ChooseWaterManually()
     {
         SetEnvironment(EnvironmentType.Water);
-
-        if (scanPanel != null) 
-            scanPanel.SetActive(false);
-
-        if (topBarPanel != null)
-            topBarPanel.SetActive(true);
+        scanPanel?.SetActive(false);
     }
 }

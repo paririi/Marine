@@ -1094,14 +1094,6 @@
             "icon": null
           },
           {
-            "name": "SphereCollider",
-            "scenes": [
-              "Assets/Scenes/AR.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
             "name": "Required by PhysicsBackendPhysX Module",
             "scenes": [],
             "dependencyType": 2,
@@ -1581,7 +1573,9 @@
           },
           {
             "name": "CanvasGroup",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/AR.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
